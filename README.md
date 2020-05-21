@@ -1,5 +1,5 @@
 
-# Python Interface to COVID-19 Data Hub
+# Web Scraper of COVID-19 data for Poland
 
 Python package [covid19poland](https://pypi.org/project/covid19poland/) provides access to COVID-19 data of Poland.
 
