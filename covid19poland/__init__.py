@@ -9,6 +9,7 @@ Todo:
 import pkg_resources
 from .main import *
 from .fetch import *
+from .parse import *
 
 try:
     __version__ = pkg_resources.get_distribution("covid19_PL_wiki").version

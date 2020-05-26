@@ -31,9 +31,12 @@ class WaybackMachineError(Exception):
 
 # 'https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Poland'
 class WaybackMachine:
-    def __init__(self, url='https://www.gov.pl/web/koronawirus/wykaz-zarazen-koronawirusem-sars-cov-2'):
+    def __init__(self, url='https://www.gov.pl/web/koronawirus/wykaz-zarazen-koronawirusem-sars-cov-2', dt = None):
         self._url = url
-        self._now = datetime.now()
+        if dt is None:
+            self._now = datetime.now()
+        else:
+            self._now = dt
     def __iter__(self):
         # yield real url
         with Fetcher(self._url, self._now) as response:
