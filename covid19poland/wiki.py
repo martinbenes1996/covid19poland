@@ -5,8 +5,7 @@ import warnings
 
 from bs4 import BeautifulSoup
 import pandas as pd
-
-from . import fetch
+from waybackmachine import WaybackMachine
 
 def parse_poland(x):
     # get table
@@ -50,7 +49,7 @@ def parse_states(x):
 
 def get_wiki_tables(table_parser = lambda x: _, dt = None):
     # create archive url
-    for response in fetch.WaybackMachine('https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Poland'):
+    for response in WaybackMachine('https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Poland'):
         try:
             wiki = BeautifulSoup(response.text, features="lxml")
             tables = wiki.find_all("table", class_="wikitable")

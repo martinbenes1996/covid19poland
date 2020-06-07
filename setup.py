@@ -1,4 +1,11 @@
 
+# requirements
+try:
+  with open('requirements.txt') as f:
+    reqs = f.read().splitlines()
+except:
+  reqs = []
+
 import setuptools
 with open("README.md", "r", encoding="UTF-8") as fh:
     long_description = fh.read()
@@ -16,7 +23,7 @@ setuptools.setup(
   url = 'https://github.com/martinbenes1996/covid19poland',
   download_url = 'https://github.com/martinbenes1996/covid19poland/archive/0.0.2.tar.gz',
   keywords = ['2019-nCov', 'poland', 'coronavirus', 'covid-19', 'covid-data', 'covid19-data'],
-  install_requires=[],
+  install_requires=reqs,
   package_dir={'': '.'},
   classifiers=[
     'Development Status :: 3 - Alpha',

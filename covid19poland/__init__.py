@@ -1,17 +1,19 @@
 # -*- coding: utf-8 -*-
-"""Webscraper for Wikipedia. Uses archive.org if fails scraping.
+"""Webscraper for Poland COVID19 data. Uses archive.org if fails scraping.
  
-Reference: https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Poland
+Sources:
+    * https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Poland
+    * ...
 Todo:
-    * caching
+    * More sources
+    * Caching
 """
 
 import pkg_resources
 from .main import *
-from .fetch import *
 from .parse import *
 
 try:
-    __version__ = pkg_resources.get_distribution("covid19_PL_wiki").version
+    __version__ = pkg_resources.get_distribution("covid19poland").version
 except:
     __version__ = None
