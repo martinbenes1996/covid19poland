@@ -9,9 +9,11 @@ import GetOldTweets3 as got3
 class MultiTweet:
     def __init__(self, *args):
         self.tweets = args
-        self.text = reduce(lambda a,i: a+i, [i.text for i in self.tweets], "")
+        self.text = reduce(lambda a,i: f"{a} {i}", [i.text for i in self.tweets], "")
         self.permalink = [i.permalink for i in self.tweets]
+        self._warned = False
         self._warn_dates_differ()
+        
     def _warn_dates_differ(self):
         if self._warned:
             return
@@ -36,7 +38,7 @@ class PolishTwitter:
         "warmińsko-mazurskiego", "podkarpackiego"}
     @staticmethod
     def _daterange(start_date, end_date):
-        for n in range(int ((end_date - start_date).days)):
+        for n in range(int ((end_date - start_date).days + 1)):
             yield start_date + timedelta(n)
     def __init__(self):
         self._log = logging.getLogger(self.__class__.__name__)
@@ -57,34 +59,96 @@ class PolishTwitter:
             tweets = sorted([tweet for tweet in tweets], key = lambda i: i.date)
             for tweet in tweets:
                 yield tweet
+    
     def parseAll(self):
-        relevant_tweets = []
-        keywords = {"dzienny raport", "mamy [0-9]+", "z prykrością", "liczba"} | self.wojewodstwa_keywords
+        self._partial1, self._partial2 = None, None
+        #relevant_tweets = []
+        keywords = {"dzienny raport", "mamy [0-9]+", "z przykrością", "liczba", "W ciągu doby wykonano"} | self.wojewodstwa_keywords
         mtweet2 = None
         for i,tweet in enumerate(self):
             for kw in keywords:
-                if re.match(f".*{kw}.*", tweet.text, re.IGNORECASE):
-                    if re.match(f"{self.wojewodstwa_keywords}.*", relevant_tweets[-1].text, re.IGNORECASE):
-                        mtweet2 = tweet
-                    elif mtweet2 is not None:
-                        relevant_tweets.append(MultiTweet(tweet, mtweet2))
-                    else:
-                        relevant_tweets.append(tweet)
+                if re.match(f".*{kw}.*", tweet.text.strip(), re.IGNORECASE):
+                    print(f"\033[92m{tweet.text}\033[00m")
+                    info = self._classify_tweet(tweet)
+                    yield info
+                    #yield
+                        
+                    #if any(re.match(f"{wojw_kw}.*", tweet.text.strip(), re.IGNORECASE) for wojw_kw in self.wojewodstwa_keywords):
+                    #    print("\t* multitweet (1)")
+                    #    mtweet2 = tweet
+                    #elif mtweet2 is not None:
+                    #    print("\t* multitweet (2)")
+                    #    relevant_tweets.append(MultiTweet(tweet, mtweet2))
+                    #    mtweet2 = None
+                    #    yield self._classify_tweet(relevant_tweets[-1])
+                    #else:
+                    #    relevant_tweets.append(tweet)
+                    #    yield self._classify_tweet(relevant_tweets[-1])
+                    #print(f"\033[92m{tweet.text[:min(len(tweet.text),80)]}\033[00m")
                     break
+            else:
+                pass
+                print(f"\033[91m{tweet.text}\033[00m")
         
-        for tweet in relevant_tweets:
-            pass# classification on tweets
+        #return relevant_tweets
+        #return [self._classify_tweet(tweet) for tweet in relevant_tweets]
+
+    def _classify_tweet(self, tweet):
+        # daily report = rewrite manually from image
+        if re.match(r".*dzienny raport.*", tweet.text, re.IGNORECASE):
+            print("\t* Daily report")
             
-        return reports
+        # death numbers    
+        if re.match(r".*z przykrością.*", tweet.text, re.IGNORECASE):
+            print("\t* Death numbers.")
+            
+        # test numbers
+        if re.match(r".*w ciągu doby wykonano.*", tweet.text, re.IGNORECASE):
+            print("\t* Test numbers.")
+        
+        # case numbers
+        if re.match(r".*mamy [0-9]+ now[a-z]*.*", tweet.text, re.IGNORECASE):
+            print("\t* Case numbers.")
+        
+        # cumulative cases
+        if re.match(r".*liczba zakażonych koronawirusem.*", tweet.text, re.IGNORECASE):
+            print("\t* Cumulative cases.")
+            
+        # regional data
+        if re.match(r".*koronawirus z województw.*", tweet.text, re.IGNORECASE) or any(re.match(f".*{wojewodstwo}.*", tweet.text, re.IGNORECASE) for wojewodstwo in self.wojewodstwa_keywords):
+            print("\t* Regional data.")
+            if re.match(r".*mamy.*,$", tweet.text, re.IGNORECASE):
+                print("\t* Partial tweet (1).")
+                if self._partial2 is not None:
+                    tweet = MultiTweet(tweet, self._partial2)
+                    self._partial2 = None
+                    if re.match(r".*,$", tweet.text, re.IGNORECASE):
+                        pass
+                        # third part
+                    print(f"\t\tMERGED: {tweet.text}")
+                else:
+                    self._partial1 = tweet
+                input('')
+        if any(re.match(f"{wojw_kw}.*", tweet.text.strip(), re.IGNORECASE) for wojw_kw in self.wojewodstwa_keywords):
+            print("\t* Partial tweet (2)")
+            if self._partial1 is not None:
+                tweet = MultiTweet(self._partial1, tweet)
+                print(f"\t\tMERGED: {tweet.text}")
+                self._partial1 = None
+            else:
+                self._partial2 = tweet 
+            input('')
+        
+            
+        return tweet
+    
 
 if __name__ == "__main__":
     logging.basicConfig(level = logging.INFO)
     PLTwitter = PolishTwitter()
     reports = PLTwitter.parseAll()
     for report in reports:
-        print(report.permalink)
-        print(report.text)
-        input('')
+        pass
     #for tweet in PL:
     #    print(tweet.date)
     #    print(tweet.text)
