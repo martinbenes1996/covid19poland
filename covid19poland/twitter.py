@@ -11,6 +11,21 @@ class MultiTweet:
         self.tweets = args
         self.text = reduce(lambda a,i: a+i, [i.text for i in self.tweets], "")
         self.permalink = [i.permalink for i in self.tweets]
+        self._warn_dates_differ()
+    def _warn_dates_differ(self):
+        if self._warned:
+            return
+        for i in range(len(self.tweets) - 1):
+            if self.tweets[i].date != self.tweets[i+1].date:
+                logging.warning("dates of MultiTweet tweets differ")
+                self._warned = True
+                break
+                
+    def append(self, other):
+        self.text += other.text
+        self.tweets.append(other)
+        self.permalink.append(other.permalink)
+        self._warn_dates_differ()
 
 class PolishTwitter:
     wojewodstwa_keywords = {
@@ -45,16 +60,20 @@ class PolishTwitter:
     def parseAll(self):
         relevant_tweets = []
         keywords = {"dzienny raport", "mamy [0-9]+", "z prykrością", "liczba"} | self.wojewodstwa_keywords
-        for tweet in self:
+        mtweet2 = None
+        for i,tweet in enumerate(self):
             for kw in keywords:
                 if re.match(f".*{kw}.*", tweet.text, re.IGNORECASE):
                     if re.match(f"{self.wojewodstwa_keywords}.*", relevant_tweets[-1].text, re.IGNORECASE):
-                        
+                        mtweet2 = tweet
+                    elif mtweet2 is not None:
+                        relevant_tweets.append(MultiTweet(tweet, mtweet2))
+                    else:
                         relevant_tweets.append(tweet)
-                    
                     break
         
         for tweet in relevant_tweets:
+            pass# classification on tweets
             
         return reports
 
