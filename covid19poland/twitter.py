@@ -47,15 +47,13 @@ class PolishTwitter:
     def __init__(self):
         self._log = logging.getLogger(self.__class__.__name__)
         self._username = "MZ_GOV_PL"
-        self._start = datetime(2020,6,1) #datetime(2020,3,1)
-        self._end = datetime.now() #datetime(2020,3,10)
+        self._start = datetime(2020,4,1) #datetime(2020,3,1)
+        self._end = datetime.now()
         self._base_criteria = got3.manager.TweetCriteria()\
             .setUsername(self._username)
             #.setMaxTweets(100)
     def __iter__(self):
-        #self._log.info("iterating over tweets")
         for dt in self._daterange(self._start, self._end):
-            #self._log.info(f"fetching tweets from {dt}")
             criteria = self._base_criteria\
                 .setSince(dt.strftime("%Y-%m-%d"))\
                 .setUntil((dt + timedelta(1)).strftime("%Y-%m-%d"))
@@ -155,8 +153,19 @@ class PolishTwitter:
         return l
             
     def parseRegions(self, tweet):
-        #print(tweet)
-        return None
+        if not isinstance(tweet, list):
+            tweet = [tweet]
+        l = []
+        for t in tweet:
+            d = {"text": t.tweet.text, "url": t.tweet.permalink, "tests": None, "parsed": False}
+            
+            if d["parsed"]:
+                print(f"\033[92m{t.tweet.text}\033[00m")
+                print(f"Cumulative: {d['confirmed']} / {d['deaths']}")
+            else:
+                print(f"\033[91m{t.tweet.text}\033[00m")
+            l.append(d)
+        return l
     def parseTests(self, tweet):
         if not isinstance(tweet, list):
             tweet = [tweet]
@@ -191,18 +200,13 @@ class PolishTwitter:
             tweet = [tweet]
         l = []
         for t in tweet:
-            d = {"text": t.tweet.text, "url": t.tweet.permalink, "cumulative": None, "parsed": False}
-            #if re.match(".*mamy.*nowy.*przypadek.*", t.tweet.text, re.IGNORECASE):
-            #    d["cases"] = 1
-            #    d["parsed"] = True
-            #if re.match(".*mamy.*[0-9]+.*now.*przypad.*", t.tweet.text, re.IGNORECASE):
-            #    d["cases"] = int(re.search(".*mamy[^0-9]*([0-9]+)[^0-9]*now.*przypad.*", t.tweet.text, re.IGNORECASE).group(1))
-            #    d["parsed"] = True
-            if d["cumulative"]:
-                print(f"\033[92m{t.tweet.text}\033[00m")
-                print(f"Cumulative: {d['tests']}")
-            else:
-                print(f"\033[91m{t.tweet.text}\033[00m")
+            d = {"text": t.tweet.text, "url": t.tweet.permalink, "confirmed": None, "deaths": None, "parsed": False}
+            if re.match(r".*[0-9 ]+/[0-9 ]+.*", t.tweet.text, re.IGNORECASE):
+                s = re.search(r"[^\(]([0-9 ]+)/([0-9 ]+)[^\)]", t.tweet.text, re.IGNORECASE).group(1,2)
+                
+                d['confirmed'] = int(s[0].replace(' ', ''))
+                d['deaths'] = int(s[1].replace(' ', ''))
+                d['parsed'] = True
             l.append(d)     
         return l
     def parseReport(self, day, key, handler):
@@ -231,7 +235,6 @@ class PolishTwitter:
         # cumulative report
         d['cumulative'] = self.parseReport(day, "cumulative", self.parseCumulative)
         
-        #print( day[0].tweet.date.date(), len(day))
         return d
         
         
@@ -260,15 +263,3 @@ if __name__ == "__main__":
     with open("data.json", "w") as fd:
         json.dump(data, fd)
             
-
-        #break
-    
-    
-        #print(ftweet)
-        #input('')
-    #for tweet in PL:
-    #    print(tweet.date)
-    #    print(tweet.text)
-    #    print(dir(tweet))
-    #    print(tweet.permalink)
-    #    input('')
