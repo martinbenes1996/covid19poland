@@ -142,8 +142,13 @@ def fetch1(dt = None):
 def fetch2(dt = None):
     return fetch_table(parse_states, dt)
 
-def twitter(start = None, end = None, keys = ['deaths']):
-    return PolishTwitter.get(end = end, start = start, keys = keys)
+def twitter_deaths(start = None, end = None):
+    data,ignored,checkdates = PolishTwitter.get(end = end, start = start, keys = ['deaths'])
+    if checkdates:
+        print(checkdates)
+        return data,ignored,checkdates
+    else:
+        return data,ignored,checkdates
 
 def fetch(level = 1, dt = None):
     if level == 1:
