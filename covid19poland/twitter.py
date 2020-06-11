@@ -35,11 +35,32 @@ class FlaggedTweet:
 
 class PolishTwitter:
     wojewodstwa_keywords = {
-        r"śląski[a-z]*", r"mazowiecki[a-z]*", r"łódzki[a-z]*", r"dolnośląski[a-z]*",
-        r"małopolski[a-z]*", r"podlaski[a-z]*", r"lubelski[a-z]*", r"lubuski[a-z]*",
-        r"pomorski[a-z]*", r"wielkopolski[a-z]*", r"kujawsko-pomorski[a-z]*",
-        r"zachodniopomorski[a-z]*", r"świętokrzyski[a-z]*", r"opolski[a-z]*",
-        r"warmińsko-mazurski[a-z]*", r"podkarpacki[a-z]*"}
+        r"(?<!dolno)śląski[\w]*": "PL22", r"mazowiecki[\w]*": "PL92", r"łódzki[\w]*": "PL71", r"dolnośląski[\w]*": "PL51",
+        r"małopolski[\w]*": "PL21", r"podlaski[\w]*": "PL84", r"lubelski[\w]*": "PL81", r"lubuski[\w]*": "PL43",
+        r"pomorski[\w]*": "PL63", r"wielkopolski[\w]*": "PL41", r"kujawsko-pomorski[\w]*": "PL61",
+        r"zachodniopomorski[\w]*": "PL42", r"świętokrzyski[\w]*": "PL72", r"(?<!mał)(?<!wielk)opolski[\w]*": "PL52",
+        r"warmińsko-mazurski[\w]*": "PL62", r"podkarpacki[\w]*": "PL82"}
+    cities_keywords = {
+        "Warszaw[\w]*": "PL127",
+        "Krak\ww[\w]*": "PL213",
+        "Łódź[\w]*": "PL711",
+        "Radom[\w]*": "PL921",
+        "Bytom[\w]*": "PL228",
+        "Katowic[\w]*": "PL22A",
+        "Tych[\w]*": "PL22C",
+        "Wrocław[\w]*": "PL514",
+        "Gdańsk[\w]*": "PL634",
+        "Racibórz[\w]*": "PL227",
+        "Legnic[\w]*": "PL516",
+        "Przemy[\w]*": "PL822",
+        "Gliwic[\w]*": "PL229",
+        "Zgierz[\w]*": "PL712",
+        "Kędzierzyn[\w]*": "PL524",
+        "Zawierc[\w]*": "PL22B",
+        "Cieszy[\w]*": "PL311",
+        "Pozna[\w]*": "PL415"
+        
+    }
     @staticmethod
     def _daterange(start_date, end_date):
         for n in range(int ((end_date - start_date).days + 1)):
@@ -47,7 +68,7 @@ class PolishTwitter:
     def __init__(self):
         self._log = logging.getLogger(self.__class__.__name__)
         self._username = "MZ_GOV_PL"
-        self._start = datetime(2020,4,1) #datetime(2020,3,1)
+        self._start = datetime(2020,6,1)
         self._end = datetime.now()
         self._base_criteria = got3.manager.TweetCriteria()\
             .setUsername(self._username)
@@ -63,7 +84,9 @@ class PolishTwitter:
                 yield tweet
     
     def parseAll(self):
-        keywords = {"dzienny raport", "mamy [0-9]+", "z przykrością", "ze szpitala", "kobieta", "mężczyzna", "liczba", "W ciągu doby wykonano"} | self.wojewodstwa_keywords
+        keywords = {"dzienny raport", "mamy [0-9]+", "z przykrością", "ze szpitala",
+                    "kobieta", "mężczyzna", "liczba", "W ciągu doby wykonano",
+                    "(?<![0-9])([0-9]+)-([KM])(?!etr)( [^,.]*)?"} | set(self.wojewodstwa_keywords.keys())
         for i,tweet in enumerate(self):
             for kw in keywords:
                 if re.match(f".*{kw}.*", tweet.text.strip(), re.IGNORECASE):
@@ -80,7 +103,7 @@ class PolishTwitter:
             ftweet.flags["daily"] = True
             
         # death numbers
-        if any( re.match(f".*{kw}.*", tweet.text, re.IGNORECASE) for kw in ["z przykrością", "ze szpitala", "kobiet", "mężczyz"]):
+        if any( re.match(f".*{kw}.*", tweet.text, re.IGNORECASE) for kw in ["z przykrością", "ze szpitala", "kobiet", "mężczyz", "(?<![0-9])([0-9]+)-([KM])( [^,.]*)?"]):
             ftweet.flags["deaths"] = True
             
         # test numbers
@@ -106,23 +129,30 @@ class PolishTwitter:
         return ftweet
     
     def parseDaily(self, tweet):
-        #print(tweet)
-        return None
+        if not isinstance(tweet, list):
+            tweet = [tweet]
+        l = []
+        for t in tweet:
+            d = {"text": t.tweet.text, "url": t.tweet.permalink, "parsed": False}
+            if re.match(r".*dzienny.*raport.*#koronawirus", t.tweet.text, re.IGNORECASE):
+                d['parsed'] = True
+            l.append(d)
+        return l
     def parseDeaths(self, tweet):
         if not isinstance(tweet, list):
             tweet = [tweet]
         l = []
         for t in tweet:
-            d = {"text": t.tweet.text, "url": t.tweet.permalink, "deaths": None, "parsed": False}
+            d = {"text": t.tweet.text, "url": t.tweet.permalink, "deaths": None, "people": [], "parsed": False}
             if re.match(".*z przykrością.*", t.tweet.text, re.IGNORECASE):
                 # parse sentence out
                 txt = re.search(r".*(z przykrością.*)", t.tweet.text, re.IGNORECASE).group(1)
                 liczba = re.search(r"(.*)Liczba.*", txt, re.IGNORECASE)
                 txt = liczba.group(1) if liczba else txt
                 
-                if re.match(".*o śmierci [0-9]+.*", t.tweet.text, re.IGNORECASE):
+                if re.match(r".*o śmierci [0-9]+(?![0-9]).*", t.tweet.text, re.IGNORECASE):
                     try:
-                        deaths = re.search(".*o śmierci ([0-9]+)[^-]*.*", t.tweet.text, re.IGNORECASE).group(1)
+                        deaths = re.search(".*o śmierci ([0-9]+)(?![0-9]).*osób", t.tweet.text, re.IGNORECASE).group(1)
                         d["deaths"] = int(deaths)
                         d["parsed"] = True
                     except:
@@ -137,19 +167,94 @@ class PolishTwitter:
                         d["parsed"] = True
                         break
                         
-            if not d["parsed"]: 
-                try:
-                    ages = re.findall(r"[0-9]+(?=- ?let)", t.tweet.text, re.IGNORECASE)
-                    if ages:
-                        d["deaths"] = len(ages)
-                        d["parsed"] = True
-                except: pass
+            #if not d["parsed"]: 
+            #    try:
+            #        ages = re.findall(r"[0-9]+(?=- ?let)", t.tweet.text, re.IGNORECASE)
+            #        if ages:
+            #            d["number"] = len(ages)
+            #            d["parsed"] = True
+            #    except: pass
                     
             if not d["parsed"]:
                 if re.match(r".*zmarła[^.]* osoba.*", t.tweet.text, re.IGNORECASE):
                     d["deaths"] = 1
                     d["parsed"] = True
+            
+            people_match = re.findall(r"(?<![0-9])([0-9]+)-([KM])[^\w,]*(\w+)?", t.tweet.text, re.IGNORECASE)
+            if people_match:
+                for person_match in people_match:
+                    person_match = [p.strip() for p in person_match]
+                    
+                    person = {"age": None, "gender": None, "place": None}
+                    try:
+                        person["age"] = int(person_match[0])
+                    except:
+                        pass
+                    try:
+                        person["gender"] = {"K":"F", "M":"M"}[person_match[1].upper()]
+                    except:
+                        pass
+                    person["place"] = person_match[2] if person_match[2] else None
+                    d["people"].append(person)
+                
+                if d['deaths'] is not None and len(d['people']) != d['deaths']:
+                    d['parsed'] = False
+            people_match2 = re.findall(r"(?<![0-9])([0-9]+)[^\w0-9]*let[\w]+ (k|m)\w+( (ze szpitala|hospitalizowan[\w]+) w (\w+))?", t.tweet.text, re.IGNORECASE)
+            if people_match2:
+                print("Match2")
+                #print(people_match2)
+                for person_match in people_match2:
+                    person_match = [p.strip() for p in person_match]
+                    
+                    person = {"age": None, "gender": None, "place": None}
+                    try:
+                        person['age'] = int(person_match[0])
+                    except: pass
+                    try:
+                        person["gender"] = {"K":"F", "M":"M"}[person_match[1].upper()]
+                    except: pass
+                    person['place'] = person_match[4] if person_match[4] else None
+                    d["people"].append(person)
+            
+            if d['deaths'] is not None and len(d['people']) != d['deaths']:
+                d['parsed'] = False
+            
+            for i,person in enumerate(d['people']):
+                if person['place'] is None:
+                    continue
+                for city,nuts in self.cities_keywords.items():
+                    city_match = re.search(f".*{city}.*", person['place'], re.IGNORECASE)
+                    if city_match:
+                        d['people'][i]['place'] = nuts
+                        break
+                else:
+                    print(f"{person['place']} not matched")
+                        
+                    
+            if d["parsed"]:
+                print(f"\033[92m{t.tweet.text}\033[00m")
+            else:
+                print(f"\033[91m{t.tweet.text}\033[00m")
+            print(f"Deaths: {d['deaths']}")
+            print(f"People: {d['people']}")
+                
             l.append(d)
+        # merge
+        if len(l) > 1:
+            people = [p for i in l for p in i['people']]
+            number = sum(i['deaths'] for i in l if i['deaths'])
+            url = [i['url'] for i in l]
+            l = {"deaths": number, "people": people, "url": url}
+            l['parsed'] = len(people) == number
+            l['text'] = None
+            if l['parsed']:
+                print("Merge successful!")
+            else:
+                print("Check merge!")
+        else:
+            l = l[0]
+            print("Single record!")
+            
         return l
             
     def parseRegions(self, tweet):
@@ -157,13 +262,26 @@ class PolishTwitter:
             tweet = [tweet]
         l = []
         for t in tweet:
-            d = {"text": t.tweet.text, "url": t.tweet.permalink, "tests": None, "parsed": False}
+            d = {"text": t.tweet.text, "url": t.tweet.permalink, "regions": {}, "regions_regex": {}, "parsed": False}
             
-            if d["parsed"]:
-                print(f"\033[92m{t.tweet.text}\033[00m")
-                print(f"Cumulative: {d['confirmed']} / {d['deaths']}")
-            else:
-                print(f"\033[91m{t.tweet.text}\033[00m")
+            for region,nuts3 in self.wojewodstwa_keywords.items():
+                region_match1 = re.search(f".*([0-9]+) os[a-zó]+ z (woj. |){region}.*", t.tweet.text, re.IGNORECASE)
+                region_match2 = re.search(f".*{region} \(([0-9]+)\).*", t.tweet.text, re.IGNORECASE)
+                if region_match1:
+                    d['regions'][nuts3] = d['regions_regex'][region] = int(region_match1.group(1))
+                    d['parsed'] = True
+                elif region_match2:
+                    i = int(region_match2.group(1))
+                    d['regions'][nuts3] = d['regions_regex'][region] = int(region_match2.group(1))
+                    d['parsed'] = True
+                elif re.match(f".*{region}.*", t.tweet.text, re.IGNORECASE):
+                    d['regions'][nuts3] = d['regions_regex'][region] = None
+                
+            #if d["parsed"]:
+            #    print(f"\033[92m{t.tweet.text}\033[00m")
+            #    print(f"Regions: {d['regions']}")
+            #else:
+            #    print(f"\033[91m{t.tweet.text}\033[00m")
             l.append(d)
         return l
     def parseTests(self, tweet):
@@ -212,16 +330,11 @@ class PolishTwitter:
     def parseReport(self, day, key, handler):
         #self._log.info(f"parse {key} report")
         reports = [tweet for tweet in day if tweet.flags[key]]
-        if len(reports) == 1:
-            parsed = handler(reports[0])
-        else:
-            # merge multiple together!
-            #self._log.warning(f"multiple {key} reports in single day")
-            parsed = [handler(d) for d in reports]
+        parsed = handler(reports)
         return parsed
     def parseDay(self, dt, day):
         self._log.info(f"parsing tweets from {dt}")
-        d = {}
+        d,ignored = {},{}
         # daily reports
         d['daily'] = self.parseReport(day, "daily", self.parseDaily)
         # death report
@@ -235,7 +348,13 @@ class PolishTwitter:
         # cumulative report
         d['cumulative'] = self.parseReport(day, "cumulative", self.parseCumulative)
         
-        return d
+        # ignored
+        ignored['all'] = [tweet for tweet in day if all(not tweet.flags[key] for key in ["daily","deaths","regions","tests","cases","cumulative"])]
+        ignored['relevant'] = [{"text": t.tweet.text, "url": t.tweet.permalink, "parsed": False} for t in ignored['all'] if t.flags['relevant']]
+        ignored['irrelevant'] = [{"text": t.tweet.text, "url": t.tweet.permalink, "parsed": False} for t in ignored['all'] if not t.flags['relevant']]
+        del ignored['all']
+        
+        return d,ignored
         
         
 if __name__ == "__main__":
@@ -243,7 +362,7 @@ if __name__ == "__main__":
     PLTwitter = PolishTwitter()
     tweetday = []
     last = None
-    data = {}
+    data,filtered = {},{}
     for ftweet in PLTwitter.parseAll():
         # init
         if last is None:
@@ -254,12 +373,15 @@ if __name__ == "__main__":
         # new day
         else:
             # parse day
-            daydata = PLTwitter.parseDay(last, tweetday)
+            daydata,ignored = PLTwitter.parseDay(last, tweetday)
             data[last.strftime("%Y-%m-%d")] = daydata
+            filtered[last.strftime("%Y-%m-%d")] = ignored
             # reinitialize
             last = ftweet.tweet.date.date()
             tweetday = [ftweet]
             
     with open("data.json", "w") as fd:
-        json.dump(data, fd)
+        json.dump(data, fd, sort_keys=True, indent = 4, separators = (',',": "))
+    with open("filtered.json", "w") as fd:
+        json.dump(filtered, fd, sort_keys=True, indent = 4, separators = (',',": "))
             
