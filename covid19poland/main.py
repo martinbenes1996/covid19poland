@@ -142,7 +142,7 @@ def fetch1(dt = None):
 def fetch2(dt = None):
     return fetch_table(parse_states, dt)
 
-def twitter_deaths(start = None, end = None):
+def twitter(start = None, end = None):
     data,ignored,checkdates = PolishTwitter.get(end = end, start = start, keys = ['deaths'])
     if checkdates:
         print(checkdates)
