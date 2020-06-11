@@ -43,14 +43,14 @@ class PolishTwitter:
     cities_keywords = {
         "Warszaw[\w]*": "PL127",
         "Krak\ww[\w]*": "PL213",
-        "Łódź[\w]*": "PL711",
+        "Łód[\w]*": "PL711",
         "Radom[\w]*": "PL921",
         "Bytom[\w]*": "PL228",
         "Katowic[\w]*": "PL22A",
         "Tych[\w]*": "PL22C",
         "Wrocław[\w]*": "PL514",
         "Gdańsk[\w]*": "PL634",
-        "Racibórz[\w]*": "PL227",
+        "Racib[\w]*": "PL227",
         "Legnic[\w]*": "PL516",
         "Przemy[\w]*": "PL822",
         "Gliwic[\w]*": "PL229",
@@ -58,8 +58,23 @@ class PolishTwitter:
         "Kędzierzyn[\w]*": "PL524",
         "Zawierc[\w]*": "PL22B",
         "Cieszy[\w]*": "PL311",
-        "Pozna[\w]*": "PL415"
-        
+        "Bielsk[\w]*": "PL311",
+        "Pozna[\w]*": "PL415",
+        "Bolesław[\w]*": "PL515",
+        "Starachowic[\w]*": "PL721",
+        "Łańcu[\w]*": "PL823",
+        "Kozienic[\w]*": "PL921",
+        "Koszalin[\w]*": "PL426",
+        "Limanow[\w]*": "PL218",
+        "Pleszew[\w]*": "PL416",
+        "Lub(lin|el)[\w]*": "PL814",
+        "Grudziąd[\w]*": "PL616",
+        "Ostr[óo]d[\w]*": "PL621",
+        "Puław[\w]*": "PL112",
+        "Wysok[\w]*": "PL344",
+        "Jarosław[\w]*": "PL822",
+        "Oleśnic[\w]*": "PL722",
+        "Ozim[\w]*": "PL524"
     }
     @staticmethod
     def _daterange(start_date, end_date):
@@ -68,7 +83,7 @@ class PolishTwitter:
     def __init__(self):
         self._log = logging.getLogger(self.__class__.__name__)
         self._username = "MZ_GOV_PL"
-        self._start = datetime(2020,6,1)
+        self._start = datetime(2020,4,1)
         self._end = datetime.now()
         self._base_criteria = got3.manager.TweetCriteria()\
             .setUsername(self._username)
@@ -176,7 +191,10 @@ class PolishTwitter:
             #    except: pass
                     
             if not d["parsed"]:
-                if re.match(r".*zmarła[^.]* osoba.*", t.tweet.text, re.IGNORECASE):
+                if re.match(r".*o śmierci[^.]*osoby.*", t.tweet.text, re.IGNORECASE):
+                    d["deaths"] = 1
+                    d["parsed"] = True
+                elif re.match(r".*zmarła[^.]* osoba.*", t.tweet.text, re.IGNORECASE):
                     d["deaths"] = 1
                     d["parsed"] = True
             
@@ -195,11 +213,13 @@ class PolishTwitter:
                     except:
                         pass
                     person["place"] = person_match[2] if person_match[2] else None
+                    if person["place"] == "i":
+                        person["place"] = None
                     d["people"].append(person)
                 
                 if d['deaths'] is not None and len(d['people']) != d['deaths']:
                     d['parsed'] = False
-            people_match2 = re.findall(r"(?<![0-9])([0-9]+)[^\w0-9]*let[\w]+ (k|m)\w+( (ze szpitala|hospitalizowan[\w]+) w (\w+))?", t.tweet.text, re.IGNORECASE)
+            people_match2 = re.findall(r"(?<![0-9])([0-9]+)[^\w0-9]*let[\w]+ (k|m)\w+( (ze szpitala|hospitalizowan[\w]+|w szpitalu) w (\w+))?", t.tweet.text, re.IGNORECASE)
             if people_match2:
                 print("Match2")
                 #print(people_match2)
@@ -219,16 +239,17 @@ class PolishTwitter:
             if d['deaths'] is not None and len(d['people']) != d['deaths']:
                 d['parsed'] = False
             
-            for i,person in enumerate(d['people']):
-                if person['place'] is None:
-                    continue
-                for city,nuts in self.cities_keywords.items():
-                    city_match = re.search(f".*{city}.*", person['place'], re.IGNORECASE)
-                    if city_match:
-                        d['people'][i]['place'] = nuts
-                        break
-                else:
-                    print(f"{person['place']} not matched")
+            # naive nuts encoder
+            #for i,person in enumerate(d['people']):
+            #    if person['place'] is None:
+            #        continue
+            #    for city,nuts in self.cities_keywords.items():
+            #        city_match = re.search(f".*{city}.*", person['place'], re.IGNORECASE)
+            #        if city_match:
+            #            d['people'][i]['place'] = nuts
+            #            break
+            #    else:
+            #        print(f"{person['place']} not matched")
                         
                     
             if d["parsed"]:
