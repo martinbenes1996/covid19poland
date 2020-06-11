@@ -294,11 +294,6 @@ class PolishTwitter:
                 elif re.match(f".*{region}.*", t.tweet.text, re.IGNORECASE):
                     d['regions'][nuts3] = d['regions_regex'][region] = None
                 
-            #if d["parsed"]:
-            #    print(f"\033[92m{t.tweet.text}\033[00m")
-            #    print(f"Regions: {d['regions']}")
-            #else:
-            #    print(f"\033[91m{t.tweet.text}\033[00m")
             l.append(d)
         return l
     def parseTests(self, tweet):
@@ -344,11 +339,7 @@ class PolishTwitter:
                 d['parsed'] = True
             l.append(d)     
         return l
-    #def parseReport(self, day, key, handler):
-        #self._log.info(f"parse {key} report")
-    #    reports = [tweet for tweet in day if tweet.flags[key]]
-    #    parsed = handler(reports)
-    #    return parsed
+    
     def parseDay(self, dt, day, keys):
         parsers = {
             'daily': self.parseDaily,
@@ -368,19 +359,6 @@ class PolishTwitter:
             except:
                 warnings.warn(f"parser for {key} not found")
             
-        # daily reports
-        #d['daily'] = self.parseReport(day, "daily", self.parseDaily)
-        # death report
-        #d['deaths'] = self.parseReport(day, "deaths", self.parseDeaths)
-        # regions report
-        #d['regions'] = self.parseReport(day, "regions", self.parseRegions)
-        # tests report
-        #d['tests'] = self.parseReport(day, "tests", self.parseTests)
-        # cases report
-        #d['cases'] = self.parseReport(day, "cases", self.parseCases)
-        # cumulative report
-        #d['cumulative'] = self.parseReport(day, "cumulative", self.parseCumulative)
-        
         # ignored
         available_parsers = set(parsers.keys())
         ignored['all'] = [tweet for tweet in day if all(not tweet.flags[key] for key in keys)]
@@ -437,43 +415,10 @@ __all__ = ["PolishTwitter"]
 if __name__ == "__main__":
     logging.basicConfig(level = logging.INFO)
     data,filtered,checklist = PolishTwitter.get( datetime(2020,5,15) )
-    # PLTwitter = PolishTwitter()
-    # tweetday = []
-    # last = None
-    # data,filtered = {},{}
-    # for ftweet in PLTwitter.parseAll():
-    #     # init
-    #     if last is None:
-    #         last = ftweet.tweet.date.date()
-    #     # add to day
-    #     if ftweet.tweet.date.date() == last:
-    #         tweetday.append(ftweet)
-    #     # new day
-    #     else:
-    #         # parse day
-    #         daydata,ignored = PLTwitter.parseDay(last, tweetday, ['deaths'])
-    #         data[last.strftime("%Y-%m-%d")] = daydata
-    #         filtered[last.strftime("%Y-%m-%d")] = ignored
-    #         # reinitialize
-    #         last = ftweet.tweet.date.date()
-    #         tweetday = [ftweet]
-    
-    # checklist = []
-    # for dt,record in data.items():
-    #     if 'deaths' in record:
-    #         if isinstance(record['deaths'], list):
-    #             for i,d in enumerate(record['deaths']):
-    #                 if not d['ok']:
-    #                     checklist.append(dt)
-    #                 del data[dt]['deaths'][i]['ok']
-    #         else:
-    #             if not record['deaths']['ok']:
-    #                 checklist.append(dt)
-    #             del data[dt]['deaths']['ok']
-            
+
     with open("data.json", "w") as fd:
         json.dump(data, fd, sort_keys=True, indent = 4, separators = (',',": "))
     with open("filtered.json", "w") as fd:
         json.dump(filtered, fd, sort_keys=True, indent = 4, separators = (',',": "))
     print(checklist)
-            
+    

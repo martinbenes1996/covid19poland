@@ -10,6 +10,8 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 
+from .PLtwitter import *
+
 def create_url(dt = None):
     if dt is not None:
         # date,datetime OK
@@ -140,6 +142,9 @@ def fetch1(dt = None):
 def fetch2(dt = None):
     return fetch_table(parse_states, dt)
 
+def twitter(start = None, end = None, keys = ['deaths']):
+    return PolishTwitter.get(end = end, start = start, keys = keys)
+
 def fetch(level = 1, dt = None):
     if level == 1:
         return fetch_table(parse_poland, dt)
@@ -149,7 +154,7 @@ def fetch(level = 1, dt = None):
         warnings.warn("unsupported level")
         return None
     
-__all__ = ["fetch"]
+__all__ = ["fetch","twitter"]
 
 if __name__ == "__main__":
     raise NotImplementedError
