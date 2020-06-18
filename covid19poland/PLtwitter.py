@@ -84,7 +84,7 @@ class PolishTwitter:
     def __init__(self, start = None, end = None):
         self._log = logging.getLogger(self.__class__.__name__)
         self._username = "MZ_GOV_PL"
-        self._start = start if start else datetime(2020,3,1)
+        self._start = start if start else datetime(2020,6,1)
         self._end = end if end else datetime.now()
         self._base_criteria = got3.manager.TweetCriteria()\
             .setUsername(self._username)
@@ -414,7 +414,7 @@ __all__ = ["PolishTwitter"]
         
 if __name__ == "__main__":
     logging.basicConfig(level = logging.INFO)
-    data,filtered,checklist = PolishTwitter.get( datetime(2020,5,15) )
+    data,filtered,checklist = PolishTwitter.get(datetime(2020,3,15),datetime(2020,4,1))
 
     with open("data.json", "w") as fd:
         json.dump(data, fd, sort_keys=True, indent = 4, separators = (',',": "))
