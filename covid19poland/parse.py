@@ -26,6 +26,10 @@ def twitter(start = None, end = None, keys = ['deaths']):
             * cases = new confirmed cases
             * cumulative = cumulative number of confirmed cases
             * regions = regional new confirmed cases
+    Returns:
+        (dict): parsed data with linked sources (tweet URLs)
+        (dict): ignored tweets
+        (list): dates to check manually (partial errors)
     """
     results = PLtwitter.PolishTwitter.get(start = start, end = end, keys = keys)
     return results
