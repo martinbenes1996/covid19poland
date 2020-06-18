@@ -37,6 +37,7 @@ class TestTwitter(unittest.TestCase):
             # format requirements
             url = deaths["url"]
             self.assertTrue(isinstance(url, list) and len(deaths["url"]) > 0 and deaths["deaths"] > 0)
+            #TODO
             
             
             
