@@ -410,15 +410,17 @@ class PolishTwitter:
         
         return data,filtered,checklist
     
-__all__ = ["PolishTwitter"]
+__all__ = ["PolishTwitter","read_json"]
         
 if __name__ == "__main__":
     logging.basicConfig(level = logging.INFO)
-    data,filtered,checklist = PolishTwitter.get(datetime(2020,3,15),datetime(2020,4,1))
+    
+    data,filtered,checklist = PolishTwitter.get(datetime(2020,6,1),datetime(2020,7,1))
 
-    with open("data.json", "w") as fd:
+    with open("data/6_in.json", "w") as fd:
         json.dump(data, fd, sort_keys=True, indent = 4, separators = (',',": "))
-    with open("filtered.json", "w") as fd:
+    with open("data/6_out.json", "w") as fd:
         json.dump(filtered, fd, sort_keys=True, indent = 4, separators = (',',": "))
     print(checklist)
+
     

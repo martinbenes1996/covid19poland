@@ -1,0 +1,438 @@
+{
+    "2020-03-01": {
+        "deaths": []
+    },
+    "2020-03-02": {
+        "deaths": []
+    },
+    "2020-03-03": {
+        "deaths": []
+    },
+    "2020-03-04": {
+        "deaths": []
+    },
+    "2020-03-05": {
+        "deaths": []
+    },
+    "2020-03-06": {
+        "deaths": []
+    },
+    "2020-03-07": {
+        "deaths": []
+    },
+    "2020-03-08": {
+        "deaths": {
+            "deaths": 0,
+            "parsed": true,
+            "people": [],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1236628432676675585",
+                "https://twitter.com/MZ_GOV_PL/status/1236731347571478531"
+            ]
+        }
+    },
+    "2020-03-09": {
+        "deaths": {
+            "deaths": null,
+            "parsed": false,
+            "people": [],
+            "text": " Mamy nowy przypadek zaka\u017cenia #koronawirus, potwierdzony pozytywnymi wynikami test\u00f3w laboratoryjnych. Potwierdzone wyniki dotycz\u0105 kobiety z woj. wielkopolskiego, kt\u00f3ra przebywa w szpitalu w Poznaniu. W sumie mamy 17 potwierdzonych przypadk\u00f3w.",
+            "url": "https://twitter.com/MZ_GOV_PL/status/1237037259674845184"
+        }
+    },
+    "2020-03-10": {
+        "deaths": {
+            "deaths": 0,
+            "parsed": true,
+            "people": [],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1237418482079326211",
+                "https://twitter.com/MZ_GOV_PL/status/1237449974293639168"
+            ]
+        }
+    },
+    "2020-03-11": {
+        "deaths": {
+            "deaths": 0,
+            "parsed": true,
+            "people": [],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1237636590677221376",
+                "https://twitter.com/MZ_GOV_PL/status/1237734192492040192",
+                "https://twitter.com/MZ_GOV_PL/status/1237790886030987265"
+            ]
+        }
+    },
+    "2020-03-12": {
+        "deaths": []
+    },
+    "2020-03-13": {
+        "deaths": {
+            "deaths": 1,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 73,
+                    "gender": "M",
+                    "place": null
+                }
+            ],
+            "text": "Zmar\u0142a druga osoba zaka\u017cona #koronawirus. To 73-letni m\u0119\u017cczyzna, kt\u00f3ry w stanie ci\u0119\u017ckim przebywa\u0142 we wroc\u0142awskim szpitalu (woj. dolno\u015bl\u0105skie) i mia\u0142 choroby wsp\u00f3\u0142istniej\u0105ce.",
+            "url": "https://twitter.com/MZ_GOV_PL/status/1238561084237328387"
+        }
+    },
+    "2020-03-14": {
+        "deaths": {
+            "deaths": 1,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 66,
+                    "gender": "M",
+                    "place": null
+                }
+            ],
+            "text": "Jednocze\u015bnie z przykro\u015bci\u0105 informujemy, \u017ce zmar\u0142a trzecia osoba zaka\u017cona koronawirusem. To 66-letni m\u0119\u017cczyzna, kt\u00f3ry w stanie powa\u017cnym przebywa\u0142 w szpitalu w Lublinie (woj. lubelskie) i mia\u0142 choroby wsp\u00f3\u0142istniej\u0105ce.",
+            "url": "https://twitter.com/MZ_GOV_PL/status/1238893341317771264"
+        }
+    },
+    "2020-03-15": {
+        "deaths": []
+    },
+    "2020-03-16": {
+        "deaths": {
+            "deaths": 1,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": null
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1239642770219978757",
+                "https://twitter.com/MZ_GOV_PL/status/1239642768055701506"
+            ]
+        }
+    },
+    "2020-03-17": {
+        "deaths": {
+            "deaths": 1,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 57,
+                    "gender": "M",
+                    "place": null
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1239820776473272320",
+                "https://twitter.com/MZ_GOV_PL/status/1239820774858469376"
+            ]
+        }
+    },
+    "2020-03-18": {
+        "deaths": []
+    },
+    "2020-03-19": {
+        "deaths": []
+    },
+    "2020-03-20": {
+        "deaths": {
+            "deaths": 1,
+            "parsed": false,
+            "people": [
+                {
+                    "age": 27,
+                    "gender": "F",
+                    "place": null
+                },
+                {
+                    "age": 27,
+                    "gender": "F",
+                    "place": "\u0141a\u0144cucie"
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1240948524709224448",
+                "https://twitter.com/MZ_GOV_PL/status/1241020645707825153"
+            ]
+        }
+    },
+    "2020-03-21": {
+        "deaths": []
+    },
+    "2020-03-22": {
+        "deaths": {
+            "deaths": 1,
+            "parsed": false,
+            "people": [
+                {
+                    "age": 37,
+                    "gender": "F",
+                    "place": null
+                },
+                {
+                    "age": 43,
+                    "gender": "M",
+                    "place": null
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1241634174068539392",
+                "https://twitter.com/MZ_GOV_PL/status/1241685811134939143"
+            ]
+        }
+    },
+    "2020-03-23": {
+        "deaths": {
+            "deaths": 1,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": null
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1242052595528712193",
+                "https://twitter.com/MZ_GOV_PL/status/1242052597013413889"
+            ]
+        }
+    },
+    "2020-03-24": {
+        "deaths": {
+            "deaths": 2,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": null
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": null
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1242382472903634944",
+                "https://twitter.com/MZ_GOV_PL/status/1242518710092431360"
+            ]
+        }
+    },
+    "2020-03-25": {
+        "deaths": {
+            "deaths": 1,
+            "parsed": false,
+            "people": [
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": null
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": null
+                },
+                {
+                    "age": 80,
+                    "gender": "M",
+                    "place": null
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1242722196864278529",
+                "https://twitter.com/MZ_GOV_PL/status/1242790978177695744",
+                "https://twitter.com/MZ_GOV_PL/status/1242855072192778241"
+            ]
+        }
+    },
+    "2020-03-26": {
+        "deaths": {
+            "deaths": 0,
+            "parsed": false,
+            "people": [
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": null
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": null
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": null
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1243090111836946434",
+                "https://twitter.com/MZ_GOV_PL/status/1243128107797827584",
+                "https://twitter.com/MZ_GOV_PL/status/1243259370495934471"
+            ]
+        }
+    },
+    "2020-03-27": {
+        "deaths": []
+    },
+    "2020-03-28": {
+        "deaths": {
+            "deaths": 2,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": null
+                },
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": null
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1243892064129028097",
+                "https://twitter.com/MZ_GOV_PL/status/1243976708262428673"
+            ]
+        }
+    },
+    "2020-03-29": {
+        "deaths": {
+            "deaths": 4,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": null
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": null
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Tychach"
+                },
+                {
+                    "age": 89,
+                    "gender": "M",
+                    "place": "My\u015blenicach"
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1244161571963703297",
+                "https://twitter.com/MZ_GOV_PL/status/1244239742667030530",
+                "https://twitter.com/MZ_GOV_PL/status/1244325905561989121"
+            ]
+        }
+    },
+    "2020-03-30": {
+        "deaths": {
+            "deaths": 9,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": "Poznaniu"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Tychach"
+                },
+                {
+                    "age": 32,
+                    "gender": "F",
+                    "place": null
+                },
+                {
+                    "age": 80,
+                    "gender": "M",
+                    "place": "\u0141a\u0144cucie"
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": "Tychach"
+                },
+                {
+                    "age": 60,
+                    "gender": "M",
+                    "place": "Bi\u0142goraju"
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": null
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": null
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": "Radomiu"
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1244516434962776064",
+                "https://twitter.com/MZ_GOV_PL/status/1244516436103610375",
+                "https://twitter.com/MZ_GOV_PL/status/1244686031628230660",
+                "https://twitter.com/MZ_GOV_PL/status/1244686030197964801"
+            ]
+        }
+    },
+    "2020-03-31": {
+        "deaths": {
+            "deaths": 0,
+            "parsed": false,
+            "people": [
+                {
+                    "age": 70,
+                    "gender": "F",
+                    "place": null
+                },
+                {
+                    "age": 37,
+                    "gender": "M",
+                    "place": null
+                }
+            ],
+            "text": null,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1244965314615545856",
+                "https://twitter.com/MZ_GOV_PL/status/1245052137354256384"
+            ]
+        }
+    }
+}

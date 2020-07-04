@@ -1,0 +1,404 @@
+{
+    "2020-03-12": {
+        "deaths": {
+            "deaths": 1,
+            "people": [
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": null,
+                    "time": "2020-03-12 16:01:00"
+                }
+            ],
+            "url": "https://twitter.com/MZ_GOV_PL/status/1238117815934214145"
+        }
+    },
+    "2020-03-13": {
+        "deaths": {
+            "deaths": 1,
+            "people": [
+                {
+                    "age": 73,
+                    "gender": "M",
+                    "place": "Wrocław",
+                    "comorbid": true,
+                    "serious": true,
+                    "time": "2020-03-13 21:22:00"
+                }
+            ],
+            "url": "https://twitter.com/MZ_GOV_PL/status/1238561084237328387"
+        }
+    },
+    "2020-03-14": {
+        "deaths": {
+            "deaths": 1,
+            "people": [
+                {
+                    "age": 66,
+                    "gender": "M",
+                    "place": "Lublin",
+                    "comorbid": true,
+                    "serious": true,
+                    "time": "2020-03-14 19:22:00"
+                }
+            ],
+            "url": "https://twitter.com/MZ_GOV_PL/status/1238893341317771264"
+        }
+    },
+    "2020-03-16": {
+        "deaths": {
+            "deaths": 1,
+            "people": [
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": "Łańcut",
+                    "comorbid": true,
+                    "serious": true,
+                    "time": "2020-03-16 21:00:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1239642768055701506",
+                "https://twitter.com/MZ_GOV_PL/status/1239642770219978757"
+            ]
+        }
+    },
+    "2020-03-17": {
+        "deaths": {
+            "deaths": 1,
+            "people": [
+                {
+                    "age": 57,
+                    "gender": "M",
+                    "place": "Wałbrzych",
+                    "comorbid": true,
+                    "time": "2020-03-17 08:48:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1239820774858469376",
+                "https://twitter.com/MZ_GOV_PL/status/1239820776473272320"
+                
+            ]
+        }
+    },
+    "2020-03-20": {
+        "deaths": {
+            "deaths": 0,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1240948524709224448",
+                "https://twitter.com/MZ_GOV_PL/status/1241020645707825153"
+            ]
+        }
+    },
+    "2020-03-22": {
+        "deaths": {
+            "deaths": 2,
+            "people": [
+                {
+                    "age": 37,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "serious": true,
+                    "time": "2020-03-22 08:53:00"
+                },
+                {
+                    "age": 43,
+                    "gender": "M",
+                    "place": "Radom",
+                    "serious": true,
+                    "time": "2020-03-22 12:19:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1241634174068539392",
+                "https://twitter.com/MZ_GOV_PL/status/1241667442709053440",
+                "https://twitter.com/MZ_GOV_PL/status/1241667444336480263",
+                "https://twitter.com/MZ_GOV_PL/status/1241685811134939143"
+            ]
+        }
+    },
+    "2020-03-23": {
+        "deaths": {
+            "deaths": 1,
+            "people": [
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-03-23 12:36:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1242052595528712193",
+                "https://twitter.com/MZ_GOV_PL/status/1242052597013413889"
+            ]
+        }
+    },
+    "2020-03-24": {
+        "deaths": {
+            "deaths": 2,
+            "people": [
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Puławy",
+                    "comorbid": true,
+                    "serious": true,
+                    "time": "2020-03-24 10:27:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": "Cieszyn",
+                    "comorbid": true,
+                    "serious": true,
+                    "time": "2020-03-24 19:28:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1242382472903634944",
+                "https://twitter.com/MZ_GOV_PL/status/1242518710092431360"
+            ]
+        }
+    },
+    "2020-03-25": {
+        "deaths": {
+            "deaths": 3,
+            "people": [
+                {
+                    "age": 41,
+                    "gender": "M",
+                    "place": "Wrocław",
+                    "comorbid": true,
+                    "time": "2020-03-25 08:57:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "time": "2020-03-25 13:30:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "M",
+                    "place": "Skarżysko-Kamienna",
+                    "comorbid": true,
+                    "time": "2020-03-25 17:45:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1242722196864278529",
+                "https://twitter.com/MZ_GOV_PL/status/1242790978177695744",
+                "https://twitter.com/MZ_GOV_PL/status/1242855072192778241",
+                "https://twitter.com/MZ_GOV_PL/status/1243128107797827584",
+                "https://twitter.com/MZ_GOV_PL/status/1243128109110616065"
+            ]
+        }
+    },
+    "2020-03-26": {
+        "deaths": {
+            "deaths": 3,
+            "people": [
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": "Koszalin",
+                    "comorbid": true,
+                    "time": "2020-03-26 09:19:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "comorbid": true,
+                    "time": "2020-03-26 20:31:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "comorbid": true,
+                    "time": "2020-03-26 20:31:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1243090111836946434",
+                "https://twitter.com/MZ_GOV_PL/status/1243259370495934471"
+            ]
+        }
+    },
+    "2020-03-28": {
+        "deaths": {
+            "deaths": 2,
+            "people": [
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Lublin",
+                    "comorbid": true,
+                    "serious": true,
+                    "time": "2020-03-28 14:25:00"
+                },
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "comorbid": true,
+                    "serious": true,
+                    "time": "2020-03-28 20:02:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1243892064129028097",
+                "https://twitter.com/MZ_GOV_PL/status/1243976708262428673"
+            ]
+        }
+    },
+    "2020-03-29": {
+        "deaths": {
+            "deaths": 4,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": "Bytom",
+                    "comorbid": true,
+                    "serious": true,
+                    "time": "2020-03-29 09:16:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "serious": true,
+                    "time": "2020-03-29 14:27:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-03-29 20:09:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "M",
+                    "place": "Myślenice",
+                    "comorbid": true,
+                    "time": "2020-03-29 20:09:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1244161571963703297",
+                "https://twitter.com/MZ_GOV_PL/status/1244239742667030530",
+                "https://twitter.com/MZ_GOV_PL/status/1244325905561989121"
+            ]
+        }
+    },
+    "2020-03-30": {
+        "deaths": {
+            "deaths": 9,
+            "people": [
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-03-30 08:46:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-03-30 08:46:00"
+                },
+                {
+                    "age": 32,
+                    "gender": "F",
+                    "place": "Łańcut",
+                    "comorbid": true,
+                    "time": "2020-03-30 08:46:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "M",
+                    "place": "Łańcut",
+                    "comorbid": true,
+                    "time": "2020-03-30 08:46:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-03-30 20:00:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-03-30 20:00:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-03-30 20:00:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "serious": true,
+                    "time": "2020-03-30 20:00:00"
+                },
+                {
+                    "age": 60,
+                    "gender": "M",
+                    "place": "Biłgoraj",
+                    "time": "2020-03-30 20:00:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1244516434962776064",
+                "https://twitter.com/MZ_GOV_PL/status/1244516436103610375",
+                "https://twitter.com/MZ_GOV_PL/status/1244686030197964801",
+                "https://twitter.com/MZ_GOV_PL/status/1244686030197964801",
+                "https://twitter.com/MZ_GOV_PL/status/1244686031628230660"
+            ]
+        }
+    },
+    "2020-03-31": {
+        "deaths": {
+            "deaths": 2,
+            "people": [
+                {
+                    "age": 70,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-03-31 14:15:00"
+                },
+                {
+                    "age": 37,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-03-31 20:15:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1244965314615545856",
+                "https://twitter.com/MZ_GOV_PL/status/1245052137354256384"
+            ]
+        }
+    }
+}
