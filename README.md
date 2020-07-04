@@ -45,6 +45,18 @@ x1 = PL.fetch(level = 1)
 x2 = PL.fetch(level = 2)
 ```
 
+## Offline
+
+The package contains manually checked dataset from Twitter.
+It can be read and parsed from json to pandas dataframe using `offline` submodule. 
+
+```python
+import covid19poland as PL
+
+# parse offline
+x = PL.offline.read()
+```
+
 ## Contribution
 
 Developed by [Martin Benes](https://github.com/martinbenes1996).

@@ -10,6 +10,7 @@ Todo:
 """
 
 import pkg_resources
+from .offline import *
 from .main import *
 from .parse import *
 

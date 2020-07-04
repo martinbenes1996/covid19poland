@@ -5,13 +5,13 @@ from pathlib import Path
 
 import pandas as pd
 
-def parse_place(place):
+def _parse_place(place):
     return place
 
-def read_json(offline = ["2020-03","2020-04","2020-05","2020-06"]):
+def read():
     
     data = []
-    for f in offline:
+    for f in ["2020-03","2020-04","2020-05","2020-06"]:
         with open(Path("data")  / "months" / f"{f}.json", encoding = "UTF-8") as fd:
             raw = json.load(fd)
             for k,v in raw.items():
@@ -22,7 +22,7 @@ def read_json(offline = ["2020-03","2020-04","2020-05","2020-06"]):
                     for death in deaths["people"]:
                         # place
                         place = death.get("place", None)
-                        place = parse_place(place)
+                        place = _parse_place(place)
                         # reported
                         try: reported = datetime.strptime(death["time"], "%Y-%m-%d %H:%M:%S")
                         except: reported = None
@@ -39,5 +39,7 @@ def read_json(offline = ["2020-03","2020-04","2020-05","2020-06"]):
     return pd.DataFrame(data, columns = ["date","age","gender","place","comorbid","serious","reported"])
 
 if __name__ == "__main__":
-    x = read_json()
+    x = read()
     print(x)
+
+__all__ = ["read"]
