@@ -4,14 +4,13 @@ import warnings
 from bs4 import BeautifulSoup
 import pandas as pd
 
-from . import wiki
+from . import PLwiki
 from . import PLtwitter
 
 
-def get(level = 1, dt = None):
-    x = wiki.get_wiki(level = level, dt = dt)
-    # ...
-    return 
+def wiki(level = 1, dt = None):
+    x = PLwiki.get_wiki(level = level, dt = dt)
+    return x
 
 def twitter(start = None, end = None, keys = ['deaths']):
     """Parses tweets of Polish Ministry of Health and returns numbers.
@@ -34,4 +33,4 @@ def twitter(start = None, end = None, keys = ['deaths']):
     results = PLtwitter.PolishTwitter.get(start = start, end = end, keys = keys)
     return results
 
-__all__ = ["get", "twitter"]
+__all__ = ["wiki", "twitter"]

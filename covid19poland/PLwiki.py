@@ -1,5 +1,5 @@
 
-from datetime import datetime
+from datetime import datetime,timedelta
 import re
 import warnings
 
@@ -49,7 +49,7 @@ def parse_states(x):
 
 def get_wiki_tables(table_parser = lambda x: _, dt = None):
     # create archive url
-    for response in WaybackMachine('https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Poland'):
+    for response,timestamp in WaybackMachine('https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Poland', start = dt, step = timedelta(days = 1)):
         try:
             wiki = BeautifulSoup(response.text, features="lxml")
             tables = wiki.find_all("table", class_="wikitable")
