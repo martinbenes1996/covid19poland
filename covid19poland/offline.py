@@ -12,7 +12,7 @@ def read():
     
     data = []
     for f in ["2020-03","2020-04","2020-05","2020-06"]:
-        with open(Path("data")  / "months" / f"{f}.json", encoding = "UTF-8") as fd:
+        with open(Path("data") / f"{f}.json", encoding = "UTF-8") as fd:
             raw = json.load(fd)
             for k,v in raw.items():
                 dt = datetime.strptime(k, "%Y-%m-%d")

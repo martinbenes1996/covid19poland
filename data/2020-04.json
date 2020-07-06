@@ -1,0 +1,4201 @@
+{
+    "2020-04-01": {
+        "deaths": {
+            "deaths": 10,
+            "people": [
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "comorbid": true,
+                    "time": "2020-04-01 08:38:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-01 08:38:00"
+                },
+                {
+                    "age": 51,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "time": "2020-04-01 14:35:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": "Zgierz",
+                    "comorbid": true,
+                    "time": "2020-04-01 21:23:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-01 21:23:00"
+                },
+                {
+                    "age": 94,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-01 21:23:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-01 21:23:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Puławy",
+                    "comorbid": true,
+                    "time": "2020-04-01 21:23:00"
+                },
+                {
+                    "age": 59,
+                    "gender": "F",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-04-01 21:23:00"
+                },
+                {
+                    "age": 61,
+                    "gender": "M",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-04-01 21:23:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1245238989000507393",
+                "https://twitter.com/MZ_GOV_PL/status/1245329046302535680",
+                "https://twitter.com/MZ_GOV_PL/status/1245431660256124928",
+                "https://twitter.com/MZ_GOV_PL/status/1245431661971607552"
+            ]
+        }
+    },
+    "2020-04-02": {
+        "deaths": {
+            "deaths": 14,
+            "people": [
+                {
+                    "age": 59,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "time": "2020-04-02 11:11:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "F",
+                    "place": "Łańcut",
+                    "comorbid": true,
+                    "time": "2020-04-02 11:11:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Kędzierzyn-Koźle",
+                    "comorbid": true,
+                    "time": "2020-04-02 16:26:00"
+                },
+                {
+                    "age": 61,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "comorbid": true,
+                    "time": "2020-04-02 16:26:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "F",
+                    "place": "Bolesławiec",
+                    "comorbid": true,
+                    "time": "2020-04-02 16:26:00"
+                },
+                {
+                    "age": 56,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "time": "2020-04-02 16:26:00"
+                },
+                {
+                    "age": 58,
+                    "gender": "M",
+                    "place": "Koszalin",
+                    "time": "2020-04-02 16:26:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "F",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-04-02 21:14:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-04-02 21:14:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "comorbid": true,
+                    "time": "2020-04-02 21:14:00"
+                },
+                {
+                    "age": 61,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "comorbid": true,
+                    "time": "2020-04-02 21:14:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Limanowa",
+                    "comorbid": true,
+                    "time": "2020-04-02 21:14:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-02 21:14:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": "Pleszew",
+                    "comorbid": true,
+                    "time": "2020-04-02 21:14:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1245639886285070336",
+                "https://twitter.com/MZ_GOV_PL/status/1245719332006567937",
+                "https://twitter.com/MZ_GOV_PL/status/1245719333449367554",
+                "https://twitter.com/MZ_GOV_PL/status/1245791728080166912",
+                "https://twitter.com/MZ_GOV_PL/status/1245791730034790401"
+            ]
+        }
+    },
+    "2020-04-03": {
+        "deaths": {
+            "deaths": 14,
+            "people": [
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": "Bytom",
+                    "comorbid": true,
+                    "time": "2020-04-03 10:00:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-03 10:00:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-03 17:17:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-03 17:17:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-03 17:17:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": "Lublin",
+                    "comorbid": true,
+                    "time": "2020-04-03 17:17:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": "Grudziądz",
+                    "comorbid": true,
+                    "time": "2020-04-03 17:17:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "comorbid": true,
+                    "time": "2020-04-03 17:17:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "F",
+                    "place": "Bytom",
+                    "time": "2020-04-03 22:52:00"
+                },
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": "Katowice",
+                    "time": "2020-04-03 22:52:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": "Zgierz",
+                    "time": "2020-04-03 22:52:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Łódź",
+                    "time": "2020-04-03 22:52:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-03 22:52:00"
+                },
+                {
+                    "age": 66,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-03 22:52:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1245984502540894210",
+                "https://twitter.com/MZ_GOV_PL/status/1246094501686513669",
+                "https://twitter.com/MZ_GOV_PL/status/1246094503708184578",
+                "https://twitter.com/MZ_GOV_PL/status/1246178683053842439",
+                "https://twitter.com/MZ_GOV_PL/status/1246178684215721984"
+                
+            ]
+        }
+    },
+    "2020-04-04": {
+        "deaths": {
+            "deaths": 8,
+            "people": [
+                {
+                    "age": 67,
+                    "gender": "F",
+                    "place": "Częstochowa",
+                    "time": "2020-04-04 10:00:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-04 10:00:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-04 17:33:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-04 17:33:00"
+                },
+                {
+                    "age": 59,
+                    "gender": "M",
+                    "place": "Bytom",
+                    "comorbid": true,
+                    "time": "2020-04-04 17:33:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "F",
+                    "place": "Bielsko-Biała",
+                    "comorbid": true,
+                    "time": "2020-04-04 17:33:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "M",
+                    "place": "Ostróda",
+                    "comorbid": true,
+                    "time": "2020-04-04 17:33:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-04 17:33:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1246346974460329986",
+                "https://twitter.com/MZ_GOV_PL/status/1246460789839536136",
+                "https://twitter.com/MZ_GOV_PL/status/1246460791169191936"
+            ]
+        }
+    },
+    "2020-04-05": {
+        "deaths": {
+            "deaths": 15,
+            "people": [
+                {
+                    "age": 41,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "time": "2020-04-05 10:00:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "time": "2020-04-05 10:00:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-05 10:00:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "F",
+                    "place": "Bolesławiec",
+                    "time": "2020-04-05 10:00:00"
+                },
+                {
+                    "age": 59,
+                    "gender": "M",
+                    "place": "Polanica-Zdrój",
+                    "time": "2020-04-05 10:00:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": "Łomża",
+                    "time": "2020-04-05 17:32:00"
+                },
+                {
+                    "age": 46,
+                    "gender": "F",
+                    "place": "Radom",
+                    "time": "2020-04-05 17:32:00"
+                },
+                {
+                    "age": 51,
+                    "gender": "F",
+                    "place": "Radom",
+                    "time": "2020-04-05 17:32:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": "Radom",
+                    "time": "2020-04-05 17:32:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": "Radom",
+                    "time": "2020-04-05 17:32:00"
+                },
+                {
+                    "age": 66,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-04-05 17:32:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-05 17:32:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "F",
+                    "place": "Wrocław",
+                    "time": "2020-04-05 17:32:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "M",
+                    "place": "Wrocław",
+                    "time": "2020-04-05 17:32:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "F",
+                    "place": "Przemyśl",
+                    "time": "2020-04-05 17:32:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1246709298576740352",
+                "https://twitter.com/MZ_GOV_PL/status/1246709299696590848",
+                "https://twitter.com/MZ_GOV_PL/status/1246823089259888641",
+                "https://twitter.com/MZ_GOV_PL/status/1246823090736291840",
+                "https://twitter.com/MZ_GOV_PL/status/1246823092007178240"
+            ]
+        }
+    },
+    "2020-04-06": {
+        "deaths": {
+            "deaths": 13,
+            "people": [
+                {
+                    "age": 40,
+                    "gender": "F",
+                    "place": "Krotoszyn",
+                    "time": "2020-04-06 10:02:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "time": "2020-04-06 10:02:00"
+                },
+                {
+                    "age": 61,
+                    "gender": "M",
+                    "place": "Wrocław",
+                    "time": "2020-04-06 10:02:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": "Łańcut",
+                    "time": "2020-04-06 10:02:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "M",
+                    "place": "Puławy",
+                    "comorbid": true,
+                    "time": "2020-04-06 17:38:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-06 17:38:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Częstochowa",
+                    "comorbid": true,
+                    "time": "2020-04-06 17:38:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "comorbid": true,
+                    "time": "2020-04-06 17:38:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "F",
+                    "place": "Bolesławiec",
+                    "comorbid": true,
+                    "time": "2020-04-06 17:38:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "comorbid": true,
+                    "time": "2020-04-06 17:38:00"
+                },
+                {
+                    "age": 97,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "comorbid": true,
+                    "time": "2020-04-06 17:38:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Niedabyl",
+                    "comorbid": true,
+                    "time": "2020-04-06 17:38:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "comorbid": true,
+                    "time": "2020-04-06 17:38:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1247072071231975424",
+                "https://twitter.com/MZ_GOV_PL/status/1247072072918085633",
+                "https://twitter.com/MZ_GOV_PL/status/1247186936764272642",
+                "https://twitter.com/MZ_GOV_PL/status/1247186938999844864"
+            ]
+        }
+    },
+    "2020-04-07": {
+        "deaths": {
+            "deaths": 22,
+            "people": [
+                {
+                    "age": 64,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "comorbid": true,
+                    "time": "2020-04-07 10:00:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-07 10:00:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-07 10:00:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "M",
+                    "place": "Łańcut",
+                    "comorbid": true,
+                    "time": "2020-04-07 10:00:00"
+                },
+                {
+                    "age": 46,
+                    "gender": "M",
+                    "place": "Legnica",
+                    "comorbid": true,
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Częstochowa",
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 64,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Pleszew",
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "M",
+                    "place": "Piaseczno",
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Zgierz",
+                    "comorbid": true,
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 38,
+                    "gender": "F",
+                    "place": "Zgierz",
+                    "comorbid": true,
+                    "time": "2020-04-07 17:51:00"
+                },
+                {
+                    "age": 61,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-07 17:51:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1247434116586446848",
+                "https://twitter.com/MZ_GOV_PL/status/1247434117723160576",
+                "https://twitter.com/MZ_GOV_PL/status/1247552673693470722",
+                "https://twitter.com/MZ_GOV_PL/status/1247552675073478656",
+                "https://twitter.com/MZ_GOV_PL/status/1247552677418020870"
+            ]
+        }
+    },
+    "2020-04-08": {
+        "deaths": {
+            "deaths": 27,
+            "people": [
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-08 10:00:00"
+                },
+                {
+                    "age": 59,
+                    "gender": "F",
+                    "place": "Tomaszów Lubelski",
+                    "comorbid": true,
+                    "time": "2020-04-08 10:00:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "comorbid": true,
+                    "time": "2020-04-08 10:00:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": "Łańcut",
+                    "comorbid": true,
+                    "time": "2020-04-08 10:00:00"
+                },
+                {
+                    "age": 57,
+                    "gender": "M",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-08 10:00:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL9",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL61",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL61",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL61",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL61",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL22",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL22",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL22",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL41",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL63",
+                    "time": "2020-04-08 18:28:00"
+                },
+                {
+                    "age": null,
+                    "gender": null,
+                    "place": "PL72",
+                    "time": "2020-04-08 18:28:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1247796557581176832",
+                "https://twitter.com/MZ_GOV_PL/status/1247796559636398080",
+                "https://twitter.com/MZ_GOV_PL/status/1247924165535023105",
+                "https://twitter.com/MZ_GOV_PL/status/1248161758822490112",
+                "https://twitter.com/MZ_GOV_PL/status/1251533559858450432"
+            ]
+        }
+    },
+    "2020-04-09": {
+        "deaths": {
+            "deaths": 16,
+            "people": [
+                {
+                    "age": 47,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-09 10:12:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-09 10:12:00"
+                },
+                {
+                    "age": 35,
+                    "gender": "F",
+                    "place": "Bytom",
+                    "comorbid": true,
+                    "time": "2020-04-09 10:12:00"
+                },
+                {
+                    "age": 62,
+                    "gender": "M",
+                    "place": "Łańcut",
+                    "comorbid": true,
+                    "time": "2020-04-09 10:12:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "M",
+                    "place": "Drzewica",
+                    "comorbid": true,
+                    "time": "2020-04-09 10:12:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": "Drzewica",
+                    "comorbid": true,
+                    "time": "2020-04-09 10:12:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": "Grudziądz",
+                    "time": "2020-04-09 17:05:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-09 17:05:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-04-09 17:05:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-09 17:05:00"
+                },
+                {
+                    "age": 67,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-09 17:05:00"
+                },
+                {
+                    "age": 58,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-04-09 17:05:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-09 17:05:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "F",
+                    "place": "Bolesławiec",
+                    "time": "2020-04-09 17:05:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "time": "2020-04-09 17:05:00"
+                },
+                {
+                    "age": 58,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "time": "2020-04-09 17:05:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1248161756490448898",
+                "https://twitter.com/MZ_GOV_PL/status/1248161757677465607",
+                "https://twitter.com/MZ_GOV_PL/status/1248265818691035137",
+                "https://twitter.com/MZ_GOV_PL/status/1248265819810926592"
+                
+            ]
+        }
+    },
+    "2020-04-10": {
+        "deaths": {
+            "deaths": 7,
+            "people": [
+                {
+                    "age": 88,
+                    "gender": "M",
+                    "place": "Lublin",
+                    "time": "2020-04-10 10:02:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-10 10:02:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-10 10:02:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "F",
+                    "place": "Bydgoszcz",
+                    "time": "2020-04-10 10:02:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": "Wrocław",
+                    "time": "2020-04-10 10:02:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "F",
+                    "place": "Bolesławiec",
+                    "time": "2020-04-10 10:02:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "time": "2020-04-10 10:02:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1248521753837658112",
+                "https://twitter.com/MZ_GOV_PL/status/1248627563821289473"
+            ]
+        }
+    },
+    "2020-04-11": {
+        "deaths": {
+            "deaths": 27,
+            "people": [
+                {
+                    "age": 79,
+                    "gender": "M",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 60,
+                    "gender": "M",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "F",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": "Radom",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 66,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "F",
+                    "place": "Starachowice",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": "Starachowice",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "M",
+                    "place": "Łańcut",
+                    "comorbid": true,
+                    "time": "2020-04-11 10:01:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "M",
+                    "place": "Jelenia Góra",
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 94,
+                    "gender": "F",
+                    "place": "Kalisz",
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Puławy",
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                },
+                {
+                    "age": 93,
+                    "gender": "F",
+                    "place": "Częstochowa",
+                    "comorbid": true,
+                    "time": "2020-04-11 17:31:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1248883951793582080",
+                "https://twitter.com/MZ_GOV_PL/status/1248883953760600064",
+                "https://twitter.com/MZ_GOV_PL/status/1248997196843884545",
+                "https://twitter.com/MZ_GOV_PL/status/1248997198123196417"
+            ]
+        }
+    },
+    "2020-04-12": {
+        "deaths": {
+            "deaths": 24,
+            "people": [
+                {
+                    "age": 39,
+                    "gender": "M",
+                    "place": "Zgierz",
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 92,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 55,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 94,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": "Siedlce",
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 64,
+                    "gender": "M",
+                    "place": "Pruszków",
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 32,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 49,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 63,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": "Radom",
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 42,
+                    "gender": "F",
+                    "place": "Kozienice",
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "time": "2020-04-12 17:00:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "time": "2020-04-12 17:00:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1249351681864851456",
+                "https://twitter.com/MZ_GOV_PL/status/1249351683118858243"
+            ]
+        }
+    },
+    "2020-04-13": {
+        "deaths": {
+            "deaths": 13,
+            "people": [
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": "Łańcut",
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 98,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 97,
+                    "gender": "F",
+                    "place": "Jelenia Góra",
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-13 17:07:00"
+                },
+                {
+                    "age": 62,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "time": "2020-04-13 17:07:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1249715820139331584",
+                "https://twitter.com/MZ_GOV_PL/status/1249715821267619841"
+            ]
+        }
+    },
+    "2020-04-14": {
+        "deaths": {
+            "deaths": 18,
+            "people": [
+                {
+                    "age": 69,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 64,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": "Grudziądz",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 60,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 98,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 66,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Grudziądz",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 42,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Radom",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 94,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-04-14 10:03:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": "Rusiec",
+                    "time": "2020-04-14 10:03:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1249971564231168000",
+                "https://twitter.com/MZ_GOV_PL/status/1250084247416852482",
+                "https://twitter.com/MZ_GOV_PL/status/1250084248603811847"
+            ]
+        }
+    },
+    "2020-04-15": {
+        "deaths": {
+            "deaths": 22,
+            "people": [
+                {
+                    "age": 79,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-15 10:01:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-15 10:01:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Grudziądz",
+                    "comorbid": true,
+                    "time": "2020-04-15 10:01:00"
+                },
+                {
+                    "age": 56,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "comorbid": true,
+                    "time": "2020-04-15 10:01:00"
+                },
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": "Zgierz",
+                    "comorbid": true,
+                    "time": "2020-04-15 10:01:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Ozimek",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "F",
+                    "place": "Goczałkowice",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "M",
+                    "place": "Bytom",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 66,
+                    "gender": "M",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "F",
+                    "place": "Grudziądz",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "F",
+                    "place": "Tarnobrzeg",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": "Łosice",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 61,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Radom",
+                    "time": "2020-04-15 17:40:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "time": "2020-04-15 17:40:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1250333396762382345",
+                "https://twitter.com/MZ_GOV_PL/status/1250333398771462144",
+                "https://twitter.com/MZ_GOV_PL/status/1250448814659571713",
+                "https://twitter.com/MZ_GOV_PL/status/1250448815771004932",
+                "https://twitter.com/MZ_GOV_PL/status/1277157419160948737"
+            ]
+        }
+    },
+    "2020-04-16": {
+        "deaths": {
+            "deaths": 28,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 89,
+                    "gender": "F",
+                    "place": "Starachowice",
+                    "comorbid": true,
+                    "time": "2020-04-16 10:01:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": "Wysokie Mazowieckie",
+                    "comorbid": true,
+                    "time": "2020-04-16 10:01:00"
+                },
+                {
+                    "age": 50,
+                    "gender": "F",
+                    "place": "Jarosław",
+                    "comorbid": true,
+                    "time": "2020-04-16 10:01:00"
+                },
+                {
+                    "age": 62,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-16 10:01:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Gdańsk",
+                    "comorbid": true,
+                    "time": "2020-04-16 10:01:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-16 10:01:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "F",
+                    "place": "Wrocław",
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "F",
+                    "place": "Oleśnica",
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Grudziądz",
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "F",
+                    "place": "Katowice",
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 60,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 46,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 61,
+                    "gender": "M",
+                    "place": "Radom",
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 53,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-16 17:34:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-04-16 17:34:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1250695821311594497",
+                "https://twitter.com/MZ_GOV_PL/status/1250695823018668034",
+                "https://twitter.com/MZ_GOV_PL/status/1250809778156290048",
+                "https://twitter.com/MZ_GOV_PL/status/1250809779968237571"
+            ]
+        }
+    },
+    "2020-04-17": {
+        "deaths": {
+            "deaths": 18,
+            "people": [
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-17 10:00:00"
+                },
+                {
+                    "age": 64,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-04-17 10:00:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "M",
+                    "place": "Starachowice",
+                    "time": "2020-04-17 10:00:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-17 10:00:00"
+                },
+                {
+                    "age": 91,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Legnica",
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "F",
+                    "place": "Bolesławiec",
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 98,
+                    "gender": "F",
+                    "place": "Ozimek",
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 92,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 92,
+                    "gender": "F",
+                    "place": "Częstochowa",
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Kozienice",
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-17 17:31:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "M",
+                    "place": "Nowe Miasto nad Pilicą",
+                    "time": "2020-04-17 17:31:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1251058004297908227",
+                "https://twitter.com/MZ_GOV_PL/status/1251171401224138752",
+                "https://twitter.com/MZ_GOV_PL/status/1251171402390142982"
+            ]
+        }
+    },
+    "2020-04-18": {
+        "deaths": {
+            "deaths": 16,
+            "people": [
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": "Zgierz",
+                    "comorbid": true,
+                    "time": "2020-04-18 10:00:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Kalisz",
+                    "comorbid": true,
+                    "time": "2020-04-18 10:00:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "M",
+                    "place": "Bydgoszcz",
+                    "comorbid": true,
+                    "time": "2020-04-18 10:00:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "F",
+                    "place": "Grudziądz",
+                    "comorbid": true,
+                    "time": "2020-04-18 10:00:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": "Drzewica",
+                    "comorbid": true,
+                    "time": "2020-04-18 10:00:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "comorbid": true,
+                    "time": "2020-04-18 10:00:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": "Bytom",
+                    "comorbid": true,
+                    "time": "2020-04-18 10:00:00"
+                },
+                {
+                    "age": 59,
+                    "gender": "M",
+                    "place": "Grudziądz",
+                    "time": "2020-04-18 17:30:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-18 17:30:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-18 17:30:00"
+                },
+                {
+                    "age": 59,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-18 17:30:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-18 17:30:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-18 17:30:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Radom",
+                    "time": "2020-04-18 17:30:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "F",
+                    "place": "Zwoleń",
+                    "time": "2020-04-18 17:30:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-04-18 17:30:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1251420260345024519",
+                "https://twitter.com/MZ_GOV_PL/status/1251420262064689152",
+                "https://twitter.com/MZ_GOV_PL/status/1251533558323216384",
+                "https://twitter.com/MZ_GOV_PL/status/1251533559858450432"
+            ]
+        }
+    },
+    "2020-04-19": {
+        "deaths": {
+            "deaths": 13,
+            "people": [
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "time": "2020-04-19 10:02:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "time": "2020-04-19 10:02:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": "Kalisz",
+                    "time": "2020-04-19 10:02:00"
+                },
+                {
+                    "age": 63,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "comorbid": true,
+                    "time": "2020-04-19 17:31:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-19 17:31:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-19 17:31:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-19 17:31:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-19 17:31:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "M",
+                    "place": "Jarosław",
+                    "comorbid": true,
+                    "time": "2020-04-19 17:31:00"
+                },
+                {
+                    "age": 53,
+                    "gender": "M",
+                    "place": "Koszalin",
+                    "comorbid": true,
+                    "time": "2020-04-19 17:31:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "F",
+                    "place": "Koszalin",
+                    "comorbid": true,
+                    "time": "2020-04-19 17:31:00"
+                },
+                {
+                    "age": 98,
+                    "gender": "M",
+                    "place": "Pruszków",
+                    "comorbid": true,
+                    "time": "2020-04-19 17:31:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "comorbid": true,
+                    "time": "2020-04-19 17:31:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1251783095654768640",
+                "https://twitter.com/MZ_GOV_PL/status/1251896138120278017",
+                "https://twitter.com/MZ_GOV_PL/status/1251896139500138497"
+            ]
+        }
+    },
+    "2020-04-20": {
+        "deaths": {
+            "deaths": 20,
+            "people": [
+                {
+                    "age": 38,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-20 10:01:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-20 10:01:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": "Toruń",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 96,
+                    "gender": "F",
+                    "place": "Kalisz",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Pleszew",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 66,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 60,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 63,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Radom",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": "Radom",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 54,
+                    "gender": "F",
+                    "place": "Nowogrodziec",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 61,
+                    "gender": "M",
+                    "place": "Nowogrodziec",
+                    "time": "2020-04-20 17:45:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Nowogrodziec",
+                    "time": "2020-04-20 17:45:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1252145449672343552",
+                "https://twitter.com/MZ_GOV_PL/status/1252262102749896711",
+                "https://twitter.com/MZ_GOV_PL/status/1252262103978827776"
+            ]
+        }
+    },
+    "2020-04-21": {
+        "deaths": {
+            "deaths": 21,
+            "people": [
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-21 10:00:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "time": "2020-04-21 10:00:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "time": "2020-04-21 10:00:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-21 10:00:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "time": "2020-04-21 10:00:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 64,
+                    "gender": "M",
+                    "place": "Radom",
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 35,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-21 17:30:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-21 17:30:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1252507522071695360",
+                "https://twitter.com/MZ_GOV_PL/status/1252620716245241859",
+                "https://twitter.com/MZ_GOV_PL/status/1252620717402861568"
+            ]
+        }
+    },
+    "2020-04-22": {
+        "deaths": {
+            "deaths": 25,
+            "people": [
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "time": "2020-04-22 10:00:00"
+                },
+                {
+                    "age": 57,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "time": "2020-04-22 10:00:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-22 10:00:00"
+                },
+                {
+                    "age": 63,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 66,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 95,
+                    "gender": "F",
+                    "place": "Gdańsk",
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "F",
+                    "place": "Wałbrzych",
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "F",
+                    "place": "Wrocław",
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": "Zgierz",
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Bełchatów",
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "M",
+                    "place": "Grudziądz",
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 59,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "M",
+                    "place": "Radom",
+                    "time": "2020-04-22 17:30:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "time": "2020-04-22 17:30:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1252869918430658568",
+                "https://twitter.com/MZ_GOV_PL/status/1252983091842502659",
+                "https://twitter.com/MZ_GOV_PL/status/1252983093025259521"
+            ]
+        }
+    },
+    "2020-04-23": {
+        "deaths": {
+            "deaths": 28,
+            "people": [
+                {
+                    "age": 64,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-23 10:01:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-23 10:01:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-23 10:01:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "M",
+                    "place": "Starachowice",
+                    "comorbid": true,
+                    "time": "2020-04-23 10:01:00"
+                },
+                {
+                    "age": 61,
+                    "gender": "F",
+                    "place": "Tomaszów Mazowiecki",
+                    "comorbid": true,
+                    "time": "2020-04-23 10:01:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-23 10:01:00"
+                },
+                {
+                    "age": 94,
+                    "gender": "M",
+                    "place": "Kleszczów",
+                    "comorbid": true,
+                    "time": "2020-04-23 10:01:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-23 10:01:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-23 10:01:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 62,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 91,
+                    "gender": "F",
+                    "place": "Zgierz",
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 55,
+                    "gender": "M",
+                    "place": "Łódź",
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 48,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 35,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 62,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 63,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 64,
+                    "gender": "M",
+                    "place": "Siedlce",
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-23 17:32:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": "Radom",
+                    "time": "2020-04-23 17:32:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1253232589457981442",
+                "https://twitter.com/MZ_GOV_PL/status/1253232590577905664",
+                "https://twitter.com/MZ_GOV_PL/status/1253346081674592263"
+            ]
+        }
+    },
+    "2020-04-24": {
+        "deaths": {
+            "deaths": 40,
+            "people": [
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-24 10:05:00"
+                },
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-24 10:05:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-24 10:05:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-24 10:05:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-24 10:05:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-24 10:05:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "F",
+                    "place": "Grudziądz",
+                    "comorbid": true,
+                    "time": "2020-04-24 10:05:00"
+                },
+                {
+                    "age": 55,
+                    "gender": "M",
+                    "place": "Grudziądz",
+                    "comorbid": true,
+                    "time": "2020-04-24 10:05:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "M",
+                    "place": "Toruń",
+                    "comorbid": true,
+                    "time": "2020-04-24 10:05:00"
+                },
+                {
+                    "age": 46,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 93,
+                    "gender": "F",
+                    "place": "Jelenia Góra",
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 57,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 18,
+                    "gender": "M",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "F",
+                    "place": "Głuchołazy",
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "M",
+                    "place": "Bydgoszcz",
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 66,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 64,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 62,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 96,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 53,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Kozinice",
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 62,
+                    "gender": "M",
+                    "place": "Łomża",
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Koszalin",
+                    "time": "2020-04-24 17:47:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "F",
+                    "place": "Zgierz",
+                    "time": "2020-04-24 17:47:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1253596015506178048",
+                "https://twitter.com/MZ_GOV_PL/status/1253712117598953473",
+                "https://twitter.com/MZ_GOV_PL/status/1253712118802788357"
+            ]
+        }
+    },
+    "2020-04-25": {
+        "deaths": {
+            "deaths": 30,
+            "people": [
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-25 10:01:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-25 10:01:00"
+                },
+                {
+                    "age": 53,
+                    "gender": "F",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-25 10:01:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-25 10:01:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "comorbid": true,
+                    "time": "2020-04-25 10:01:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 57,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "M",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "M",
+                    "place": "Zgierz",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Szczecin",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": "Wrocław",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 95,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 59,
+                    "gender": "M",
+                    "place": "Radom",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "F",
+                    "place": "Starachowice",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": "Grudziądz",
+                    "time": "2020-04-25 17:31:00"
+                },
+                {
+                    "age": 56,
+                    "gender": "M",
+                    "place": "Grudziądz",
+                    "time": "2020-04-25 17:31:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1253957328237400066",
+                "https://twitter.com/MZ_GOV_PL/status/1254070451246112769",
+                "https://twitter.com/MZ_GOV_PL/status/1254070452395311104"
+            ]
+        }
+    },
+    "2020-04-26": {
+        "deaths": {
+            "deaths": 12,
+            "people": [
+                {
+                    "age": 70,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-26 10:15:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-26 10:15:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-26 17:35:00"
+                },
+                {
+                    "age": 59,
+                    "gender": "F",
+                    "place": "Puławy",
+                    "time": "2020-04-26 17:35:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "M",
+                    "place": "Puławy",
+                    "time": "2020-04-26 17:35:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-26 17:35:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Bolesławiec",
+                    "time": "2020-04-26 17:35:00"
+                },
+                {
+                    "age": 92,
+                    "gender": "M",
+                    "place": "Koszalin",
+                    "time": "2020-04-26 17:35:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Szczecin",
+                    "time": "2020-04-26 17:35:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-26 17:35:00"
+                },
+                {
+                    "age": 79,
+                    "gender": "M",
+                    "place": "Radom",
+                    "time": "2020-04-26 17:35:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Radom",
+                    "time": "2020-04-26 17:35:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1254323168031977472",
+                "https://twitter.com/MZ_GOV_PL/status/1254433930998091783",
+                "https://twitter.com/MZ_GOV_PL/status/1254433932650610688"
+            ]
+        }
+    },
+    "2020-04-27": {
+        "deaths": {
+            "deaths": 27,
+            "people": [
+                {
+                    "age": 85,
+                    "gender": "F",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-27 10:01:00"
+                },
+                {
+                    "age": 46,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-27 10:01:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "F",
+                    "place": "Gliwice",
+                    "comorbid": true,
+                    "time": "2020-04-27 10:01:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": "Łańcut",
+                    "comorbid": true,
+                    "time": "2020-04-27 10:01:00"
+                },
+                {
+                    "age": 92,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Wolica",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 61,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": "Kraków",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 95,
+                    "gender": "F",
+                    "place": "Gdańsk",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": "Łańcut",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "M",
+                    "place": "Biłgoraj",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "M",
+                    "place": "Bystra",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 56,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 93,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Siedlce",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "F",
+                    "place": "Radom",
+                    "time": "2020-04-27 17:30:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Radom",
+                    "time": "2020-04-27 17:30:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1254682011933061126",
+                "https://twitter.com/MZ_GOV_PL/status/1254795120613961728",
+                "https://twitter.com/MZ_GOV_PL/status/1254795121738108928"
+            ]
+        }
+    },
+    "2020-04-28": {
+        "deaths": {
+            "deaths": 34,
+            "people": [
+                {
+                    "age": 98,
+                    "gender": "F",
+                    "place": "Starachowice",
+                    "time": "2020-04-28 10:01:00"
+                },
+                {
+                    "age": 57,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "time": "2020-04-28 10:01:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "F",
+                    "place": "Gdańsk",
+                    "time": "2020-04-28 10:01:00"
+                },
+                {
+                    "age": 92,
+                    "gender": "M",
+                    "place": "Gdańsk",
+                    "time": "2020-04-28 10:01:00"
+                },
+                {
+                    "age": 67,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-28 10:01:00"
+                },
+                {
+                    "age": 42,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-28 10:01:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "time": "2020-04-28 10:01:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "F",
+                    "place": "Łańcut",
+                    "time": "2020-04-28 10:01:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "M",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 94,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Bytom",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 96,
+                    "gender": "F",
+                    "place": "Zgierz",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": "Radomsko",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "F",
+                    "place": "Gdańsk",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": "Grudziądz",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Kozienice",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 53,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 92,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 91,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Warszawa",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "F",
+                    "place": "Radom",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": "Wrocław",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 46,
+                    "gender": "M",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "F",
+                    "place": "Oborniki Śląskie",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 95,
+                    "gender": "F",
+                    "place": "Wolica",
+                    "time": "2020-04-28 17:30:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "time": "2020-04-28 17:30:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1255044385508556801",
+                "https://twitter.com/MZ_GOV_PL/status/1255157474111430656",
+                "https://twitter.com/MZ_GOV_PL/status/1255157475520593922"
+            ]
+        }
+    },
+    "2020-04-29": {
+        "deaths": {
+            "deaths": 28,
+            "people": [
+                {
+                    "age": 62,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-29 10:00:00"
+                },
+                {
+                    "age": 93,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-29 10:00:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-29 10:00:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "F",
+                    "place": "Zgierz",
+                    "comorbid": true,
+                    "time": "2020-04-29 10:00:00"
+                },
+                {
+                    "age": 96,
+                    "gender": "M",
+                    "place": "Zgierz",
+                    "comorbid": true,
+                    "time": "2020-04-29 10:00:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "comorbid": true,
+                    "time": "2020-04-29 10:00:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-29 10:00:00"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-29 10:00:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "F",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-29 10:00:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Łańcut",
+                    "comorbid": true,
+                    "time": "2020-04-29 10:00:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": "Ruda Śląska",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 61,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 66,
+                    "gender": "M",
+                    "place": "Kędzierzyn-Koźle",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "F",
+                    "place": "Grudziądz",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 88,
+                    "gender": "F",
+                    "place": "Oborniki Śląskie",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Wałbrzych",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": "Wrocław",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 31,
+                    "gender": "F",
+                    "place": "Szczecin",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 84,
+                    "gender": "F",
+                    "place": "Gdańsk",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Radom",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Zgierz",
+                    "time": "2020-04-29 17:33:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": "Łańcut",
+                    "time": "2020-04-29 17:33:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1255406559896707072",
+                "https://twitter.com/MZ_GOV_PL/status/1255406561083764736",
+                "https://twitter.com/MZ_GOV_PL/status/1255520561553387521",
+                "https://twitter.com/MZ_GOV_PL/status/1255520563688345601"
+            ]
+        }
+    },
+    "2020-04-30": {
+        "deaths": {
+            "deaths": 20,
+            "people": [
+                {
+                    "age": 72,
+                    "gender": "F",
+                    "place": null,
+                    "comorbid": true,
+                    "time": "2020-04-30 10:00:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-04-30 10:00:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "comorbid": true,
+                    "time": "2020-04-30 10:00:00"
+                },
+                {
+                    "age": 86,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-04-30 10:00:00"
+                },
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": "Tychy",
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": "Bytom",
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": "Gdańsk",
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "F",
+                    "place": "Wrocław",
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "F",
+                    "place": "Płock",
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 91,
+                    "gender": "F",
+                    "place": "Radom",
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 73,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 93,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 78,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 64,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 93,
+                    "gender": "M",
+                    "place": "Wolica",
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 49,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 65,
+                    "gender": "M",
+                    "place": "Zgierz",
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-04-30 17:34:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Radomsko",
+                    "time": "2020-04-30 17:34:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1255769047431548928",
+                "https://twitter.com/MZ_GOV_PL/status/1255883291233828869"
+            ]
+        }
+    }
+}
