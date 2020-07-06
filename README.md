@@ -92,10 +92,13 @@ Use function `read()` from `offline` submodule to get them
 ```python
 import covid19poland as PL
 
-data = PL.offline.read()
+x = PL.offline.read()
 ```
 
-Here the result is corresponds with the first component of the result of `twitter()` function.
+Here the result is `pandas.DataFrame` with rows being each deceased person.
+
+**TODO**
+* Transform place of death to NUTS codes
 
 ## Contribution
 
