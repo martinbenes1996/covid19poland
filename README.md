@@ -97,6 +97,9 @@ x = PL.offline.read()
 
 Here the result is `pandas.DataFrame` with rows being each deceased person.
 
+The NUTS-2 and NUTS-3 classification is done using offline clone of file from
+https://ec.europa.eu/eurostat/web/nuts/local-administrative-units.
+
 ## Contribution
 
 Developed by [Martin Benes](https://github.com/martinbenes1996).
