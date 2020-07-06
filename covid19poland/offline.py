@@ -1,7 +1,7 @@
 
 from datetime import datetime
 import json
-from pathlib import Path
+import pkg_resources
 
 import pandas as pd
 
@@ -12,7 +12,8 @@ def read():
     
     data = []
     for f in ["2020-03","2020-04","2020-05","2020-06"]:
-        with open(Path("data") / f"{f}.json", encoding = "UTF-8") as fd:
+        filename = pkg_resources.resource_filename(__name__, f'data/{f}.json')
+        with open(filename, encoding = "UTF-8") as fd:
             raw = json.load(fd)
             for k,v in raw.items():
                 dt = datetime.strptime(k, "%Y-%m-%d")
