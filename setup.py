@@ -19,12 +19,15 @@ setuptools.setup(
   long_description = long_description,
   long_description_content_type="text/markdown",
   packages=setuptools.find_packages(),
-  license='MPL',
+  license='MIT',
   url = 'https://github.com/martinbenes1996/covid19poland',
   download_url = 'https://github.com/martinbenes1996/covid19poland/archive/0.0.6.tar.gz',
   keywords = ['2019-nCov', 'poland', 'coronavirus', 'covid-19', 'covid-data', 'covid19-data'],
   install_requires=reqs,
   package_dir={'': '.'},
+  package_data={'': [
+    'data/months/*.json'
+  ]},
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Science/Research',
