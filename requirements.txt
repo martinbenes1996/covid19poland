@@ -1,5 +1,6 @@
 beautifulsoup4
 GetOldTweets3
+openpyxl
 pandas
 requests
 waybackmachine

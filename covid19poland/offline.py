@@ -1,13 +1,36 @@
 
 from datetime import datetime
+from io import BytesIO
 import json
 import pkg_resources
 
 import pandas as pd
+import requests
+
+class PlaceParser:
+    _url = 'https://ec.europa.eu/eurostat/documents/345175/501971/EU-28-LAU-2019-NUTS-2016.xlsx'
+    _filename = pkg_resources.resource_filename(__name__, "data/NUTS_PL.csv")
+    _loaded = False
+    _x = None
+    
+    @classmethod
+    def _load(cls):
+        if not cls._loaded:
+            cls._x = pd.read_csv(cls._filename)
+            cls._loaded = True
+    @classmethod
+    def parse(cls, city):
+        cls._load()
+        line = cls._x[cls._x["LAU NAME NATIONAL"] == city]
+        nuts3 = line.reset_index(drop = True).at[0, 'NUTS 3 CODE']
+        return nuts3[:-1], nuts3
 
 def _parse_place(place):
-    return place
-
+    try:
+        return PlaceParser.parse(place)
+    except:
+        return None,None
+    
 def read():
     
     data = []
@@ -23,7 +46,7 @@ def read():
                     for death in deaths["people"]:
                         # place
                         place = death.get("place", None)
-                        place = _parse_place(place)
+                        nuts2, nuts3 = _parse_place(place)
                         # reported
                         try: reported = datetime.strptime(death["time"], "%Y-%m-%d %H:%M:%S")
                         except: reported = None
@@ -36,11 +59,11 @@ def read():
                         comorbid = death.get("comorbid", None)
                         serious = death.get("serious", None)
                     
-                        data.append([dt, age, gender, place, comorbid, serious, reported])
-    return pd.DataFrame(data, columns = ["date","age","gender","place","comorbid","serious","reported"])
+                        data.append([dt, age, gender, place, nuts2, nuts3, comorbid, serious, reported])
+    return pd.DataFrame(data, columns = ["date","age","gender","place","NUTS2","NUTS3","comorbid","serious","reported"])
 
 if __name__ == "__main__":
     x = read()
     print(x)
-
+    
 __all__ = ["read"]

@@ -97,9 +97,6 @@ x = PL.offline.read()
 
 Here the result is `pandas.DataFrame` with rows being each deceased person.
 
-**TODO**
-* Transform place of death to NUTS codes
-
 ## Contribution
 
 Developed by [Martin Benes](https://github.com/martinbenes1996).
