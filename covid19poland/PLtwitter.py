@@ -410,7 +410,7 @@ class PolishTwitter:
         
         return data,filtered,checklist
     
-__all__ = ["PolishTwitter","read_json"]
+__all__ = ["PolishTwitter"]
         
 if __name__ == "__main__":
     logging.basicConfig(level = logging.INFO)

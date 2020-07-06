@@ -723,7 +723,7 @@
     },
     "2020-04-08": {
         "deaths": {
-            "deaths": 29,
+            "deaths": 27,
             "people": [
                 {
                     "age": 84,
@@ -736,13 +736,6 @@
                     "age": 59,
                     "gender": "F",
                     "place": "Tomaszów Lubelski",
-                    "comorbid": true,
-                    "time": "2020-04-08 10:00:00"
-                },
-                {
-                    "age": 87,
-                    "gender": "F",
-                    "place": "Kędzierzyn-Koźle",
                     "comorbid": true,
                     "time": "2020-04-08 10:00:00"
                 },
@@ -903,7 +896,8 @@
                 "https://twitter.com/MZ_GOV_PL/status/1247796557581176832",
                 "https://twitter.com/MZ_GOV_PL/status/1247796559636398080",
                 "https://twitter.com/MZ_GOV_PL/status/1247924165535023105",
-                "https://twitter.com/MZ_GOV_PL/status/1248161758822490112"
+                "https://twitter.com/MZ_GOV_PL/status/1248161758822490112",
+                "https://twitter.com/MZ_GOV_PL/status/1251533559858450432"
             ]
         }
     },
