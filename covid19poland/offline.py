@@ -3,6 +3,7 @@ from datetime import datetime
 from io import BytesIO
 import json
 import pkg_resources
+import tempfile
 
 import pandas as pd
 import requests
@@ -16,7 +17,17 @@ class PlaceParser:
     @classmethod
     def _load(cls):
         if not cls._loaded:
-            cls._x = pd.read_csv(cls._filename)
+            try:
+                cls._x = pd.read_csv(cls._filename)
+            except KeyboardInterrupt:
+                raise
+            except:
+                res = requests.get(cls._url)
+                with tempfile.TemporaryFile() as fd:
+                    fd.write(res.content)
+                    fd.seek(0)
+                    cls._x = pd.read_excel(fd, sheet_name="PL")
+                cls._x.to_csv(cls._filename, index = False)
             cls._loaded = True
     @classmethod
     def parse(cls, city):

@@ -58,7 +58,7 @@
     },
     "2020-05-02": {
         "deaths": {
-            "deaths": 12,
+            "deaths": 13,
             "people": [
                 {
                     "age": 89,
@@ -92,6 +92,12 @@
                 },
                 {
                     "age": 74,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-05-02 13:03:00"
+                },
+                {
+                    "age": 69,
                     "gender": "M",
                     "place": null,
                     "time": "2020-05-02 13:03:00"
@@ -2125,49 +2131,42 @@
                     "age": 82,
                     "gender": "F",
                     "place": "Gdańsk",
-                    "comorbid": true,
                     "time": "2020-05-19 17:30:00"
                 },
                 {
                     "age": 68,
                     "gender": "M",
                     "place": "Kędzierzyn-Koźle",
-                    "comorbid": true,
                     "time": "2020-05-19 17:30:00"
                 },
                 {
                     "age": 59,
                     "gender": "F",
                     "place": "Siedlce",
-                    "comorbid": true,
                     "time": "2020-05-19 17:30:00"
                 },
                 {
                     "age": 88,
                     "gender": "F",
                     "place": null,
-                    "comorbid": true,
                     "time": "2020-05-19 17:30:00"
                 },
                 {
                     "age": 83,
                     "gender": "M",
                     "place": "Warszawa",
-                    "comorbid": true,
                     "time": "2020-05-19 17:30:00"
                 },
                 {
                     "age": 83,
                     "gender": "F",
                     "place": null,
-                    "comorbid": true,
                     "time": "2020-05-19 17:30:00"
                 },
                 {
                     "age": 71,
                     "gender": "M",
                     "place": "Bolesławiec",
-                    "comorbid": true,
                     "time": "2020-05-19 17:30:00"
                 }
             ],
