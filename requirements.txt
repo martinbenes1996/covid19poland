@@ -3,4 +3,5 @@ GetOldTweets3
 openpyxl
 pandas
 requests
+xlrd
 waybackmachine
