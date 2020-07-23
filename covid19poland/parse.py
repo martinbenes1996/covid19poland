@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 from . import PLwiki
+from . import PLstat
 from . import PLtwitter
 
 
@@ -33,4 +34,15 @@ def twitter(start = None, end = None, keys = ['deaths']):
     results = PLtwitter.PolishTwitter.get(start = start, end = end, keys = keys)
     return results
 
-__all__ = ["wiki", "twitter"]
+def deaths(offline = True):
+    """Returns deaths by sex and month in Poland.
+    
+    Args:
+        offline (bool, optional): Use saved csv, defaultly true.
+    Returns:
+        (pandas.DataFrame): death counts
+    """
+    result = PLstat.deaths(offline = offline)
+    return result
+
+__all__ = ["wiki", "twitter", "deaths"]

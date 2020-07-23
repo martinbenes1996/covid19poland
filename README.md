@@ -100,6 +100,26 @@ Here the result is `pandas.DataFrame` with rows being each deceased person.
 The NUTS-2 and NUTS-3 classification is done using offline clone of file from
 https://ec.europa.eu/eurostat/web/nuts/local-administrative-units.
 
+### Deaths
+
+The `covid19poland` can also fetch death data from GUS (*Główny Urząd Statystyczny*
+or Central Statistical Office of Poland). The data is taken from http://demografia.stat.gov.pl/bazademografia/Tables.aspx
+and it is deaths per month and gender in years 2010 - 2018.
+
+
+```python
+import covid19poland as PL
+
+x = PL.deaths()
+```
+
+Local copy of the data in the package is used. To live-parse the data from the source, type
+
+```python
+x = PL.deaths(offline = False)
+```
+
+
 ## Contribution
 
 Developed by [Martin Benes](https://github.com/martinbenes1996).
