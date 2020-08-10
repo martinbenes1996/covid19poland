@@ -7,6 +7,8 @@ from zipfile import ZipFile
 import pandas as pd
 import requests
 
+from . import offline as offline_module
+
 def _parse_death_table(df, r = 7):
     df = df.iloc[r,2:].reset_index(drop = True)
     df.columns = ["Total"] + [str(i+1) for i in range(12)]
@@ -51,11 +53,36 @@ def deaths(offline = True):
             return pd.read_csv(pkg_resources.resource_filename(__name__, "data/deaths.csv"))
         except: pass
     return _parse_deaths()
-                
-    
-if __name__ == "__main__":
-    x = deaths()
-    print(x)
 
-__all__ = ["deaths"]
+def covid_death_cases(offline = True):
+    if offline is False:
+        raise Exception("online twitter parsing is not reliable, use offline data (manually checked)")
+    return offline_module.covid_death_cases()
+
+def covid_deaths(level = 3, offline = True):
+    x = covid_death_cases(offline = offline)
+    
+    # rename attributes
+    if level == 0: x['region'] = "PL"
+    elif level == 2: x['region'] = x['NUTS2']
+    elif level == 3: x['region'] = x['NUTS3']
+    else: raise Exception("level must be one of 0,2,3")
+    x['week'] = x.date.apply( lambda dt: dt.isocalendar()[1] )
+    
+    # age group
+    def to_age_group(a):
+        try:
+            a = int(a)
+            return str(a).zfill(2) + "_" + str(a + 4).zfill(2)
+        except: return None
+    x['age_group'] = x['age'].apply( lambda a: to_age_group((a//5) * 5) )
+    
+    # group
+    xx = x\
+        .groupby(['week','age_group','sex','region'])\
+        .size()\
+        .reset_index(name='deaths')
+    return xx
+
+__all__ = ["deaths","covid_death_cases","covid_deaths"]
 

@@ -42,7 +42,7 @@ def _parse_place(place):
     except:
         return None,None
     
-def read():
+def covid_death_cases():
     
     data = []
     for f in ["2020-03","2020-04","2020-05","2020-06"]:
@@ -71,10 +71,6 @@ def read():
                         serious = death.get("serious", None)
                     
                         data.append([dt, age, gender, place, nuts2, nuts3, comorbid, serious, reported])
-    return pd.DataFrame(data, columns = ["date","age","gender","place","NUTS2","NUTS3","comorbid","serious","reported"])
-
-if __name__ == "__main__":
-    x = read()
-    print(x)
+    return pd.DataFrame(data, columns = ["date","age","sex","place","NUTS2","NUTS3","comorbid","serious","reported"])
     
-__all__ = ["read"]
+__all__ = ["covid_death_cases"]

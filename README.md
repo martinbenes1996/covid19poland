@@ -14,9 +14,10 @@ pip install covid19poland
 ```
 
 Several data sources are in current version
+* Covid-19 deaths in Poland (offline) - manually checked
+* Parser of Twitter of Polish Ministery of Health
 * Covid-19 deaths from Wikipedia
-* Online parser of Twitter of Polish Ministry of Health
-* Offline manually checked data from online parser
+
 
 Package is regularly updated. Update with
 
@@ -24,38 +25,38 @@ Package is regularly updated. Update with
 pip install --upgrade covid19poland
 ```
 
-### Wikipedia
+### Covid-19 deaths
 
-The table comes from version from beginning of June on Wikipedia page
-https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Poland
-
-```python
-import covid19poland as PL
-
-x = PL.wiki()
-```
-
-Once better tabular source is found, it will replace the current one.
-
-**Parametrization**
-
-Level is a setting for granularity of data
-
-1. Country level (default)
-2. State level
+Deaths can be acquired as dataframe of separate death cases with attributes
 
 ```python
 import covid19poland as PL
 
-# country level
-x1 = PL.fetch(level = 1)
-# state level
-x2 = PL.fetch(level = 2)
+x = PL.covid_death_cases()
 ```
 
-### Twitter data
+or as death counts aggregated over 5y age groups, sex and region.
 
-The data from twitter can be downloaded and parsed with
+```python
+x = PL.covid_deaths()
+```
+
+Granularity of the region is parametrizable as 0 (whole Poland), 2 (NUTS-2) or 3 (NUTS-3, default).
+
+```python
+x = PL.covid_deaths(level = 2) # setting region to be NUTS-2
+```
+
+The NUTS-2 and NUTS-3 classification is done using offline clone of file from
+https://ec.europa.eu/eurostat/web/nuts/local-administrative-units.
+
+**Online reading**
+
+It is recommended to use the offline data, since they have been acquired
+this way and manually checked. The data is offline acquirable with the package `covid19poland`.
+
+If online data from Twitter is wanted, it can be downloaded and parsed as well.
+
 
 ```python
 data,filtered,checklist = PL.twitter(start = "2020-06-01", end = "2020-07-01")
@@ -84,21 +85,6 @@ with open("data/6_out.json", "w") as fd:
 print(checklist)
 ```
 
-### Offline data
-
-The twitter data has already been manually checked and it is part of the package.
-Use function `read()` from `offline` submodule to get them
-
-```python
-import covid19poland as PL
-
-x = PL.offline.read()
-```
-
-Here the result is `pandas.DataFrame` with rows being each deceased person.
-
-The NUTS-2 and NUTS-3 classification is done using offline clone of file from
-https://ec.europa.eu/eurostat/web/nuts/local-administrative-units.
 
 ### Deaths
 
@@ -108,8 +94,6 @@ and it is deaths per month and gender in years 2010 - 2018.
 
 
 ```python
-import covid19poland as PL
-
 x = PL.deaths()
 ```
 
@@ -119,6 +103,30 @@ Local copy of the data in the package is used. To live-parse the data from the s
 x = PL.deaths(offline = False)
 ```
 
+### Wikipedia
+
+*Obsolete*
+
+The table comes from version from beginning of June on Wikipedia page
+https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Poland
+
+```python
+x = PL.wiki()
+```
+
+Once better tabular source is found, it will replace the current one.
+
+Level is a setting for granularity of data
+
+1. Country level (default)
+2. State level
+
+```python
+# country level
+x1 = PL.fetch(level = 1)
+# state level
+x2 = PL.fetch(level = 2)
+```
 
 ## Contribution
 

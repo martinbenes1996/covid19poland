@@ -136,77 +136,66 @@
                     "age": 71,
                     "gender": "M",
                     "place": "Kędzierzyn-Koźle",
-                    "comorbid": true,
                     "time": "2020-06-02 17:33:00"
                 },
                 {
                     "age": 70,
                     "gender": "M",
                     "place": null,
-                    "comorbid": true,
                     "time": "2020-06-02 17:33:00"
                 },
                 {
                     "age": 84,
                     "gender": "F",
                     "place": "Tychy",
-                    "comorbid": true,
                     "time": "2020-06-02 17:33:00"
                 },
                 {
                     "age": 75,
                     "gender": "F",
                     "place": "Racibórz",
-                    "comorbid": true,
                     "time": "2020-06-02 17:33:00"
                 },
                 {
                     "age": 56,
                     "gender": "M",
                     "place": "Zawiercie",
-                    "comorbid": true,
                     "time": "2020-06-02 17:33:00"
                 },
                 {
                     "age": 48,
                     "gender": "M",
                     "place": null,
-                    "comorbid": true,
                     "time": "2020-06-02 17:33:00"
                 },
                 {
                     "age": 89,
                     "gender": "M",
                     "place": null,
-                    "comorbid": true,
                     "time": "2020-06-02 17:33:00"
                 },
                 {
                     "age": 71,
                     "gender": "M",
                     "place": null,
-                    "comorbid": true,
                     "time": "2020-06-02 17:33:00"
                 },
                 {
                     "age": 63,
                     "gender": "F",
                     "place": null,
-                    "comorbid": true,
                     "time": "2020-06-02 17:33:00"
                 },
                 {
                     "age": 55,
                     "gender": "F",
                     "place": "Warszawa",
-                    "comorbid": true,
                     "time": "2020-06-02 17:33:00"
                 },
                 {
                     "age": 84,
                     "gender": "F",
                     "place": "Radom",
-                    "comorbid": true,
                     "time": "2020-06-02 17:33:00"
                 }
             ],
@@ -716,30 +705,35 @@
                     "age": 76,
                     "gender": "M",
                     "place": "Warszawa",
+                    "comorbid": true,
                     "time": "2020-06-08 17:31:00"
                 },
                 {
                     "age": 82,
                     "gender": "F",
                     "place": null,
+                    "comorbid": true,
                     "time": "2020-06-08 17:31:00"
                 },
                 {
                     "age": 80,
                     "gender": "M",
                     "place": null,
+                    "comorbid": true,
                     "time": "2020-06-08 17:31:00"
                 },
                 {
                     "age": 62,
                     "gender": "M",
                     "place": "Wrocław",
+                    "comorbid": true,
                     "time": "2020-06-08 17:31:00"
                 },
                 {
                     "age": 71,
                     "gender": "M",
                     "place": "Gdańsk",
+                    "comorbid": true,
                     "time": "2020-06-08 17:31:00"
                 }
             ],
@@ -1955,67 +1949,80 @@
                 {
                     "age": 66,
                     "gender": "M",
-                    "place": "Kępno"
+                    "place": "Kępno",
+                    "time": "2020-06-20 10:33:00"
                 },
                 {
                     "age": 90,
                     "gender": "F",
-                    "place": "Wolica"
+                    "place": "Wolica",
+                    "time": "2020-06-20 10:33:00"
                 },
                 {
                     "age": 70,
                     "gender": "M",
-                    "place": "Bolesławiec"
+                    "place": "Bolesławiec",
+                    "time": "2020-06-20 10:33:00"
                 },
                 {
                     "age": 78,
                     "gender": "F",
-                    "place": null
+                    "place": null,
+                    "time": "2020-06-20 10:33:00"
                 },
                 {
                     "age": 80,
                     "gender": "M",
-                    "place": "Warszawa"
+                    "place": "Warszawa",
+                    "time": "2020-06-20 10:33:00"
                 },
                 {
                     "age": 82,
                     "gender": "F",
-                    "place": null
+                    "place": null,
+                    "time": "2020-06-20 10:33:00"
                 },
                 {
                     "age": 83,
                     "gender": "F",
-                    "place": "Radom"
+                    "place": "Radom",
+                    "time": "2020-06-20 10:33:00"
                 },
                 {
                     "age": 89,
                     "gender": "F",
-                    "place": null
+                    "place": null,
+                    "time": "2020-06-20 10:33:00"
                 },
                 {
                     "age": 62,
                     "gender": "M",
-                    "place": "Starachowice"
+                    "place": "Starachowice",
+                    "time": "2020-06-20 10:33:00"
                 },
                 {
                     "age": 75,
                     "gender": "M",
-                    "place": null
+                    "place": null,
+                    "time": "2020-06-20 10:33:00"
                 },
                 {
                     "age": 74,
                     "gender": "M",
-                    "place": "Kraków"
+                    "place": "Kraków",
+                    "time": "2020-06-20 10:33:00"
                 },
                 {
                     "age": 85,
                     "gender": "F",
-                    "place": "Łańcut"
+                    "place": "Łańcut",
+                    "time": "2020-06-20 10:33:00"
                 }
             ],
             "url": [
-                "https://twitter.com/MZ_GOV_PL/status/1274258993658187776",
-                "https://twitter.com/MZ_GOV_PL/status/1274258992550862848"
+                "https://twitter.com/MZ_GOV_PL/status/1274258992550862848",
+                "https://twitter.com/MZ_GOV_PL/status/1274258993658187776"
+                
             ]
         }
     },
@@ -2182,7 +2189,8 @@
                 {
                     "age": 90,
                     "gender": "M",
-                    "place": "Starachowice"
+                    "place": "Starachowice",
+                    "time": "2020-06-23 10:30:00"
                 },
                 {
                     "age": 91,
@@ -2676,24 +2684,28 @@
                     "age": 80,
                     "gender": "M",
                     "place": "Tychy",
+                    "comorbid": true,
                     "time": "2020-06-28 10:30:00"
                 },
                 {
                     "age": 45,
                     "gender": "M",
                     "place": "Orzesze",
+                    "comorbid": true,
                     "time": "2020-06-28 10:30:00"
                 },
                 {
                     "age": 72,
                     "gender": "F",
                     "place": "Poznań",
+                    "comorbid": true,
                     "time": "2020-06-28 10:30:00"
                 },
                 {
                     "age": 83,
                     "gender": "F",
                     "place": "Starachowice",
+                    "comorbid": true,
                     "time": "2020-06-28 10:30:00"
                 }
             ],

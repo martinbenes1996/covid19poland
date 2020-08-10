@@ -35,7 +35,7 @@ def twitter(start = None, end = None, keys = ['deaths']):
     return results
 
 def deaths(offline = True):
-    """Returns deaths by sex and month in Poland.
+    """Returns deaths counts by sex and year in Poland.
     
     Args:
         offline (bool, optional): Use saved csv, defaultly true.
@@ -45,4 +45,26 @@ def deaths(offline = True):
     result = PLstat.deaths(offline = offline)
     return result
 
-__all__ = ["wiki", "twitter", "deaths"]
+def covid_death_cases(offline = True):
+    """Returns covid-19 deaths cases by sex and date in Poland.
+    
+    Args:
+        offline (bool, optional): Use saved csv, defaultly true.
+    Returns:
+        (pandas.DataFrame): death cases
+    """
+    result = PLstat.covid_death_cases(offline = offline)
+    return result
+
+def covid_deaths(level = 3, offline = True):
+    """Returns deaths counts by age group, sex and week in Poland.
+    
+    Args:
+        offline (bool, optional): Use saved csv, defaultly true.
+    Returns:
+        (pandas.DataFrame): death counts
+    """
+    result = PLstat.covid_deaths(level = level, offline = offline)
+    return result
+
+__all__ = ["wiki", "twitter", "deaths", "covid_death_cases", "covid_deaths"]

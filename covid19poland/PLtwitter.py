@@ -409,7 +409,7 @@ class PolishTwitter:
                     del data[dt]['deaths']['ok']
         
         return data,filtered,checklist
-    
+
 __all__ = ["PolishTwitter"]
         
 if __name__ == "__main__":
