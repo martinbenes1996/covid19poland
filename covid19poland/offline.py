@@ -5,6 +5,7 @@ import json
 import pkg_resources
 import tempfile
 
+import covid19dh
 import pandas as pd
 import requests
 
@@ -72,5 +73,20 @@ def covid_death_cases():
                     
                         data.append([dt, age, gender, place, nuts2, nuts3, comorbid, serious, reported])
     return pd.DataFrame(data, columns = ["date","age","sex","place","NUTS2","NUTS3","comorbid","serious","reported"])
-    
-__all__ = ["covid_death_cases"]
+
+def mismatching_days():
+    # get data
+    cases = covid_death_cases()
+    x = cases.groupby(["date"]).size().reset_index(name='case_agg')    
+    # reference
+    ref = covid19dh.covid19("Poland", verbose = False)[["date","deaths"]]
+    ref['deaths'] = ref.deaths.diff()
+        
+    # merge
+    x = x.merge(ref, on = "date")
+        
+    # parse not matching
+    x = x[x.case_agg != x.deaths]
+    return x
+
+__all__ = ["covid_death_cases","mismatching_days"]

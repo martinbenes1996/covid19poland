@@ -7,7 +7,7 @@ import pandas as pd
 from . import PLwiki
 from . import PLstat
 from . import PLtwitter
-
+from . import offline
 
 def wiki(level = 1, dt = None):
     x = PLwiki.get_wiki(level = level, dt = dt)
@@ -67,4 +67,11 @@ def covid_deaths(level = 3, offline = True):
     result = PLstat.covid_deaths(level = level, offline = offline)
     return result
 
-__all__ = ["wiki", "twitter", "deaths", "covid_death_cases", "covid_deaths"]
+def mismatching_days():
+    """Returns dates not matching the `covid19dh` data."""
+    return offline.mismatching_days()
+
+__all__ = [
+    "wiki", "twitter", "deaths", "covid_death_cases", "covid_deaths",
+    "mismatching_days"
+]

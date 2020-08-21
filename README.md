@@ -85,6 +85,13 @@ with open("data/6_out.json", "w") as fd:
 print(checklist)
 ```
 
+Offline data can be validated towards deaths from `covid19dh` package,
+the mismatching days are acquired by
+
+```python
+x = PL.mismatching_days()
+```
+
 
 ### Deaths
 
@@ -133,6 +140,5 @@ x2 = PL.fetch(level = 2)
 Developed by [Martin Benes](https://github.com/martinbenes1996).
 
 Join on [GitHub](https://github.com/martinbenes1996/covid19poland).
-
 
 
