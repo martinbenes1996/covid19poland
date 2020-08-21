@@ -1,0 +1,83 @@
+{
+    "corrections": [
+        "https://twitter.com/MZ_GOV_PL/status/1251533559858450432",
+        "https://twitter.com/MZ_GOV_PL/status/1254433932650610688",
+        "https://twitter.com/MZ_GOV_PL/status/1257582286679216129",
+        "https://twitter.com/MZ_GOV_PL/status/1257943323106586626",
+        "https://twitter.com/MZ_GOV_PL/status/1258057982933426176",
+        "https://twitter.com/MZ_GOV_PL/status/1270378163860918274",
+        "https://twitter.com/MZ_GOV_PL/status/1279331899723395072",
+        "https://twitter.com/MZ_GOV_PL/status/1285130277170356224"
+    ],
+    "missmatches": [
+        {
+            "date": "2020-03-25",
+            "estimated": 3,
+            "reference": 4
+        },{
+            "date": "2020-03-26",
+            "estimated": 3,
+            "reference": 2
+        },{
+            "date": "2020-04-08",
+            "estimated": 29,
+            "reference": 30
+        },{
+            "date": "2020-04-09",
+            "estimated": 16,
+            "reference": 15
+        },{
+            "date": "2020-04-15",
+            "estimated": 22,
+            "reference": 23
+        },{
+            "date": "2020-04-26",
+            "estimated": 12,
+            "reference": 1
+        },{
+            "date": "2020-05-03",
+            "estimated": 15,
+            "reference": 14
+        },{
+            "date": "2020-05-04",
+            "estimated": 19,
+            "reference": 20
+        },{
+            "date": "2020-05-05",
+            "estimated": 19,
+            "reference": 18
+        },{
+            "date": "2020-05-06",
+            "estimated": 18,
+            "reference": 17
+        },{
+            "date": "2020-05-13",
+            "estimated": 23,
+            "reference": 22
+        },{
+            "date": "2020-06-09",
+            "estimated": 19,
+            "reference": 17
+        },{
+            "date": "2020-06-28",
+            "estimated": 4,
+            "reference": 3
+        },{
+            "date": "2020-07-04",
+            "estimated": 4,
+            "reference": 5
+        },{
+            "date": "2020-07-08",
+            "estimated": 15,
+            "reference": 14
+        },{
+            "date": "2020-07-16",
+            "estimated": 10,
+            "reference": 11
+        },{
+            "date": "2020-07-20",
+            "estimated": 4,
+            "reference": 3
+        }
+    ]
+}

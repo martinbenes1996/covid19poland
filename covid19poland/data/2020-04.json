@@ -740,9 +740,23 @@
                     "time": "2020-04-08 10:00:00"
                 },
                 {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Kędzierzyn-Koźle",
+                    "comorbid": true,
+                    "time": "2020-04-08 10:00:00"
+                },
+                {
                     "age": 72,
                     "gender": "M",
                     "place": "Bolesławiec",
+                    "comorbid": true,
+                    "time": "2020-04-08 10:00:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Łańcut",
                     "comorbid": true,
                     "time": "2020-04-08 10:00:00"
                 },
@@ -1783,14 +1797,14 @@
                 "https://twitter.com/MZ_GOV_PL/status/1250333398771462144",
                 "https://twitter.com/MZ_GOV_PL/status/1250448814659571713",
                 "https://twitter.com/MZ_GOV_PL/status/1250448815771004932",
-                "https://twitter.com/MZ_GOV_PL/status/1277157419160948737"
+                "https://twitter.com/MZ_GOV_PL/status/1277157419160948737",
+                "https://twitter.com/MZ_GOV_PL/status/1279331899723395072"
             ]
         }
     },
     "2020-04-16": {
         "deaths": {
             "deaths": 28,
-            "parsed": true,
             "people": [
                 {
                     "age": 89,
@@ -2152,12 +2166,6 @@
                     "age": 59,
                     "gender": "M",
                     "place": "Grudziądz",
-                    "time": "2020-04-18 17:30:00"
-                },
-                {
-                    "age": 84,
-                    "gender": "F",
-                    "place": null,
                     "time": "2020-04-18 17:30:00"
                 },
                 {

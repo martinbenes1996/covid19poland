@@ -45,7 +45,7 @@ def _parse_place(place):
 def covid_death_cases():
     
     data = []
-    for f in ["2020-03","2020-04","2020-05","2020-06"]:
+    for f in ["2020-03","2020-04","2020-05","2020-06","2020-07"]:
         filename = pkg_resources.resource_filename(__name__, f'data/{f}.json')
         with open(filename, encoding = "UTF-8") as fd:
             raw = json.load(fd)
