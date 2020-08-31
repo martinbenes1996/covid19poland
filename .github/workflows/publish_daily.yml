@@ -2,7 +2,7 @@
 name: publish_daily # workflow name
 on: # trigger
   schedule:
-    - cron: '2 16 * * *'
+    - cron: '4 14 * * *'
 
 # parallel jobs to perform
 jobs:
