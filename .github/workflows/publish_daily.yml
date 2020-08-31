@@ -2,7 +2,7 @@
 name: publish_daily # workflow name
 on: # trigger
   schedule:
-    - cron: '35 16 */1 * *'
+    - cron: '15 17 */1 * *'
 
 # parallel jobs to perform
 jobs:
@@ -39,7 +39,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/*
-        git commit -m "Automatic daily update"
+        git commit -m "Automatic daily update" | true
 
     - name: Push changes # push the output folder to your repo
       uses: ad-m/github-push-action@master
