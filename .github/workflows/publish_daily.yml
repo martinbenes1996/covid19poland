@@ -26,6 +26,17 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     
-    - name: Run unittests # run unittests
+    - name: Export month # run unittests
       run:
         python -c 'import covid19poland as PL; PL.export_month()'
+
+    - name: Commit files # transfer the new html files back into the repository
+      run: |
+        git config --local user.name "publish_daily"
+        git add data/*
+        git commit -m "Automatic daily update"
+    - name: Push changes # push the output folder to your repo
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.DAILY_PUBLIC_KEY }}
+        force: true
