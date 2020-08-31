@@ -46,7 +46,8 @@ class TestTwitter(unittest.TestCase):
         x = cases.groupby(["date"]).size().reset_index(name='case_agg')
         
         # reference
-        ref = covid19dh.covid19("Poland", verbose = False)[["date","deaths"]]
+        ref,_ = covid19dh.covid19("Poland", verbose = False)
+        ref = ref[["date","deaths"]]
         ref['deaths'] = ref.deaths.diff()
         
         # merge
