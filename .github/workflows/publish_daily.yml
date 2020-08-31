@@ -35,8 +35,9 @@ jobs:
         git config --local user.name "publish_daily"
         git add data/*
         git commit -m "Automatic daily update"
+
     - name: Push changes # push the output folder to your repo
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.DAILY_PUBLIC_KEY }}
+        github_token: ${{ secrets.DAILY_DEPLOY }}
         force: true
