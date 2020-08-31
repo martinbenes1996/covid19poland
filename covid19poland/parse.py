@@ -1,9 +1,11 @@
 
+import datetime
 import warnings
 
 from bs4 import BeautifulSoup
 import pandas as pd
 
+from . import export
 from . import PLwiki
 from . import PLstat
 from . import PLtwitter
@@ -71,7 +73,21 @@ def mismatching_days():
     """Returns dates not matching the `covid19dh` data."""
     return offline.mismatching_days()
 
+def export_month(dt = None, offset = -1):
+    # set logging
+    import logging
+    logging.basicConfig(level = logging.INFO)
+    # relative date
+    now = dt if dt is not None else datetime.datetime.now()
+    # construct input
+    fname = f"{now.month + offset}"
+    start = datetime.datetime(now.year, now.month + offset, 1)
+    end = datetime.datetime(now.year, now.month + offset + 1, 1)
+    # export
+    export.export(start = start, end = end, fname = fname)
+    
+    
 __all__ = [
     "wiki", "twitter", "deaths", "covid_death_cases", "covid_deaths",
-    "mismatching_days"
+    "mismatching_days", "export_month"
 ]

@@ -415,7 +415,7 @@ __all__ = ["PolishTwitter"]
 if __name__ == "__main__":
     logging.basicConfig(level = logging.INFO)
     
-    data,filtered,checklist = PolishTwitter.get(datetime(2020,7,31),datetime(2020,8,16))
+    data,filtered,checklist = PolishTwitter.get(datetime(2020,8,1),datetime(2020,9,1), keys=["deaths"])
 
     with open("data/8_in.json", "w") as fd:
         json.dump(data, fd, sort_keys=True, indent = 4, separators = (',',": "))
