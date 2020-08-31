@@ -38,11 +38,10 @@ jobs:
 
     - name: Commit files # transfer the new html files back into the repository
       run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         git add data/*
         git commit -m "Automatic daily update"
-        git remote get-url --all origin
-        git config --get user.name
-        git config --get user.email
 
     - name: Push changes # push the output folder to your repo
       uses: ad-m/github-push-action@master
