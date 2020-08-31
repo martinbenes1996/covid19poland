@@ -41,6 +41,7 @@ jobs:
         git config --local user.name "publish_daily"
         git add data/*
         git commit -m "Automatic daily update"
+        git remote get-url --all origin
 
     - name: Push changes # push the output folder to your repo
       uses: ad-m/github-push-action@master
