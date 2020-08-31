@@ -8,8 +8,8 @@ on: # trigger
 
 # parallel jobs to perform
 jobs:
-  # === unittest execution ===
-  unittest:
+  # === publish execution ===
+  publish:
     runs-on: ubuntu-latest # runner
     
     steps: # tasks  
@@ -46,4 +46,4 @@ jobs:
     - name: Push changes # push the output folder to your repo
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.DAILY_DEPLOY }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
