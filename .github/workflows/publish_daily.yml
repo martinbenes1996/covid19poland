@@ -3,6 +3,8 @@ name: publish_daily # workflow name
 on: # trigger
   schedule:
     - cron: '* 9 */1 * *'
+  push:
+    branches: [ master ]
 
 # parallel jobs to perform
 jobs:
@@ -32,7 +34,7 @@ jobs:
 
     - name: Perform and export # run unittests
       run: |
-        python -c 'import covid19poland as PL; PL.export_month(offset=0)'
+        python -c 'import covid19poland as PL; PL.export_manual(); PL.export_last_30d()'
 
     - name: Commit files # transfer the new html files back into the repository
       run: |

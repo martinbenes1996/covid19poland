@@ -43,36 +43,41 @@ def _parse_place(place):
     except:
         return None,None
     
-def covid_death_cases():
+def covid_death_cases(source = None):
+    if source is None:
+        files = [pkg_resources.resource_filename(__name__, f'data/{f}.json')
+                 for f in ["2020-03","2020-04","2020-05","2020-06","2020-07"]]
+        source = {}
+        for filename in files:
+            with open(filename, encoding = "UTF-8") as fd:
+                raw = json.load(fd)
+                source = {**source, **raw}
     
     data = []
-    for f in ["2020-03","2020-04","2020-05","2020-06","2020-07"]:
-        filename = pkg_resources.resource_filename(__name__, f'data/{f}.json')
-        with open(filename, encoding = "UTF-8") as fd:
-            raw = json.load(fd)
-            for k,v in raw.items():
-                dt = datetime.strptime(k, "%Y-%m-%d")
-                deaths = v["deaths"]
+    for k,v in source.items():
+        dt = datetime.strptime(k, "%Y-%m-%d")
+        deaths = v["deaths"]
                 
-                if "people" in deaths:
-                    for death in deaths["people"]:
-                        # place
-                        place = death.get("place", None)
-                        nuts2, nuts3 = _parse_place(place)
-                        # reported
-                        try: reported = datetime.strptime(death["time"], "%Y-%m-%d %H:%M:%S")
-                        except: reported = None
-                        # gender
-                        gender = death.get("gender", None)
-                        # age
-                        age = death.get("age", None)
+        if "people" in deaths:
+            for death in deaths["people"]:
+                # place
+                place = death.get("place", None)
+                nuts2, nuts3 = _parse_place(place)
+                # reported
+                try: reported = datetime.strptime(death["time"], "%Y-%m-%d %H:%M:%S")
+                except: reported = None
+                # gender
+                gender = death.get("gender", None)
+                # age
+                age = death.get("age", None)
                     
-                        # flags
-                        comorbid = death.get("comorbid", None)
-                        serious = death.get("serious", None)
+                # flags
+                comorbid = death.get("comorbid", None)
+                serious = death.get("serious", None)
+                reliable = deaths.get("parsed", True)
                     
-                        data.append([dt, age, gender, place, nuts2, nuts3, comorbid, serious, reported])
-    return pd.DataFrame(data, columns = ["date","age","sex","place","NUTS2","NUTS3","comorbid","serious","reported"])
+                data.append([dt, age, gender, place, nuts2, nuts3, comorbid, serious, reliable, reported])
+    return pd.DataFrame(data, columns = ["date","age","sex","place","NUTS2","NUTS3","comorbid","serious","reliable","reported"])
 
 def mismatching_days():
     # get data

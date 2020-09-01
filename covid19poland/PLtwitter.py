@@ -3,6 +3,7 @@ from datetime import datetime,timedelta
 from functools import reduce
 import json
 import logging
+import pytz
 import re
 import warnings
 
@@ -159,6 +160,7 @@ class PolishTwitter:
             tweet = [tweet]
         l = []
         for t in tweet:
+            tweetdt = t.tweet.date.astimezone(pytz.timezone('Europe/Warsaw'))
             d = {"text": t.tweet.text, "url": t.tweet.permalink, "deaths": None, "people": [], "parsed": False}
             if re.match(".*z przykrością.*", t.tweet.text, re.IGNORECASE):
                 # parse sentence out
@@ -216,6 +218,7 @@ class PolishTwitter:
                     person["place"] = person_match[2] if person_match[2] else None
                     if person["place"] == "i":
                         person["place"] = None
+                    person["time"] = tweetdt.strftime('%Y-%m-%d %H:%M:%S')
                     d["people"].append(person)
                 
                 if d['deaths'] is not None and len(d['people']) != d['deaths']:
@@ -235,22 +238,12 @@ class PolishTwitter:
                         person["gender"] = {"K":"F", "M":"M"}[person_match[1].upper()]
                     except: pass
                     person['place'] = person_match[4] if person_match[4] else None
+                    person["time"] = tweetdt.strftime('%Y-%m-%d %H:%M:%S')
                     d["people"].append(person)
             
+            # add datetime timestamp
             if d['deaths'] is not None and len(d['people']) != d['deaths']:
                 d['parsed'] = False
-            
-            # naive nuts encoder
-            #for i,person in enumerate(d['people']):
-            #    if person['place'] is None:
-            #        continue
-            #    for city,nuts in self.cities_keywords.items():
-            #        city_match = re.search(f".*{city}.*", person['place'], re.IGNORECASE)
-            #        if city_match:
-            #            d['people'][i]['place'] = nuts
-            #            break
-            #    else:
-            #        print(f"{person['place']} not matched")
                 
             l.append(d)
         # merge
@@ -357,6 +350,7 @@ class PolishTwitter:
             try:
                 d[key] = parsers[key](reports)
             except:
+                raise
                 warnings.warn(f"parser for {key} not found")
             
         # ignored
@@ -391,6 +385,13 @@ class PolishTwitter:
                 # reinitialize
                 currday = t.tweet.date.date()
                 daytweets = [t]
+        # new day
+        else:
+            # parse last day
+            daydata,ignored = PLTwitter.parseDay(currday, daytweets, keys)
+            data[currday.strftime("%Y-%m-%d")] = daydata
+            filtered[currday.strftime("%Y-%m-%d")] = ignored
+                
         
         # collect days to check
         checklist = []

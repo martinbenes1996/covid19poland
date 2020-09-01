@@ -1,8 +1,10 @@
 # global imports
+import io
 import json
 import warnings
 # local imports
 from .PLtwitter import *
+from . import offline
 
 def export(start, end, fname, keys = ["deaths"]):
     data,filtered,checklist = PolishTwitter.get(start, end, keys=keys)
@@ -13,12 +15,19 @@ def export(start, end, fname, keys = ["deaths"]):
     if checklist:
         warnings.warn(f"failed to parse {len(checklist)} days")
     
-
+def export_csv(start, end, fname, keys = ["deaths"]):
+    data,filtered,checklist = PolishTwitter.get(start, end, keys=keys)
+    x = offline.covid_death_cases(data)
+    x.to_csv(f"data/{fname}.csv", index = False)
+    if checklist:
+        warnings.warn(f"failed to parse {len(checklist)} days")
+        
 # logging
 if __name__ == "__main__":
     import logging
     logging.basicConfig(level = logging.INFO)
 
-__all__ = ["export"]
+__all__ = ["export", "export_csv"]
+
 if __name__ == "__main__":
     export()

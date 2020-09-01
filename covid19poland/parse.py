@@ -85,9 +85,29 @@ def export_month(dt = None, offset = -1):
     end = datetime.datetime(now.year, now.month + offset + 1, 1)
     # export
     export.export(start = start, end = end, fname = fname)
-    
+def export_manual():
+    # set logging
+    import logging
+    logging.basicConfig(level = logging.INFO)
+    # get data
+    x = covid_death_cases(offline = True)
+    # export
+    x.to_csv("data/data.csv", index = False)
+def export_last_30d():
+    # set logging
+    import logging
+    logging.basicConfig(level = logging.INFO)
+    # relative date
+    now = datetime.datetime.now()
+    # construct input
+    fname = f"last30d"
+    start = datetime.datetime(now.year, now.month, now.day) - datetime.timedelta(days=30)
+    end = datetime.datetime(now.year,now.month,now.day) + datetime.timedelta(days=1)
+    # export
+    export.export_csv(start = start, end = end, fname = fname)
     
 __all__ = [
     "wiki", "twitter", "deaths", "covid_death_cases", "covid_deaths",
-    "mismatching_days", "export_month"
+    "mismatching_days",
+    "export_month", "export_manual", "export_last_30d"
 ]

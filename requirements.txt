@@ -6,3 +6,4 @@ requests
 xlrd
 waybackmachine
 covid19dh
+pytz
