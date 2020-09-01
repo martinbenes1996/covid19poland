@@ -45,6 +45,13 @@
             "url": "https://twitter.com/MZ_GOV_PL/status/1238893341317771264"
         }
     },
+    "2020-03-15": {
+        "tests": {
+            "daily": 1000,
+            "cumulative": 5493,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1239140679307141121"
+        }
+    },
     "2020-03-16": {
         "deaths": {
             "deaths": 1,
@@ -81,6 +88,25 @@
                 "https://twitter.com/MZ_GOV_PL/status/1239820776473272320"
                 
             ]
+        },
+        "tests": {
+            "daily": 1200,
+            "cumulative": 7899,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1239860916688162818"
+        }
+    },
+    "2020-03-18": {
+        "tests": {
+            "daily": 1600,
+            "cumulative": 9515,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1240220422597234689"
+        }
+    },
+    "2020-03-19": {
+        "tests": {
+            "daily": 1600,
+            "cumulative": 11196,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1240581114009473024"
         }
     },
     "2020-03-20": {
@@ -90,6 +116,18 @@
                 "https://twitter.com/MZ_GOV_PL/status/1240948524709224448",
                 "https://twitter.com/MZ_GOV_PL/status/1241020645707825153"
             ]
+        },
+        "tests": {
+            "daily": 1800,
+            "cumulative": 13072,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1240963995777064960"
+        }
+    },
+    "2020-03-21": {
+        "tests": {
+            "daily": 2000,
+            "cumulative": 15084,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1241363401265287168"
         }
     },
     "2020-03-22": {
@@ -118,6 +156,11 @@
                 "https://twitter.com/MZ_GOV_PL/status/1241667444336480263",
                 "https://twitter.com/MZ_GOV_PL/status/1241685811134939143"
             ]
+        },
+        "tests": {
+            "daily": 2500,
+            "cumulative": 17607,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1241697832773603335"
         }
     },
     "2020-03-23": {
@@ -136,6 +179,11 @@
                 "https://twitter.com/MZ_GOV_PL/status/1242052595528712193",
                 "https://twitter.com/MZ_GOV_PL/status/1242052597013413889"
             ]
+        },
+        "tests": {
+            "daily": 2500,
+            "cumulative": 20127,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1242043480538591233"
         }
     },
     "2020-03-24": {
@@ -163,6 +211,11 @@
                 "https://twitter.com/MZ_GOV_PL/status/1242382472903634944",
                 "https://twitter.com/MZ_GOV_PL/status/1242518710092431360"
             ]
+        },
+        "tests": {
+            "daily": 2800,
+            "cumulative": 22898,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1242420778899046401"
         }
     },
     "2020-03-25": {
@@ -229,6 +282,18 @@
                 "https://twitter.com/MZ_GOV_PL/status/1243090111836946434",
                 "https://twitter.com/MZ_GOV_PL/status/1243259370495934471"
             ]
+        },
+        "tests": {
+            "daily": 3300,
+            "cumulative": 29564,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1243123677803302912"
+        }
+    },
+    "2020-03-27": {
+        "tests": {
+            "daily": 4500,
+            "cumulative": 34067,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1243478013255340033"
         }
     },
     "2020-03-28": {
@@ -256,6 +321,11 @@
                 "https://twitter.com/MZ_GOV_PL/status/1243892064129028097",
                 "https://twitter.com/MZ_GOV_PL/status/1243976708262428673"
             ]
+        },
+        "tests": {
+            "daily": 4600,
+            "cumulative": 38674,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1243855446902964227"
         }
     },
     "2020-03-29": {
@@ -299,6 +369,11 @@
                 "https://twitter.com/MZ_GOV_PL/status/1244239742667030530",
                 "https://twitter.com/MZ_GOV_PL/status/1244325905561989121"
             ]
+        },
+        "tests": {
+            "daily": 4100,
+            "cumulative": 42783,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1244218140613054464"
         }
     },
     "2020-03-30": {
@@ -376,6 +451,11 @@
                 "https://twitter.com/MZ_GOV_PL/status/1244686030197964801",
                 "https://twitter.com/MZ_GOV_PL/status/1244686031628230660"
             ]
+        },
+        "tests": {
+            "daily": 3800,
+            "cumulative": 46607,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1244557601548963841"
         }
     },
     "2020-03-31": {
@@ -399,6 +479,11 @@
                 "https://twitter.com/MZ_GOV_PL/status/1244965314615545856",
                 "https://twitter.com/MZ_GOV_PL/status/1245052137354256384"
             ]
+        },
+        "tests": {
+            "daily": 4800,
+            "cumulative": 51419,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1244921387812376576"
         }
     }
 }

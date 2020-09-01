@@ -92,6 +92,27 @@ the mismatching days are acquired by
 x = PL.mismatching_days()
 ```
 
+### Covid-19 tests
+
+The test counts come from two sources and are merged together:
+
+* Parsed from Polish Ministery of Health ([@MZ_GOV_PL](https://twitter.com/MZ_GOV_PL))
+* Wayback Machine (NUTS-3 data) from government pages. (*not connected yet*)
+
+
+Fetch the data with
+
+```python
+x = PL.covid_tests()
+```
+
+Local copy of the data in the package is used.
+To live-parse the data from the source
+
+```python
+x = PL.covid_tests(offline = False)
+```
+
 
 ### Deaths
 

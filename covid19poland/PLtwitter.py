@@ -293,16 +293,22 @@ class PolishTwitter:
             tweet = [tweet]
         l = []
         for t in tweet:
-            d = {"text": t.tweet.text, "url": t.tweet.permalink, "tests": None, "parsed": False}
+            d = {"url": t.tweet.permalink, "daily": None, "parsed": False}
             if re.match(".*wykonano.*[0-9,]+ tys\.", t.tweet.text, re.IGNORECASE):
                 try:
-                    no = re.search("([0-9]+(,[0-9]+)?) tys", t.tweet.text, re.IGNORECASE).group(1,2)
-                    d['tests'] = float(no[0].replace(',','.')) * 1000
+                    no = re.search("([0-9]+(,[0-9]+)?) (tys|testów)", t.tweet.text, re.IGNORECASE).group(1,2)
+                    d['daily'] = int(float(no[0].replace(',','.')) * 1000)
                     d['parsed'] = True
                 except:
                     pass
             l.append(d)
-        return l
+        if not all(d['parsed'] for d in l):
+            return l
+        return {
+            "daily": sum([d['daily'] for d in l]),
+            "url": l[0]["url"] if len(l) == 1 else [d['url'] for d in l],
+            "parsed": True
+        }
     def parseCases(self, tweet):
         if not isinstance(tweet, list):
             tweet = [tweet]
@@ -415,12 +421,14 @@ __all__ = ["PolishTwitter"]
 if __name__ == "__main__":
     logging.basicConfig(level = logging.INFO)
     
-    data,filtered,checklist = PolishTwitter.get(datetime(2020,8,1),datetime(2020,8,31), keys=["deaths"])
+    for i in range(3,9):
+        data,filtered,checklist = PolishTwitter.get(
+            datetime(2020,i,1),datetime(2020,i+1,1)-timedelta(days=1), keys=["deaths","tests"])
 
-    with open("data/8_in.json", "w") as fd:
-        json.dump(data, fd, sort_keys=True, indent = 4, separators = (',',": "))
-    with open("data/8_out.json", "w") as fd:
-        json.dump(filtered, fd, sort_keys=True, indent = 4, separators = (',',": "))
-    print(checklist)
+        with open(f"data/deaths/{i}_in.json", "w") as fd:
+            json.dump(data, fd, sort_keys=True, indent = 4, separators = (',',": "))
+        with open(f"data/deaths/{i}_out.json", "w") as fd:
+            json.dump(filtered, fd, sort_keys=True, indent = 4, separators = (',',": "))
+        print(checklist)
 
     

@@ -1,5 +1,6 @@
 
 import datetime
+import io
 import warnings
 
 from bs4 import BeautifulSoup
@@ -9,7 +10,7 @@ from . import export
 from . import PLwiki
 from . import PLstat
 from . import PLtwitter
-from . import offline
+from . import offline as offline_module
 
 def wiki(level = 1, dt = None):
     x = PLwiki.get_wiki(level = level, dt = dt)
@@ -69,9 +70,36 @@ def covid_deaths(level = 3, offline = True):
     result = PLstat.covid_deaths(level = level, offline = offline)
     return result
 
+def covid_tests(level = 1, offline = True):
+    # invalid level
+    if level not in {1,2}:
+        warnings.warn("level must be from {1,2}")
+        return None
+
+    # offline data
+    if offline:
+        if level == 1:
+            x = offline_module.covid_tests()
+        else:
+            raise NotImplementedError("not implemented yet")
+            #return offline_module.covid_tests2()
+    # online data
+    else:
+        if level == 1:
+            data,filtered,checklist = PLtwitter.PolishTwitter.get(
+                start=datetime.datetime(2020,3,15),
+                keys=["tests"])
+            print(data)
+            x =  offline_module.covid_tests(source = data)
+        else:
+            x = PLstat.covid_tests(end = end, offline = offline)
+            x = result[~result.region.isnull()]
+    # reset index and return
+    return x.reset_index(drop = True)
+
 def mismatching_days():
     """Returns dates not matching the `covid19dh` data."""
-    return offline.mismatching_days()
+    return offline_module.mismatching_days()
 
 def export_month(dt = None, offset = -1):
     # set logging
@@ -107,7 +135,7 @@ def export_last_30d():
     export.export_csv(start = start, end = end, fname = fname)
     
 __all__ = [
-    "wiki", "twitter", "deaths", "covid_death_cases", "covid_deaths",
+    "wiki", "twitter", "deaths", "covid_death_cases", "covid_deaths", "covid_tests",
     "mismatching_days",
     "export_month", "export_manual", "export_last_30d"
 ]

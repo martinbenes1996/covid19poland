@@ -4,8 +4,10 @@ from io import BytesIO
 import pkg_resources
 from zipfile import ZipFile
 
+from bs4 import BeautifulSoup
 import pandas as pd
 import requests
+from waybackmachine import WaybackMachine
 
 from . import offline as offline_module
 
@@ -84,5 +86,27 @@ def covid_deaths(level = 3, offline = True):
         .reset_index(name='deaths')
     return xx
 
-__all__ = ["deaths","covid_death_cases","covid_deaths"]
+    
+def covid_tests_wayback(end = None, offline = True):
+    url = 'https://www.gov.pl/web/zdrowie/liczba-wykonanych-testow'
+    x = pd.DataFrame(data = None, columns = ["date","region","tests"])
+    for response,version_time in WaybackMachine(url, end = end):
+        _log.info(f"parsing {version_time}")
+        # parse HTML
+        htmlParse = BeautifulSoup(response.text, features="lxml")
+        tables = htmlParse.find_all("table")
+        t = pd.read_html(tables[0].prettify())[0]
+        # add date
+        t.columns = ["region", "tests"]
+        t.tests = pd.to_numeric(t.tests.str.replace(" ",""))
+        t.insert(0, "date", [version_time for _ in range(t.shape[0])])
+        t.region.replace({'łącznie': None}, inplace = True)
+        x = x.append(t, ignore_index=True)
+        
+    return x
+
+import logging
+_log = logging.getLogger(__name__)
+
+__all__ = ["deaths","covid_death_cases","covid_deaths","covid_tests_wayback"]
 

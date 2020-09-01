@@ -43,10 +43,12 @@ def _parse_place(place):
     except:
         return None,None
     
+_offline_sources = ["2020-03","2020-04","2020-05","2020-06","2020-07","2020-08"]
+
 def covid_death_cases(source = None):
     if source is None:
         files = [pkg_resources.resource_filename(__name__, f'data/{f}.json')
-                 for f in ["2020-03","2020-04","2020-05","2020-06","2020-07"]]
+                 for f in _offline_sources]
         source = {}
         for filename in files:
             with open(filename, encoding = "UTF-8") as fd:
@@ -56,6 +58,9 @@ def covid_death_cases(source = None):
     data = []
     for k,v in source.items():
         dt = datetime.strptime(k, "%Y-%m-%d")
+        
+        if "deaths" not in v:
+            continue
         deaths = v["deaths"]
                 
         if "people" in deaths:
@@ -79,12 +84,40 @@ def covid_death_cases(source = None):
                 data.append([dt, age, gender, place, nuts2, nuts3, comorbid, serious, reliable, reported])
     return pd.DataFrame(data, columns = ["date","age","sex","place","NUTS2","NUTS3","comorbid","serious","reliable","reported"])
 
+def covid_tests(source = None):
+    if source is None:
+        files = [pkg_resources.resource_filename(__name__, f'data/{f}.json')
+                 for f in _offline_sources]
+        source = {}
+        for filename in files:
+            with open(filename, encoding = "UTF-8") as fd:
+                raw = json.load(fd)
+                source = {**source, **raw}
+    
+    data = []
+    for k,v in source.items():
+        dt = datetime.strptime(k, "%Y-%m-%d")
+        
+        if "tests" not in v:
+            continue
+        
+        try:
+            daily = v["tests"].get("daily", None)
+            cumulative = v["tests"].get("cumulative", None)
+        except:
+            continue
+        
+        data.append([dt, daily, cumulative])
+        
+    return pd.DataFrame(data, columns = ["date","tests","tests_all"])
+
 def mismatching_days():
     # get data
     cases = covid_death_cases()
     x = cases.groupby(["date"]).size().reset_index(name='case_agg')    
     # reference
-    ref = covid19dh.covid19("Poland", verbose = False)[["date","deaths"]]
+    ref,_ = covid19dh.covid19("Poland", verbose = False)
+    ref = ref
     ref['deaths'] = ref.deaths.diff()
         
     # merge
@@ -94,4 +127,4 @@ def mismatching_days():
     x = x[x.case_agg != x.deaths]
     return x
 
-__all__ = ["covid_death_cases","mismatching_days"]
+__all__ = ["covid_death_cases","covid_tests","mismatching_days"]
