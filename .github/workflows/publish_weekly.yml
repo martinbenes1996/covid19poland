@@ -1,8 +1,10 @@
 
-name: publish_daily # workflow name
+name: publish_weekly # workflow name
 on: # trigger
   schedule:
-    - cron: '* 9 */1 * *'
+    - cron: '0 0 * * MON'
+  push:
+    branches: [ master ]
 
 # parallel jobs to perform
 jobs:
@@ -32,14 +34,14 @@ jobs:
 
     - name: Perform and export # run unittests
       run: |
-        python -c 'import covid19poland as PL; PL.export_last_30d()'
+        python -c 'import covid19poland as PL; PL.export_manual()'
 
     - name: Commit files # transfer the new html files back into the repository
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/*
-        git commit -m "Automatic daily update" | true
+        git commit -m "Automatic weekly update" | true
 
     - name: Push changes # push the output folder to your repo
       uses: ad-m/github-push-action@master
