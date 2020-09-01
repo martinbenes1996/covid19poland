@@ -161,7 +161,7 @@ class PolishTwitter:
         l = []
         for t in tweet:
             tweetdt = t.tweet.date.astimezone(pytz.timezone('Europe/Warsaw'))
-            d = {"text": t.tweet.text, "url": t.tweet.permalink, "deaths": None, "people": [], "parsed": False}
+            d = {"url": t.tweet.permalink, "deaths": None, "people": [], "parsed": False}
             if re.match(".*z przykrością.*", t.tweet.text, re.IGNORECASE):
                 # parse sentence out
                 txt = re.search(r".*(z przykrością.*)", t.tweet.text, re.IGNORECASE).group(1)
@@ -253,7 +253,6 @@ class PolishTwitter:
             url = [i['url'] for i in l]
             l = {"deaths": number, "people": people, "url": url}
             l['parsed'] = len(people) == number
-            l['text'] = None
             if l['parsed']:
                 l['ok'] = True
                 #print("Merge successful!")
@@ -416,7 +415,7 @@ __all__ = ["PolishTwitter"]
 if __name__ == "__main__":
     logging.basicConfig(level = logging.INFO)
     
-    data,filtered,checklist = PolishTwitter.get(datetime(2020,8,1),datetime(2020,9,1), keys=["deaths"])
+    data,filtered,checklist = PolishTwitter.get(datetime(2020,8,1),datetime(2020,8,31), keys=["deaths"])
 
     with open("data/8_in.json", "w") as fd:
         json.dump(data, fd, sort_keys=True, indent = 4, separators = (',',": "))
