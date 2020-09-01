@@ -3,8 +3,6 @@ name: publish_daily # workflow name
 on: # trigger
   schedule:
     - cron: '* 9 */1 * *'
-  push:
-    branches: [ master ]
 
 # parallel jobs to perform
 jobs:
