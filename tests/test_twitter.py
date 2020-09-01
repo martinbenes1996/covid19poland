@@ -34,7 +34,6 @@ class TestTwitter(unittest.TestCase):
             self.assertIn("people", deaths)
             self.assertIn("url", deaths)
             self.assertIn("parsed", deaths)
-            self.assertIn("text", deaths)
             # format requirements
             url = deaths["url"]
             #print(url)
