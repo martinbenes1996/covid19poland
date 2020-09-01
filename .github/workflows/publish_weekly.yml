@@ -3,8 +3,6 @@ name: publish_weekly # workflow name
 on: # trigger
   schedule:
     - cron: '0 0 * * MON'
-  push:
-    branches: [ master ]
 
 # parallel jobs to perform
 jobs:
