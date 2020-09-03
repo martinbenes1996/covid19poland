@@ -1,19 +1,4 @@
 {
-    "2020-08-03": {
-        "deaths": {
-            "deaths": 1,
-            "parsed": true,
-            "people": [
-                {
-                    "age": 76,
-                    "gender": "F",
-                    "place": "Grajewo",
-                    "time": "2020-08-03 10:30:14"
-                }
-            ],
-            "url": "https://twitter.com/MZ_GOV_PL/status/1290203309941260289"
-        }
-    },
     "2020-08-04": {
         "deaths": {
             "deaths": 6,
@@ -2441,6 +2426,102 @@
             "url": [
                 "https://twitter.com/MZ_GOV_PL/status/1301075038028869632",
                 "https://twitter.com/MZ_GOV_PL/status/1301075036036571138"
+            ]
+        }
+    },
+    "2020-09-03": {
+        "deaths": {
+            "deaths": 14,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 58,
+                    "gender": "M",
+                    "place": "\u0141a\u0144cut",
+                    "time": "2020-09-03 10:30:26"
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": "D\u0119bica",
+                    "time": "2020-09-03 10:30:26"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": "Racib\u00f3rz",
+                    "time": "2020-09-03 10:30:26"
+                },
+                {
+                    "age": 74,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-09-03 10:30:26"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-09-03 10:30:26"
+                },
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": "Gorz\u00f3w",
+                    "time": "2020-09-03 10:30:26"
+                },
+                {
+                    "age": 94,
+                    "gender": "F",
+                    "place": "Siedlce",
+                    "time": "2020-09-03 10:30:26"
+                },
+                {
+                    "age": 76,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-09-03 10:30:26"
+                },
+                {
+                    "age": 86,
+                    "gender": "F",
+                    "place": "Bi\u0142goraj",
+                    "time": "2020-09-03 10:30:27"
+                },
+                {
+                    "age": 74,
+                    "gender": "M",
+                    "place": "Gda\u0144sk",
+                    "time": "2020-09-03 10:30:27"
+                },
+                {
+                    "age": 62,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-09-03 10:30:27"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-09-03 10:30:27"
+                },
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": "Krak\u00f3w",
+                    "time": "2020-09-03 10:30:27"
+                },
+                {
+                    "age": 83,
+                    "gender": "M",
+                    "place": "Tomasz\u00f3w",
+                    "time": "2020-09-03 10:30:27"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1301437385096531969",
+                "https://twitter.com/MZ_GOV_PL/status/1301437387239817221"
             ]
         }
     }
