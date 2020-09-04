@@ -1,52 +1,4 @@
 {
-    "2020-08-04": {
-        "deaths": {
-            "deaths": 6,
-            "parsed": true,
-            "people": [
-                {
-                    "age": 60,
-                    "gender": "M",
-                    "place": "\u0141a\u0144cut",
-                    "time": "2020-08-04 10:34:21"
-                },
-                {
-                    "age": 87,
-                    "gender": "F",
-                    "place": "Przemy\u015bl",
-                    "time": "2020-08-04 10:34:21"
-                },
-                {
-                    "age": 91,
-                    "gender": "M",
-                    "place": "Pozna\u0144",
-                    "time": "2020-08-04 10:34:21"
-                },
-                {
-                    "age": 83,
-                    "gender": "M",
-                    "place": "Krak\u00f3w",
-                    "time": "2020-08-04 10:34:21"
-                },
-                {
-                    "age": 90,
-                    "gender": "F",
-                    "place": "Racib\u00f3rz",
-                    "time": "2020-08-04 10:34:21"
-                },
-                {
-                    "age": 78,
-                    "gender": "M",
-                    "place": "Gliwice",
-                    "time": "2020-08-04 10:34:21"
-                }
-            ],
-            "url": [
-                "https://twitter.com/MZ_GOV_PL/status/1290566733514899456",
-                "https://twitter.com/MZ_GOV_PL/status/1290566732462067712"
-            ]
-        }
-    },
     "2020-08-05": {
         "deaths": {
             "deaths": 18,
@@ -2523,6 +2475,45 @@
                 "https://twitter.com/MZ_GOV_PL/status/1301437385096531969",
                 "https://twitter.com/MZ_GOV_PL/status/1301437387239817221"
             ]
+        }
+    },
+    "2020-09-04": {
+        "deaths": {
+            "deaths": 8,
+            "parsed": false,
+            "people": [
+                {
+                    "age": 79,
+                    "gender": "M",
+                    "place": null,
+                    "time": "2020-09-04 10:30:35"
+                },
+                {
+                    "age": 58,
+                    "gender": "M",
+                    "place": "Pozna\u0144",
+                    "time": "2020-09-04 10:30:35"
+                },
+                {
+                    "age": 74,
+                    "gender": "M",
+                    "place": "Koszalin",
+                    "time": "2020-09-04 10:30:35"
+                },
+                {
+                    "age": 87,
+                    "gender": "F",
+                    "place": "Chorz\u00f3w",
+                    "time": "2020-09-04 10:30:35"
+                },
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": "Starachowice",
+                    "time": "2020-09-04 10:30:35"
+                }
+            ],
+            "url": "https://twitter.com/MZ_GOV_PL/status/1301799809184149504"
         }
     }
 }
