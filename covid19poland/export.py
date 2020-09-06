@@ -41,6 +41,8 @@ def export_test_csv(start = None, end = None, append = False, fname = "tests"):
         except: pass
         try: return datetime.datetime.strptime(dt, "%Y-%m-%d %H:%M:%S")
         except: pass
+        try: return datetime.datetime.strptime(dt, "%Y-%m-%d")
+        except: pass
         return dt
     # sort
     x['date'] = x.date.apply(_parse_date)
@@ -53,12 +55,13 @@ def export_test_csv(start = None, end = None, append = False, fname = "tests"):
             x_ex['date'] = x_ex.date.apply(_parse_date)
             # append
             x = x_ex.append(x).sort_values(["date"], kind = 'mergesort')
-            x = x.drop_duplicates(["date","region"], keep = 'last')
         except: pass
     # if missing, warn
     if x.tests.isna().any():
         warnings.warn("NaN tests produced")
     # export
+    x.date = x.date.apply(lambda dt: dt.strftime("%Y-%m-%d"))
+    x = x.drop_duplicates(["date","region"], keep = 'last')
     x.to_csv(f"data/{fname}.csv", index = False)
     
         
