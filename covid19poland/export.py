@@ -36,22 +36,25 @@ def export_test_csv(start = None, end = None, append = False, fname = "tests"):
     x2 = pd.DataFrame({'date': x2.date, 'region': x2.nuts, 'tests': x2.tests})
     x2 = x2[~x2.region.isnull()]
     x = x.append(x2)
+    def _parse_date(dt):
+        try: return datetime.datetime.strptime(dt, "%Y-%m-%d %H:%M:%S.%f")
+        except: pass
+        try: return datetime.datetime.strptime(dt, "%Y-%m-%d %H:%M:%S")
+        except: pass
+        return dt
     # sort
-    x = x.sort_values(["region","date"])
+    x['date'] = x.date.apply(_parse_date)
+    x = x.sort_values(["date","region"])
     # append (if set on)
     if append:
         # read previous data
         try:
             x_ex = pd.read_csv(f"data/{fname}.csv")
-            def _parse_date(dt):
-                try: return datetime.datetime.strptime(dt, "%Y-%m-%d %H:%M:%S.%f")
-                except: return datetime.datetime.strptime(dt, "%Y-%m-%d %H:%M:%S")
             x_ex['date'] = x_ex.date.apply(_parse_date)
             # append
             x = x_ex.append(x).sort_values(["date"], kind = 'mergesort')
             x = x.drop_duplicates(["date","region"], keep = 'last')
-        except Exception as e:
-            print(e)
+        except: pass
     # if missing, warn
     if x.tests.isna().any():
         warnings.warn("NaN tests produced")
