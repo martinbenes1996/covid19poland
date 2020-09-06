@@ -2,9 +2,7 @@
 name: publish_evening # workflow name
 on: # trigger
   schedule:
-    - cron: '0 17 * * *'
-  push:
-    branches: [ master ]
+    - cron: '0 18 * * *'
 
 # parallel jobs to perform
 jobs:
