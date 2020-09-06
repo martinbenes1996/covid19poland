@@ -1080,7 +1080,7 @@
         },
         "tests": {
             "daily": 25300,
-            "parsed": 1860592,
+            "cumulative": 1860592,
             "url": "https://twitter.com/MZ_GOV_PL/status/1283325430175461378"
         }
     },

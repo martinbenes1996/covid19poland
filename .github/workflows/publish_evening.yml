@@ -1,0 +1,49 @@
+
+name: publish_evening # workflow name
+on: # trigger
+  schedule:
+    - cron: '0 17 * * *'
+  push:
+    branches: [ master ]
+
+# parallel jobs to perform
+jobs:
+  # === publish execution ===
+  publish:
+    runs-on: ubuntu-latest # runner
+    
+    steps: # tasks  
+    - name: Set Github Workspace # access Github Workspace
+      uses: actions/checkout@v2
+    - name: Set up Python 3.x # set architecture and Python3
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+        architecture: 'x64' # architecture
+
+    - name: Install dependencies # dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    
+    - name: Initiate git
+      uses: actions/checkout@master
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+
+    - name: Perform and export # run unittests
+      run: |
+        python -c 'import covid19poland as PL; PL.export_tests()'
+
+    - name: Commit files # transfer the new html files back into the repository
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/*
+        git commit -m "Automatic daily update" | true
+
+    - name: Push changes # push the output folder to your repo
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

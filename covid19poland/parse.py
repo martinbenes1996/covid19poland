@@ -89,11 +89,10 @@ def covid_tests(level = 1, offline = True):
             data,filtered,checklist = PLtwitter.PolishTwitter.get(
                 start=datetime.datetime(2020,3,15),
                 keys=["tests"])
-            print(data)
-            x =  offline_module.covid_tests(source = data)
+            x = offline_module.covid_tests(source = data)
         else:
-            x = PLstat.covid_tests(end = end, offline = offline)
-            x = result[~result.region.isnull()]
+            x = PLstat.covid_tests_wayback(end = datetime.datetime(2020,5,12))
+            x = x[~x.region.isnull()]
     # reset index and return
     return x.reset_index(drop = True)
 
@@ -133,9 +132,15 @@ def export_last_30d():
     end = datetime.datetime(now.year,now.month,now.day) + datetime.timedelta(days=1)
     # export
     export.export_csv(start = start, end = end, fname = fname)
+def export_tests():
+    # set logging
+    import logging
+    logging.basicConfig(level = logging.INFO)
+    # construct input
+    export.export_test_csv(append = True)
     
 __all__ = [
     "wiki", "twitter", "deaths", "covid_death_cases", "covid_deaths", "covid_tests",
     "mismatching_days",
-    "export_month", "export_manual", "export_last_30d"
+    "export_month", "export_manual", "export_last_30d", "export_tests"
 ]

@@ -1,5 +1,6 @@
 
 import csv
+import datetime
 from io import BytesIO
 import pkg_resources
 from zipfile import ZipFile
@@ -86,23 +87,51 @@ def covid_deaths(level = 3, offline = True):
         .reset_index(name='deaths')
     return xx
 
+_nuts2_pl = {
+    "dolnoślaskie": "PL51",
+    "kujawsko-pomorskie": "PL61",
+    "lubelskie": "PL81",
+    "lubuskie": "PL43",
+    "łódzkie": "PL71",
+    "małopolskie": "PL21",
+    "mazowieckie": "PL9",
+    "opolskie": "PL52",
+    "podkarpackie": "PL82",
+    "podlaskie": "PL84",
+    "pomorskie": "PL63",
+    "śląskie": "PL22",
+    "świętokrzyskie": "PL72",
+    "warmińsko-mazurskie": "PL62",
+    "wielkopolskie": "PL41",
+    "zachodniopomorskie": "PL42"
     
-def covid_tests_wayback(end = None, offline = True):
+}
+def covid_tests_wayback(end = None, start = None):
     url = 'https://www.gov.pl/web/zdrowie/liczba-wykonanych-testow'
     x = pd.DataFrame(data = None, columns = ["date","region","tests"])
-    for response,version_time in WaybackMachine(url, end = end):
+    if end == None:
+        end = datetime.datetime(2020,5,12)
+    
+    for response,version_time in WaybackMachine(url, start = start, end = end):
         _log.info(f"parsing {version_time}")
         # parse HTML
         htmlParse = BeautifulSoup(response.text, features="lxml")
         tables = htmlParse.find_all("table")
-        t = pd.read_html(tables[0].prettify())[0]
+        try: t = pd.read_html(tables[0].prettify())[0]
+        except:
+            _log.warning(f"parsing of {version_time} failed")
         # add date
         t.columns = ["region", "tests"]
-        t.tests = pd.to_numeric(t.tests.str.replace(" ",""))
+        try: t.tests = pd.to_numeric(t.tests.str.replace(" ",""))
+        except: pass
         t.insert(0, "date", [version_time for _ in range(t.shape[0])])
         t.region.replace({'łącznie': None}, inplace = True)
+        def lookup_region(r):
+            try: return _nuts2_pl[r]
+            except: return None
+        t['nuts'] = t.region.apply(lookup_region)
         x = x.append(t, ignore_index=True)
-        
+            
     return x
 
 import logging
