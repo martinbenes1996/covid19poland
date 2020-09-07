@@ -1,0 +1,1815 @@
+{
+    "2020-07-01": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL51": 5,
+                    "PL61": 4,
+                    "PL63": 4,
+                    "PL72": 4
+                },
+                "regions_regex": {
+                    "dolno\u015bl\u0105ski[\\w]*": 5,
+                    "kujawsko-pomorski[\\w]*": 4,
+                    "pomorski[\\w]*": 4,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 4
+                },
+                "text": "dolno\u015bl\u0105skiego (5), kujawsko-pomorskiego (4), \u015bwi\u0119tokrzyskiego (4). Z przykro\u015bci\u0105 informujemy o \u015bmierci 14 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 66-M, 66-M Warszawa, 81-K, 73-M, 90-M, 87-M, 79-K, 82-M Radom, 89-K Zalesie G\u00f3rne, 79-M Racib\u00f3rz, 88-K Cieszyn,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1278244616098197505"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 18,
+                    "PL22": 169,
+                    "PL41": 107,
+                    "PL52": 7,
+                    "PL62": 6,
+                    "PL71": 10,
+                    "PL81": 7,
+                    "PL82": 20,
+                    "PL84": 5,
+                    "PL92": 20
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 169,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 7,
+                    "lubelski[\\w]*": 7,
+                    "mazowiecki[\\w]*": 20,
+                    "ma\u0142opolski[\\w]*": 18,
+                    "podkarpacki[\\w]*": 20,
+                    "podlaski[\\w]*": 5,
+                    "warmi\u0144sko-mazurski[\\w]*": 6,
+                    "wielkopolski[\\w]*": 107,
+                    "\u0142\u00f3dzki[\\w]*": 10
+                },
+                "text": "Mamy 382 nowe i potwierdzone przypadki zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (169), wielkopolskiego (107), mazowieckiego (20), podkarpackiego (20), ma\u0142opolskiego (18), \u0142\u00f3dzkiego (10), lubelskiego (7), opolskiego (7), warmi\u0144sko-mazurskiego (6), podlaskiego (5),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1278244614944718849"
+            }
+        ]
+    },
+    "2020-07-02": {
+        "regions": [
+            {
+                "parsed": false,
+                "regions": {
+                    "PL71": null
+                },
+                "regions_regex": {
+                    "\u0142\u00f3dzki[\\w]*": null
+                },
+                "text": "50-M, 60-M, 75-M Wroc\u0142aw, 84-K Starachowice (mieszkanka woj. \u0142\u00f3dzkiego). Wszystkie osoby mia\u0142y choroby wsp\u00f3\u0142istniej\u0105ce. Liczba zaka\u017conych koronawirusem: 35 146/1 492 (wszystkie pozytywne przypadki/w tym osoby zmar\u0142e).",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1278607620249735168"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL51": 6,
+                    "PL61": 2,
+                    "PL63": 2,
+                    "PL81": 6,
+                    "PL84": 6
+                },
+                "regions_regex": {
+                    "dolno\u015bl\u0105ski[\\w]*": 6,
+                    "kujawsko-pomorski[\\w]*": 2,
+                    "lubelski[\\w]*": 6,
+                    "podlaski[\\w]*": 6,
+                    "pomorski[\\w]*": 2
+                },
+                "text": "dolno\u015bl\u0105skiego (6), lubelskiego (6), podlaskiego (6) i kujawsko-pomorskiego (2). Z przykro\u015bci\u0105 informujemy o \u015bmierci 15 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 67-M, 75-K, 72-K, 65-K Zgierz, 53-K Tychy, 87-M Cieszyn, 76-M Pozna\u0144, 75-K \u0141a\u0144cut, 78-M, 59-M, 63-M,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1278607619159179264"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 29,
+                    "PL22": 148,
+                    "PL41": 28,
+                    "PL52": 7,
+                    "PL62": 12,
+                    "PL63": 10,
+                    "PL71": 52,
+                    "PL72": 7,
+                    "PL82": 13,
+                    "PL92": 45
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 148,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 7,
+                    "mazowiecki[\\w]*": 45,
+                    "ma\u0142opolski[\\w]*": 29,
+                    "podkarpacki[\\w]*": 13,
+                    "pomorski[\\w]*": 10,
+                    "warmi\u0144sko-mazurski[\\w]*": 12,
+                    "wielkopolski[\\w]*": 28,
+                    "\u0142\u00f3dzki[\\w]*": 52,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 7
+                },
+                "text": "Mamy 371 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (148), \u0142\u00f3dzkiego (52), mazowieckiego (45), ma\u0142opolskiego (29), wielkopolskiego (28), podkarpackiego (13), warmi\u0144sko-mazurskiego (12), pomorskiego (10), opolskiego (7), \u015bwi\u0119tokrzyskiego (7),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1278607618077011969"
+            }
+        ]
+    },
+    "2020-07-03": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 2,
+                    "PL51": 3,
+                    "PL61": 1,
+                    "PL63": 1,
+                    "PL81": 4
+                },
+                "regions_regex": {
+                    "dolno\u015bl\u0105ski[\\w]*": 3,
+                    "kujawsko-pomorski[\\w]*": 1,
+                    "lubelski[\\w]*": 4,
+                    "pomorski[\\w]*": 1,
+                    "zachodniopomorski[\\w]*": 2
+                },
+                "text": "lubelskiego (4), pomorskiego (4), dolno\u015bl\u0105skiego (3), zachodniopomorskiego (2) i kujawsko-pomorskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 15 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 67-K, 82-K Racib\u00f3rz, 80-M, 58-M Tychy,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1278969396380254208"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 13,
+                    "PL22": 80,
+                    "PL41": 46,
+                    "PL52": 9,
+                    "PL62": 5,
+                    "PL71": 24,
+                    "PL72": 13,
+                    "PL82": 12,
+                    "PL84": 7,
+                    "PL92": 36
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 80,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 9,
+                    "mazowiecki[\\w]*": 36,
+                    "ma\u0142opolski[\\w]*": 13,
+                    "podkarpacki[\\w]*": 12,
+                    "podlaski[\\w]*": 7,
+                    "warmi\u0144sko-mazurski[\\w]*": 5,
+                    "wielkopolski[\\w]*": 46,
+                    "\u0142\u00f3dzki[\\w]*": 24,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 13
+                },
+                "text": "Mamy 259 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (80), wielkopolskiego (46), mazowieckiego (36), \u0142\u00f3dzkiego (24), ma\u0142opolskiego (13), \u015bwi\u0119tokrzyskiego (13), podkarpackiego (12), opolskiego (9), podlaskiego (7), warmi\u0144sko-mazurskiego (5),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1278969395369463809"
+            }
+        ]
+    },
+    "2020-07-04": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 29,
+                    "PL22": 93,
+                    "PL41": 57,
+                    "PL42": 7,
+                    "PL63": 7,
+                    "PL71": 21,
+                    "PL81": 10,
+                    "PL82": 40,
+                    "PL84": 13,
+                    "PL92": 28
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 93,
+                    "lubelski[\\w]*": 10,
+                    "mazowiecki[\\w]*": 28,
+                    "ma\u0142opolski[\\w]*": 29,
+                    "podkarpacki[\\w]*": 40,
+                    "podlaski[\\w]*": 13,
+                    "pomorski[\\w]*": 7,
+                    "wielkopolski[\\w]*": 57,
+                    "zachodniopomorski[\\w]*": 7,
+                    "\u0142\u00f3dzki[\\w]*": 21
+                },
+                "text": "Mamy 314 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (93), wielkopolskiego (57), podkarpackiego (40), ma\u0142opolskiego (29), mazowieckiego (28), \u0142\u00f3dzkiego (21), podlaskiego (13), lubelskiego (10), zachodniopomorskiego (7),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1279331897555005440"
+            },
+            {
+                "parsed": false,
+                "regions": {
+                    "PL92": null
+                },
+                "regions_regex": {
+                    "mazowiecki[\\w]*": null
+                },
+                "text": "Wi\u0119kszo\u015b\u0107 os\u00f3b mia\u0142a choroby wsp\u00f3\u0142istniej\u0105ce. W zwi\u0105zku z b\u0142\u0119dnym usuni\u0119ciem zgonu z 15.04.2020 r. z woj. mazowieckiego, korygujemy statystyk\u0119 zgon\u00f3w. Liczba zaka\u017conych koronawirusem: 35 719/1 512 (wszystkie pozytywne przypadki/w tym osoby zmar\u0142e).",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1279331899723395072"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL51": 3,
+                    "PL52": 3,
+                    "PL62": 4,
+                    "PL63": 4,
+                    "PL72": 2
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 3,
+                    "dolno\u015bl\u0105ski[\\w]*": 3,
+                    "pomorski[\\w]*": 4,
+                    "warmi\u0144sko-mazurski[\\w]*": 4,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 2
+                },
+                "text": "pomorskiego (4), warmi\u0144sko-mazurskiego (4), opolskiego (3), dolno\u015bl\u0105skiego (3) i \u015bwi\u0119tokrzyskiego (2). Z przykro\u015bci\u0105 informujemy o \u015bmierci 4 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 70-K Zgierz, 88-K \u0141\u00f3d\u017a, 56-M Racib\u00f3rz, 79-M Warszawa.",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1279331898603581441"
+            }
+        ]
+    },
+    "2020-07-05": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 1,
+                    "PL62": 1,
+                    "PL63": 1,
+                    "PL84": 2
+                },
+                "regions_regex": {
+                    "podlaski[\\w]*": 2,
+                    "pomorski[\\w]*": 1,
+                    "warmi\u0144sko-mazurski[\\w]*": 1,
+                    "zachodniopomorski[\\w]*": 1
+                },
+                "text": "pomorskiego (2), podlaskiego (2), warmi\u0144sko-mazurskiego (1) i zachodniopomorskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 5 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 75-M \u0141a\u0144cut, 78-K Gliwice, 80-M Radom, 64-M Warszawa, 73-M Zgierz.",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1279694157032886274"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 17,
+                    "PL22": 87,
+                    "PL41": 35,
+                    "PL52": 5,
+                    "PL61": 2,
+                    "PL63": 2,
+                    "PL71": 16,
+                    "PL72": 5,
+                    "PL81": 14,
+                    "PL82": 27,
+                    "PL92": 17
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 87,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 5,
+                    "kujawsko-pomorski[\\w]*": 2,
+                    "lubelski[\\w]*": 14,
+                    "mazowiecki[\\w]*": 17,
+                    "ma\u0142opolski[\\w]*": 17,
+                    "podkarpacki[\\w]*": 27,
+                    "pomorski[\\w]*": 2,
+                    "wielkopolski[\\w]*": 35,
+                    "\u0142\u00f3dzki[\\w]*": 16,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 5
+                },
+                "text": "Mamy 231 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (87), wielkopolskiego (35), podkarpackiego (27), ma\u0142opolskiego (17), mazowieckiego (17), \u0142\u00f3dzkiego (16), lubelskiego (14), opolskiego (5), \u015bwi\u0119tokrzyskiego (5), kujawsko-pomorskiego (2),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1279694155971788800"
+            }
+        ]
+    },
+    "2020-07-06": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL43": 1,
+                    "PL52": 1,
+                    "PL61": 3,
+                    "PL62": 2,
+                    "PL63": 1
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 1,
+                    "kujawsko-pomorski[\\w]*": 3,
+                    "lubuski[\\w]*": 1,
+                    "pomorski[\\w]*": 1,
+                    "warmi\u0144sko-mazurski[\\w]*": 2
+                },
+                "text": "kujawsko-pomorskiego (3), warmi\u0144sko-mazurskiego (2), lubuskiego (1), opolskiego (1) i pomorskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 4 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 91-M, 73-K, 82-K \u0141a\u0144cut, 79-K Racib\u00f3rz.",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1280056742190202880"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 12,
+                    "PL22": 49,
+                    "PL41": 8,
+                    "PL51": 5,
+                    "PL71": 31,
+                    "PL72": 10,
+                    "PL81": 26,
+                    "PL82": 13,
+                    "PL84": 4,
+                    "PL92": 39
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 49,
+                    "dolno\u015bl\u0105ski[\\w]*": 5,
+                    "lubelski[\\w]*": 26,
+                    "mazowiecki[\\w]*": 39,
+                    "ma\u0142opolski[\\w]*": 12,
+                    "podkarpacki[\\w]*": 13,
+                    "podlaski[\\w]*": 4,
+                    "wielkopolski[\\w]*": 8,
+                    "\u0142\u00f3dzki[\\w]*": 31,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 10
+                },
+                "text": "Mamy 205 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (49), mazowieckiego (39), \u0142\u00f3dzkiego (31), lubelskiego (26), podkarpackiego (13), ma\u0142opolskiego (12), \u015bwi\u0119tokrzyskiego (10), wielkopolskiego (8), dolno\u015bl\u0105skiego (5), podlaskiego (4),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1280056741137469440"
+            }
+        ]
+    },
+    "2020-07-07": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 21,
+                    "PL22": 91,
+                    "PL41": 75,
+                    "PL51": 9,
+                    "PL52": 3,
+                    "PL71": 9,
+                    "PL72": 4,
+                    "PL81": 15,
+                    "PL82": 17,
+                    "PL92": 6
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 91,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 3,
+                    "dolno\u015bl\u0105ski[\\w]*": 9,
+                    "lubelski[\\w]*": 15,
+                    "mazowiecki[\\w]*": 6,
+                    "ma\u0142opolski[\\w]*": 21,
+                    "podkarpacki[\\w]*": 17,
+                    "wielkopolski[\\w]*": 75,
+                    "\u0142\u00f3dzki[\\w]*": 9,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 4
+                },
+                "text": "Mamy 257 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (91), wielkopolskiego (75), ma\u0142opolskiego (21), podkarpackiego (17), lubelskiego (15), \u0142\u00f3dzkiego (9), dolno\u015bl\u0105skiego (9), mazowieckiego (6), \u015bwi\u0119tokrzyskiego (4), opolskiego (3),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1280418947809017858"
+            },
+            {
+                "parsed": false,
+                "regions": {
+                    "PL71": null
+                },
+                "regions_regex": {
+                    "\u0142\u00f3dzki[\\w]*": null
+                },
+                "text": "80-K Radomsko, 72-M Pozna\u0144 (mieszkaniec woj. \u0142\u00f3dzkiego), 79-M Bia\u0142ystok. Wszystkie osoby mia\u0142y choroby wsp\u00f3\u0142istniej\u0105ce. Liczba zaka\u017conych koronawirusem: 36 412/1 528 (wszystkie pozytywne przypadki/w tym osoby zmar\u0142e).",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1280418950044680192"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 1,
+                    "PL61": 1,
+                    "PL62": 1,
+                    "PL63": 1,
+                    "PL84": 2
+                },
+                "regions_regex": {
+                    "kujawsko-pomorski[\\w]*": 1,
+                    "podlaski[\\w]*": 2,
+                    "pomorski[\\w]*": 1,
+                    "warmi\u0144sko-mazurski[\\w]*": 1,
+                    "zachodniopomorski[\\w]*": 1
+                },
+                "text": "podlaskiego (2), pomorskiego (2), warmi\u0144sko-mazurskiego (1), zachodniopomorskiego (1), kujawsko-pomorskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 7 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 72-K, 71-K Racib\u00f3rz, 83-M Bia\u0142a Podlaska, 65-K Pozna\u0144,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1280418948945776640"
+            }
+        ]
+    },
+    "2020-07-08": {
+        "regions": [
+            {
+                "parsed": false,
+                "regions": {
+                    "PL41": null
+                },
+                "regions_regex": {
+                    "wielkopolski[\\w]*": null
+                },
+                "text": "42-M, 59-M, 60-K, 81-M Zawiercie, 67-M Wroc\u0142aw. Wi\u0119kszo\u015b\u0107 os\u00f3b mia\u0142a choroby wsp\u00f3\u0142istniej\u0105ce. Jednocze\u015bnie informujemy, \u017ce ze statystyk odejmujemy jeden zgon osoby z woj. wielkopolskiego, kt\u00f3rej laboratorium b\u0142\u0119dnie zaznaczy\u0142o wynik pozytywny.",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1280781389013618688"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL51": 2,
+                    "PL63": 3,
+                    "PL72": 3
+                },
+                "regions_regex": {
+                    "dolno\u015bl\u0105ski[\\w]*": 2,
+                    "pomorski[\\w]*": 3,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 3
+                },
+                "text": "pomorskiego (3), \u015bwi\u0119tokrzyskiego (3) i dolno\u015bl\u0105skiego (2). Z przykro\u015bci\u0105 informujemy o \u015bmierci 15 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 74-M Pozna\u0144, 57-M, 78-K, 74-K, 83-K Zgierz, 81-K Szczecin, 70-M Warszawa, 75-M Radom, 69-M Starachowice, 90-K Zawiercie,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1280781387889549313"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 28,
+                    "PL22": 96,
+                    "PL41": 23,
+                    "PL52": 4,
+                    "PL61": 5,
+                    "PL63": 5,
+                    "PL71": 32,
+                    "PL81": 10,
+                    "PL82": 27,
+                    "PL84": 7,
+                    "PL92": 37
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 96,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 4,
+                    "kujawsko-pomorski[\\w]*": 5,
+                    "lubelski[\\w]*": 10,
+                    "mazowiecki[\\w]*": 37,
+                    "ma\u0142opolski[\\w]*": 28,
+                    "podkarpacki[\\w]*": 27,
+                    "podlaski[\\w]*": 7,
+                    "pomorski[\\w]*": 5,
+                    "wielkopolski[\\w]*": 23,
+                    "\u0142\u00f3dzki[\\w]*": 32
+                },
+                "text": "Mamy 277 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (96), mazowieckiego (37), \u0142\u00f3dzkiego (32), ma\u0142opolskiego (28), podkarpackiego (27), wielkopolskiego (23), lubelskiego (10), podlaskiego (7), kujawsko-pomorskiego (5), opolskiego (4),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1280781386698424320"
+            }
+        ]
+    },
+    "2020-07-09": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 1,
+                    "PL43": 3,
+                    "PL61": 3,
+                    "PL62": 3,
+                    "PL63": 1,
+                    "PL81": 4
+                },
+                "regions_regex": {
+                    "kujawsko-pomorski[\\w]*": 3,
+                    "lubelski[\\w]*": 4,
+                    "lubuski[\\w]*": 3,
+                    "pomorski[\\w]*": 1,
+                    "warmi\u0144sko-mazurski[\\w]*": 3,
+                    "zachodniopomorski[\\w]*": 1
+                },
+                "text": "lubelskiego (4), lubuskiego (3), warmi\u0144sko-mazurskiego (3), kujawsko-pomorskiego (3), zachodniopomorskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 9 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 80-M, 92-K Zgierz, 78-K, 84-M K\u0119dzierzyn-Ko\u017ale, 72-K Gliwice,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1281144046090702850"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 35,
+                    "PL22": 84,
+                    "PL41": 28,
+                    "PL51": 5,
+                    "PL52": 6,
+                    "PL71": 22,
+                    "PL72": 5,
+                    "PL82": 7,
+                    "PL84": 6,
+                    "PL92": 50
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 84,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 6,
+                    "dolno\u015bl\u0105ski[\\w]*": 5,
+                    "mazowiecki[\\w]*": 50,
+                    "ma\u0142opolski[\\w]*": 35,
+                    "podkarpacki[\\w]*": 7,
+                    "podlaski[\\w]*": 6,
+                    "wielkopolski[\\w]*": 28,
+                    "\u0142\u00f3dzki[\\w]*": 22,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 5
+                },
+                "text": "Mamy 262 nowe i potwierdzone przypadki zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (84), mazowieckiego (50), ma\u0142opolskiego (35), wielkopolskiego (28), \u0142\u00f3dzkiego (22), podkarpackiego (7), podlaskiego (6), opolskiego (6), dolno\u015bl\u0105skiego (5), \u015bwi\u0119tokrzyskiego (5),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1281144044975001600"
+            }
+        ]
+    },
+    "2020-07-10": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 19,
+                    "PL22": 88,
+                    "PL41": 17,
+                    "PL43": 25,
+                    "PL51": 13,
+                    "PL52": 9,
+                    "PL71": 16,
+                    "PL81": 13,
+                    "PL82": 16,
+                    "PL92": 23
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 88,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 9,
+                    "dolno\u015bl\u0105ski[\\w]*": 13,
+                    "lubelski[\\w]*": 13,
+                    "lubuski[\\w]*": 25,
+                    "mazowiecki[\\w]*": 23,
+                    "ma\u0142opolski[\\w]*": 19,
+                    "podkarpacki[\\w]*": 16,
+                    "wielkopolski[\\w]*": 17,
+                    "\u0142\u00f3dzki[\\w]*": 16
+                },
+                "text": "Mamy 265 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (88), lubuskiego (25), mazowieckiego (23), ma\u0142opolskiego (19), wielkopolskiego (17), \u0142\u00f3dzkiego (16), podkarpackiego (16), dolno\u015bl\u0105skiego (13), lubelskiego (13), opolskiego (9),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1281506501975314432"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 8,
+                    "PL61": 1,
+                    "PL62": 2,
+                    "PL63": 1,
+                    "PL72": 4,
+                    "PL84": 2
+                },
+                "regions_regex": {
+                    "kujawsko-pomorski[\\w]*": 1,
+                    "podlaski[\\w]*": 2,
+                    "pomorski[\\w]*": 1,
+                    "warmi\u0144sko-mazurski[\\w]*": 2,
+                    "zachodniopomorski[\\w]*": 8,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 4
+                },
+                "text": "pomorskiego (9), zachodniopomorskiego (8), \u015bwi\u0119tokrzyskiego (4), podlaskiego (2), warmi\u0144sko-mazurskiego (2) i kujawsko-pomorskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 11 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 83-M Tychy, 77-M Racib\u00f3rz,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1281506502998740992"
+            }
+        ]
+    },
+    "2020-07-11": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 53,
+                    "PL22": 77,
+                    "PL41": 43,
+                    "PL43": 6,
+                    "PL52": 8,
+                    "PL63": 4,
+                    "PL71": 34,
+                    "PL81": 14,
+                    "PL82": 9,
+                    "PL92": 45
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 77,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 8,
+                    "lubelski[\\w]*": 14,
+                    "lubuski[\\w]*": 6,
+                    "mazowiecki[\\w]*": 45,
+                    "ma\u0142opolski[\\w]*": 53,
+                    "podkarpacki[\\w]*": 9,
+                    "pomorski[\\w]*": 4,
+                    "wielkopolski[\\w]*": 43,
+                    "\u0142\u00f3dzki[\\w]*": 34
+                },
+                "text": "Szanowni Pa\u0144stwo, mamy 305 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (77), ma\u0142opolskiego (53), mazowieckiego (45), wielkopolskiego (43), \u0142\u00f3dzkiego (34), lubelskiego (14), podkarpackiego (9), opolskiego (8), lubuskiego (6), pomorskiego (4),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1281869787472289792"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 4,
+                    "PL51": 2,
+                    "PL61": 2,
+                    "PL62": 2,
+                    "PL63": 2,
+                    "PL84": 2
+                },
+                "regions_regex": {
+                    "dolno\u015bl\u0105ski[\\w]*": 2,
+                    "kujawsko-pomorski[\\w]*": 2,
+                    "podlaski[\\w]*": 2,
+                    "pomorski[\\w]*": 2,
+                    "warmi\u0144sko-mazurski[\\w]*": 2,
+                    "zachodniopomorski[\\w]*": 4
+                },
+                "text": "zachodniopomorskiego (4), warmi\u0144sko-mazurskiego (2), kujawsko-pomorskiego (2), dolno\u015bl\u0105skiego (2) i podlaskiego (2). Z przykro\u015bci\u0105 informujemy o \u015bmierci 6 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 86-M Bia\u0142a Podlaska, 64-M Zgierz, 86-K Siedlce, 77-M Tychy,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1281869788508282882"
+            }
+        ]
+    },
+    "2020-07-12": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL22": 57,
+                    "PL41": 94,
+                    "PL43": 48,
+                    "PL82": null
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 57,
+                    "lubuski[\\w]*": 48,
+                    "podkarpacki[\\w]*": null,
+                    "wielkopolski[\\w]*": 94
+                },
+                "text": "W ci\u0105gu ostatniego tygodnia odnotowali\u015bmy zdecydowanie wi\u0119cej przypadk\u00f3w os\u00f3b kt\u00f3re wyzdrowia\u0142y (3402) ni\u017c zachorowa\u0142y (1941). Mamy 370 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: wielkopolskiego (94), \u015bl\u0105skiego (57), lubuskiego (48), podkarpackiego",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1282239465075941376"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 29,
+                    "PL51": 2,
+                    "PL52": 6,
+                    "PL63": 5,
+                    "PL71": 29,
+                    "PL72": 3,
+                    "PL81": 40,
+                    "PL84": 3,
+                    "PL92": 8
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 6,
+                    "dolno\u015bl\u0105ski[\\w]*": 2,
+                    "lubelski[\\w]*": 40,
+                    "mazowiecki[\\w]*": 8,
+                    "ma\u0142opolski[\\w]*": 29,
+                    "podlaski[\\w]*": 3,
+                    "pomorski[\\w]*": 5,
+                    "\u0142\u00f3dzki[\\w]*": 29,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 3
+                },
+                "text": "(46), lubelskiego (40), \u0142\u00f3dzkiego (29), ma\u0142opolskiego (29), mazowieckiego (8), opolskiego (6), pomorskiego (5), podlaskiego (3), \u015bwi\u0119tokrzyskiego (3) i dolno\u015bl\u0105skiego (2).",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1282239466665660417"
+            },
+            {
+                "parsed": false,
+                "regions": {
+                    "PL21": null,
+                    "PL71": null
+                },
+                "regions_regex": {
+                    "ma\u0142opolski[\\w]*": null,
+                    "\u0142\u00f3dzki[\\w]*": null
+                },
+                "text": "(2/2) \u0142\u00f3dzkie \u2013 zak\u0142ad produkcyjny ma\u0142opolskie \u2013 zaka\u017cenia po uroczysto\u015bciach pogrzebowych #koronawirus",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1282240331166121984"
+            },
+            {
+                "parsed": false,
+                "regions": {
+                    "PL22": null,
+                    "PL41": null,
+                    "PL43": null,
+                    "PL81": null,
+                    "PL82": null
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": null,
+                    "lubelski[\\w]*": null,
+                    "lubuski[\\w]*": null,
+                    "podkarpacki[\\w]*": null,
+                    "wielkopolski[\\w]*": null
+                },
+                "text": "(1/2) Ogniska zaka\u017ce\u0144 (zamkni\u0119te) w wojew\u00f3dztwach : wielkopolskie \u2013 zaka\u017cenia po weselu \u015bl\u0105skie \u2013 rodziny g\u00f3rnik\u00f3w z kwarantanny lubuskie \u2013 zak\u0142ad opieku\u0144czo-leczniczy podkarpackie \u2013 badania przesiewowe lubelskie \u2013 zak\u0142ady mi\u0119sne",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1282240330134413312"
+            }
+        ]
+    },
+    "2020-07-13": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 2,
+                    "PL51": 1,
+                    "PL52": 1,
+                    "PL63": 2
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 1,
+                    "dolno\u015bl\u0105ski[\\w]*": 1,
+                    "pomorski[\\w]*": 2,
+                    "zachodniopomorski[\\w]*": 2
+                },
+                "text": "zachodniopomorskiego (2), pomorskiego (2), dolno\u015bl\u0105skiego (1) i opolskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 5 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 62-K Tychy, 71-M, 77-M Racib\u00f3rz, 70-M Starachowice, 70-K Gr\u00f3jec.",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1282593862335299586"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 38,
+                    "PL22": 65,
+                    "PL41": 20,
+                    "PL43": 5,
+                    "PL62": 2,
+                    "PL71": 18,
+                    "PL72": 3,
+                    "PL81": 8,
+                    "PL82": 62,
+                    "PL92": 72
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 65,
+                    "lubelski[\\w]*": 8,
+                    "lubuski[\\w]*": 5,
+                    "mazowiecki[\\w]*": 72,
+                    "ma\u0142opolski[\\w]*": 38,
+                    "podkarpacki[\\w]*": 62,
+                    "warmi\u0144sko-mazurski[\\w]*": 2,
+                    "wielkopolski[\\w]*": 20,
+                    "\u0142\u00f3dzki[\\w]*": 18,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 3
+                },
+                "text": "Mamy 299 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: mazowieckiego (72), \u015bl\u0105skiego (65), podkarpackiego (62), ma\u0142opolskiego (38), wielkopolskiego (20), \u0142\u00f3dzkiego (18), lubelskiego (8), lubuskiego (5), \u015bwi\u0119tokrzyskiego (3), warmi\u0144sko-mazurskiego (2),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1282593860816961536"
+            }
+        ]
+    },
+    "2020-07-14": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 1,
+                    "PL52": 2,
+                    "PL63": 1,
+                    "PL72": 2,
+                    "PL84": 1,
+                    "PL92": null
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 2,
+                    "mazowiecki[\\w]*": null,
+                    "podlaski[\\w]*": 1,
+                    "pomorski[\\w]*": 1,
+                    "zachodniopomorski[\\w]*": 1,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 2
+                },
+                "text": "opolskiego (2), pomorskiego (2), \u015bwi\u0119tokrzyskiego (2), podlaskiego (1) i zachodniopomorskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 12 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 83-K Tomasz\u00f3w Mazowiecki, 80-M Zgierz, 87-K K\u0119dzierzyn Ko\u017ale, 70-K Pozna\u0144,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1282955920759304193"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 44,
+                    "PL22": 72,
+                    "PL41": 52,
+                    "PL43": 6,
+                    "PL51": 8,
+                    "PL61": 6,
+                    "PL63": 6,
+                    "PL71": 19,
+                    "PL81": 12,
+                    "PL82": 12,
+                    "PL92": 28
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 72,
+                    "dolno\u015bl\u0105ski[\\w]*": 8,
+                    "kujawsko-pomorski[\\w]*": 6,
+                    "lubelski[\\w]*": 12,
+                    "lubuski[\\w]*": 6,
+                    "mazowiecki[\\w]*": 28,
+                    "ma\u0142opolski[\\w]*": 44,
+                    "podkarpacki[\\w]*": 12,
+                    "pomorski[\\w]*": 6,
+                    "wielkopolski[\\w]*": 52,
+                    "\u0142\u00f3dzki[\\w]*": 19
+                },
+                "text": "Mamy 267 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (72), wielkopolskiego (52), ma\u0142opolskiego (44), mazowieckiego (28), \u0142\u00f3dzkiego (19), lubelskiego (12), podkarpackiego (12), dolno\u015bl\u0105skiego (8), kujawsko-pomorskiego (6), lubuskiego (6),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1282955919656189952"
+            }
+        ]
+    },
+    "2020-07-15": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL41": null,
+                    "PL42": 4,
+                    "PL52": 3,
+                    "PL62": 2,
+                    "PL63": 4,
+                    "PL72": 3,
+                    "PL84": 1
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 3,
+                    "podlaski[\\w]*": 1,
+                    "pomorski[\\w]*": 4,
+                    "warmi\u0144sko-mazurski[\\w]*": 2,
+                    "wielkopolski[\\w]*": null,
+                    "zachodniopomorski[\\w]*": 4,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 3
+                },
+                "text": "zachodniopomorskiego (4), \u015bwi\u0119tokrzyskiego (3), opolskiego (3), warmi\u0144sko-mazurskiego (2) i podlaskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 6 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 95-M Wroc\u0142aw (mieszkaniec woj. wielkopolskiego), 79-K Racib\u00f3rz,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1283318023626149888"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 43,
+                    "PL22": 90,
+                    "PL41": 20,
+                    "PL43": 12,
+                    "PL51": 8,
+                    "PL61": 5,
+                    "PL63": 5,
+                    "PL71": 31,
+                    "PL81": 11,
+                    "PL82": 9,
+                    "PL92": 22
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 90,
+                    "dolno\u015bl\u0105ski[\\w]*": 8,
+                    "kujawsko-pomorski[\\w]*": 5,
+                    "lubelski[\\w]*": 11,
+                    "lubuski[\\w]*": 12,
+                    "mazowiecki[\\w]*": 22,
+                    "ma\u0142opolski[\\w]*": 43,
+                    "podkarpacki[\\w]*": 9,
+                    "pomorski[\\w]*": 5,
+                    "wielkopolski[\\w]*": 20,
+                    "\u0142\u00f3dzki[\\w]*": 31
+                },
+                "text": "Mamy 264 nowe i potwierdzone przypadki zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (90), ma\u0142opolskiego (43), \u0142\u00f3dzkiego (31), mazowieckiego (22), wielkopolskiego (20), lubuskiego (12), lubelskiego (11), podkarpackiego (9), dolno\u015bl\u0105skiego (8), kujawsko-pomorskiego (5),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1283318022376226816"
+            }
+        ]
+    },
+    "2020-07-16": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 3,
+                    "PL52": 4,
+                    "PL63": 3,
+                    "PL72": 3
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 4,
+                    "pomorski[\\w]*": 3,
+                    "zachodniopomorski[\\w]*": 3,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 3
+                },
+                "text": "opolskiego (4), pomorskiego (3), \u015bwi\u0119tokrzyskiego (3) i zachodniopomorskiego (3). Z przykro\u015bci\u0105 informujemy o \u015bmierci 11 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 75-K Racib\u00f3rz, 76-M Tychy, 71-M Chorz\u00f3w, 71-M, 91-M, 83-M, 84-M, 81-K Radom, 70-M,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1283680323293851649"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 60,
+                    "PL22": 89,
+                    "PL41": 20,
+                    "PL43": 4,
+                    "PL51": 26,
+                    "PL61": 6,
+                    "PL63": 6,
+                    "PL71": 38,
+                    "PL81": 4,
+                    "PL82": 36,
+                    "PL92": 37
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 89,
+                    "dolno\u015bl\u0105ski[\\w]*": 26,
+                    "kujawsko-pomorski[\\w]*": 6,
+                    "lubelski[\\w]*": 4,
+                    "lubuski[\\w]*": 4,
+                    "mazowiecki[\\w]*": 37,
+                    "ma\u0142opolski[\\w]*": 60,
+                    "podkarpacki[\\w]*": 36,
+                    "pomorski[\\w]*": 6,
+                    "wielkopolski[\\w]*": 20,
+                    "\u0142\u00f3dzki[\\w]*": 38
+                },
+                "text": "Mamy 333 nowe i potwierdzone przypadki zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (89), ma\u0142opolskiego (60), \u0142\u00f3dzkiego (38), mazowieckiego (37), podkarpackiego (36), dolno\u015bl\u0105skiego (26), wielkopolskiego (20), kujawsko-pomorskiego (6), lubelskiego (4), lubuskiego (4),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1283680322249469957"
+            }
+        ]
+    },
+    "2020-07-17": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 70,
+                    "PL22": 86,
+                    "PL41": 46,
+                    "PL43": 17,
+                    "PL51": 8,
+                    "PL71": 30,
+                    "PL72": 10,
+                    "PL81": 11,
+                    "PL82": 18,
+                    "PL92": 36
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 86,
+                    "dolno\u015bl\u0105ski[\\w]*": 8,
+                    "lubelski[\\w]*": 11,
+                    "lubuski[\\w]*": 17,
+                    "mazowiecki[\\w]*": 36,
+                    "ma\u0142opolski[\\w]*": 70,
+                    "podkarpacki[\\w]*": 18,
+                    "wielkopolski[\\w]*": 46,
+                    "\u0142\u00f3dzki[\\w]*": 30,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 10
+                },
+                "text": "Mamy 353 nowe i potwierdzone przypadki zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (86), ma\u0142opolskiego (70), wielkopolskiego (46), mazowieckiego (36), \u0142\u00f3dzkiego (30), podkarpackiego (18), lubuskiego (17), lubelskiego (11), \u015bwi\u0119tokrzyskiego (10), dolno\u015bl\u0105skiego (8),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1284043589979459584"
+            },
+            {
+                "parsed": false,
+                "regions": {
+                    "PL22": null
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": null
+                },
+                "text": "Wszystkie osoby mia\u0142y choroby wsp\u00f3\u0142istniej\u0105ce. Ze wzgl\u0119du na zdublowany przez WSSE w Katowicach zgon zaraportowany 16.07. usuwamy go ze statystyk woj. \u015bl\u0105skiego. Liczba zaka\u017conych koronawirusem: 39 407/1 612 (wszystkie pozytywne przypadki/w tym osoby zmar\u0142e).",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1284043592739237888"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL52": 4,
+                    "PL62": 5,
+                    "PL63": 8,
+                    "PL84": 4
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 4,
+                    "podlaski[\\w]*": 4,
+                    "pomorski[\\w]*": 8,
+                    "warmi\u0144sko-mazurski[\\w]*": 5
+                },
+                "text": "pomorskiego (8), warmi\u0144sko-mazurskiego (5), opolskiego (4), podlaskiego (4). Z przykro\u015bci\u0105 informujemy o \u015bmierci 8 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 89-K, 54-M, 82-M Pozna\u0144, 75-K Racib\u00f3rz, 66-M Gliwice, 89-K Siedlce, 89-M Radomsko, 79-M Zgierz.",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1284043591115997186"
+            }
+        ]
+    },
+    "2020-07-18": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL43": 6,
+                    "PL52": 5,
+                    "PL61": 4,
+                    "PL62": 1,
+                    "PL63": 4,
+                    "PL84": 3
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 5,
+                    "kujawsko-pomorski[\\w]*": 4,
+                    "lubuski[\\w]*": 6,
+                    "podlaski[\\w]*": 3,
+                    "pomorski[\\w]*": 4,
+                    "warmi\u0144sko-mazurski[\\w]*": 1
+                },
+                "text": "lubuskiego (6), opolskiego (5), kujawsko-pomorskiego (4), podlaskiego (3) i warmi\u0144sko-mazurskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 6 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 85-M, 65-M, 86-M Radom, 74-K Gda\u0144sk, 67-M Starachowice, 86-K \u0141a\u0144cut.",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1284405554564280320"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 76,
+                    "PL22": 101,
+                    "PL41": 10,
+                    "PL42": 8,
+                    "PL51": 17,
+                    "PL63": 8,
+                    "PL71": 22,
+                    "PL81": 15,
+                    "PL82": 25,
+                    "PL92": 31
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 101,
+                    "dolno\u015bl\u0105ski[\\w]*": 17,
+                    "lubelski[\\w]*": 15,
+                    "mazowiecki[\\w]*": 31,
+                    "ma\u0142opolski[\\w]*": 76,
+                    "podkarpacki[\\w]*": 25,
+                    "pomorski[\\w]*": 8,
+                    "wielkopolski[\\w]*": 10,
+                    "zachodniopomorski[\\w]*": 8,
+                    "\u0142\u00f3dzki[\\w]*": 22
+                },
+                "text": "Mamy 339 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (101), ma\u0142opolskiego (76), mazowieckiego (31), podkarpackiego (25), \u0142\u00f3dzkiego (22), dolno\u015bl\u0105skiego (17), lubelskiego (15), pomorskiego (15), wielkopolskiego (10), zachodniopomorskiego (8),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1284405553486270464"
+            }
+        ]
+    },
+    "2020-07-19": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 3,
+                    "PL51": 9,
+                    "PL52": 8,
+                    "PL61": 3,
+                    "PL62": 2,
+                    "PL63": 3,
+                    "PL72": 6,
+                    "PL81": 7,
+                    "PL82": 17
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 8,
+                    "dolno\u015bl\u0105ski[\\w]*": 9,
+                    "kujawsko-pomorski[\\w]*": 3,
+                    "lubelski[\\w]*": 7,
+                    "podkarpacki[\\w]*": 17,
+                    "pomorski[\\w]*": 3,
+                    "warmi\u0144sko-mazurski[\\w]*": 2,
+                    "zachodniopomorski[\\w]*": 3,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 6
+                },
+                "text": "podkarpackiego (17), dolno\u015bl\u0105skiego (9), opolskiego (8), lubelskiego (7), \u015bwi\u0119tokrzyskiego (6), pomorskiego (4), kujawsko-pomorskiego (3), zachodniopomorskiego (3) i warmi\u0144sko-mazurskiego (2).",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1284767731179573248"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": null,
+                    "PL22": 55,
+                    "PL41": 21,
+                    "PL43": 25,
+                    "PL71": 36,
+                    "PL92": 47
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 55,
+                    "lubuski[\\w]*": 25,
+                    "mazowiecki[\\w]*": 47,
+                    "ma\u0142opolski[\\w]*": null,
+                    "wielkopolski[\\w]*": 21,
+                    "\u0142\u00f3dzki[\\w]*": 36
+                },
+                "text": "Mamy 358 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: ma\u0142opolskiego (115; w tym nowe ognisko zachorowa\u0144 w Plac\u00f3wce Opieki Ca\u0142odobowej w powiecie boche\u0144skim), \u015bl\u0105skiego (55), mazowieckiego (47), \u0142\u00f3dzkiego (36), lubuskiego (25), wielkopolskiego (21),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1284767729963204608"
+            }
+        ]
+    },
+    "2020-07-20": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 4,
+                    "PL52": 4,
+                    "PL61": 4,
+                    "PL62": 4,
+                    "PL63": 1,
+                    "PL84": 4
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 4,
+                    "kujawsko-pomorski[\\w]*": 4,
+                    "podlaski[\\w]*": 4,
+                    "pomorski[\\w]*": 1,
+                    "warmi\u0144sko-mazurski[\\w]*": 4,
+                    "zachodniopomorski[\\w]*": 4
+                },
+                "text": "podlaskiego (4), opolskiego (4), kujawsko-pomorskiego (4), warmi\u0144sko-mazurskiego (4), zachodniopomorskiego (4) i pomorskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 4 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 86-K, 83-K Krak\u00f3w, 80-M Zgierz, 85-K Spytajny.",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1285130275631046658"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 40,
+                    "PL22": 55,
+                    "PL41": 34,
+                    "PL43": 10,
+                    "PL51": 22,
+                    "PL71": 16,
+                    "PL72": 5,
+                    "PL82": 22,
+                    "PL92": 54
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 55,
+                    "dolno\u015bl\u0105ski[\\w]*": 22,
+                    "lubuski[\\w]*": 10,
+                    "mazowiecki[\\w]*": 54,
+                    "ma\u0142opolski[\\w]*": 40,
+                    "podkarpacki[\\w]*": 22,
+                    "wielkopolski[\\w]*": 34,
+                    "\u0142\u00f3dzki[\\w]*": 16,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 5
+                },
+                "text": "Mamy 279 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (55), mazowieckiego (54), ma\u0142opolskiego (40), wielkopolskiego (34), podkarpackiego (22), dolno\u015bl\u0105skiego (22), \u0142\u00f3dzkiego (16), lubuskiego (10), \u015bwi\u0119tokrzyskiego (5),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1285130274586730496"
+            }
+        ]
+    },
+    "2020-07-21": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 62,
+                    "PL22": 140,
+                    "PL41": 23,
+                    "PL43": 9,
+                    "PL62": 9,
+                    "PL63": 15,
+                    "PL71": 27,
+                    "PL72": 29,
+                    "PL82": 8,
+                    "PL92": 59
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 140,
+                    "lubuski[\\w]*": 9,
+                    "mazowiecki[\\w]*": 59,
+                    "ma\u0142opolski[\\w]*": 62,
+                    "podkarpacki[\\w]*": 8,
+                    "pomorski[\\w]*": 15,
+                    "warmi\u0144sko-mazurski[\\w]*": 9,
+                    "wielkopolski[\\w]*": 23,
+                    "\u0142\u00f3dzki[\\w]*": 27,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 29
+                },
+                "text": "Mamy 399 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (140), ma\u0142opolskiego (62), mazowieckiego (59), \u015bwi\u0119tokrzyskiego (29), \u0142\u00f3dzkiego (27), wielkopolskiego (23), pomorskiego (15), lubuskiego (9), warmi\u0144sko-mazurskiego (9), podkarpackiego (8),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1285492310629908480"
+            },
+            {
+                "parsed": false,
+                "regions": {
+                    "PL71": null
+                },
+                "regions_regex": {
+                    "\u0142\u00f3dzki[\\w]*": null
+                },
+                "text": "86-K Warszawa (mieszkanka woj. \u0142\u00f3dzkiego), 81-K, 87-K Siedlce, 49-K, 56-M Radom. Wszystkie osoby mia\u0142y choroby wsp\u00f3\u0142istniej\u0105ce. Liczba zaka\u017conych koronawirusem: 40 782/1 636 (wszystkie pozytywne przypadki/w tym osoby zmar\u0142e).",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1285492312844505088"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 7,
+                    "PL51": 3,
+                    "PL52": 4,
+                    "PL63": 7,
+                    "PL81": 2,
+                    "PL84": 2,
+                    "PL92": null
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 4,
+                    "dolno\u015bl\u0105ski[\\w]*": 3,
+                    "lubelski[\\w]*": 2,
+                    "mazowiecki[\\w]*": null,
+                    "podlaski[\\w]*": 2,
+                    "pomorski[\\w]*": 7,
+                    "zachodniopomorski[\\w]*": 7
+                },
+                "text": "zachodniopomorskiego (7), opolskiego (4), dolno\u015bl\u0105skiego (3), lubelskiego (2) i podlaskiego (2). Z przykro\u015bci\u0105 informujemy o \u015bmierci 9 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 86-K, 81-K Tychy, 89-M Tomasz\u00f3w Mazowiecki, 88-K \u0141\u00f3d\u017a,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1285492311732912128"
+            }
+        ]
+    },
+    "2020-07-22": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 50,
+                    "PL22": 113,
+                    "PL41": 22,
+                    "PL51": 18,
+                    "PL52": 20,
+                    "PL62": 17,
+                    "PL63": 13,
+                    "PL71": 33,
+                    "PL82": 17,
+                    "PL92": 46
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 113,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 20,
+                    "dolno\u015bl\u0105ski[\\w]*": 18,
+                    "mazowiecki[\\w]*": 46,
+                    "ma\u0142opolski[\\w]*": 50,
+                    "podkarpacki[\\w]*": 17,
+                    "pomorski[\\w]*": 13,
+                    "warmi\u0144sko-mazurski[\\w]*": 17,
+                    "wielkopolski[\\w]*": 22,
+                    "\u0142\u00f3dzki[\\w]*": 33
+                },
+                "text": "Mamy 380 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (113), ma\u0142opolskiego (50), mazowieckiego (46), \u0142\u00f3dzkiego (33), wielkopolskiego (22), opolskiego (20), dolno\u015bl\u0105skiego (18), podkarpackiego (17), warmi\u0144sko-mazurskiego (17), pomorskiego (13),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1285855181465358336"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL41": null,
+                    "PL42": 6,
+                    "PL43": 4,
+                    "PL61": 2,
+                    "PL63": 2,
+                    "PL72": 7,
+                    "PL81": 7,
+                    "PL84": 5
+                },
+                "regions_regex": {
+                    "kujawsko-pomorski[\\w]*": 2,
+                    "lubelski[\\w]*": 7,
+                    "lubuski[\\w]*": 4,
+                    "podlaski[\\w]*": 5,
+                    "pomorski[\\w]*": 2,
+                    "wielkopolski[\\w]*": null,
+                    "zachodniopomorski[\\w]*": 6,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 7
+                },
+                "text": "lubelskiego (7), \u015bwi\u0119tokrzyskiego (7), zachodniopomorskiego (6), podlaskiego (5), lubuskiego (4) i kujawsko-pomorskiego (2). Z przykro\u015bci\u0105 informujemy o \u015bmierci 6 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 88-K Pozna\u0144, 88-K Gorz\u00f3w Wielkopolski, 69-M Warszawa,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1285855182555881472"
+            }
+        ]
+    },
+    "2020-07-23": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL61": 1,
+                    "PL62": 2,
+                    "PL63": 1,
+                    "PL72": 4,
+                    "PL81": 1,
+                    "PL84": 2
+                },
+                "regions_regex": {
+                    "kujawsko-pomorski[\\w]*": 1,
+                    "lubelski[\\w]*": 1,
+                    "podlaski[\\w]*": 2,
+                    "pomorski[\\w]*": 1,
+                    "warmi\u0144sko-mazurski[\\w]*": 2,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 4
+                },
+                "text": "pomorskiego (4), \u015bwi\u0119tokrzyskiego (4), warmi\u0144sko-mazurskiego (2), podlaskiego (2), kujawsko-pomorskiego (1) i lubelskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 9 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 75-M Grudzi\u0105dz, 37-M, 65-M Racib\u00f3rz, 76-M Tychy,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1286217488083165184"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 75,
+                    "PL22": 110,
+                    "PL41": 15,
+                    "PL42": 10,
+                    "PL43": 9,
+                    "PL51": 7,
+                    "PL52": 21,
+                    "PL63": 10,
+                    "PL71": 33,
+                    "PL82": 20,
+                    "PL92": 104
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 110,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 21,
+                    "dolno\u015bl\u0105ski[\\w]*": 7,
+                    "lubuski[\\w]*": 9,
+                    "mazowiecki[\\w]*": 104,
+                    "ma\u0142opolski[\\w]*": 75,
+                    "podkarpacki[\\w]*": 20,
+                    "pomorski[\\w]*": 10,
+                    "wielkopolski[\\w]*": 15,
+                    "zachodniopomorski[\\w]*": 10,
+                    "\u0142\u00f3dzki[\\w]*": 33
+                },
+                "text": "Mamy 418 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (110), mazowieckiego (104), ma\u0142opolskiego (75), \u0142\u00f3dzkiego (33), opolskiego (21), podkarpackiego (20), wielkopolskiego (15), zachodniopomorskiego (10), lubuskiego (9), dolno\u015bl\u0105skiego (7),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1286217486959091717"
+            }
+        ]
+    },
+    "2020-07-24": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 99,
+                    "PL22": 184,
+                    "PL41": 13,
+                    "PL43": 9,
+                    "PL51": 29,
+                    "PL52": 8,
+                    "PL61": 9,
+                    "PL63": 9,
+                    "PL71": 29,
+                    "PL92": 32
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 184,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 8,
+                    "dolno\u015bl\u0105ski[\\w]*": 29,
+                    "kujawsko-pomorski[\\w]*": 9,
+                    "lubuski[\\w]*": 9,
+                    "mazowiecki[\\w]*": 32,
+                    "ma\u0142opolski[\\w]*": 99,
+                    "pomorski[\\w]*": 9,
+                    "wielkopolski[\\w]*": 13,
+                    "\u0142\u00f3dzki[\\w]*": 29
+                },
+                "text": "Mamy 458 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (184), ma\u0142opolskiego (99), mazowieckiego (32), dolno\u015bl\u0105skiego (29), \u0142\u00f3dzkiego (29), wielkopolskiego (13), kujawsko-pomorskiego (9), lubuskiego (9), pomorskiego (9), opolskiego (8),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1286579432434667522"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 4,
+                    "PL62": 6,
+                    "PL63": 4,
+                    "PL72": 8,
+                    "PL81": 7,
+                    "PL82": 7,
+                    "PL84": 5
+                },
+                "regions_regex": {
+                    "lubelski[\\w]*": 7,
+                    "podkarpacki[\\w]*": 7,
+                    "podlaski[\\w]*": 5,
+                    "pomorski[\\w]*": 4,
+                    "warmi\u0144sko-mazurski[\\w]*": 6,
+                    "zachodniopomorski[\\w]*": 4,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 8
+                },
+                "text": "\u015bwi\u0119tokrzyskiego (8), lubelskiego (7), podkarpackiego (7), warmi\u0144sko-mazurskiego (6), podlaskiego (5) i zachodniopomorskiego (4). Z przykro\u015bci\u0105 informujemy o \u015bmierci 4 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 81-K, 53-K Wschowa, 83-M Zielona G\u00f3ra, 67-M Racib\u00f3rz.",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1286579433529319424"
+            }
+        ]
+    },
+    "2020-07-25": {
+        "regions": [
+            {
+                "parsed": false,
+                "regions": {
+                    "PL22": null
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": null
+                },
+                "text": "71-M Pozna\u0144, 62-M, 71-M Zgierz, 94-K Cz\u0119stochowa, 70-M Krak\u00f3w (mieszkaniec wojew\u00f3dztwa \u015bl\u0105skiego), 78-K Krak\u00f3w. Wi\u0119kszo\u015b\u0107 os\u00f3b mia\u0142a choroby wsp\u00f3\u0142istniej\u0105ce. Liczba zaka\u017conych koronawirusem: 42 622/1 664 (wszystkie pozytywne przypadki/w tym osoby zmar\u0142e).",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1286945975647506432"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 1,
+                    "PL43": 7,
+                    "PL61": 3,
+                    "PL62": 2,
+                    "PL63": 1,
+                    "PL72": 7,
+                    "PL84": 9
+                },
+                "regions_regex": {
+                    "kujawsko-pomorski[\\w]*": 3,
+                    "lubuski[\\w]*": 7,
+                    "podlaski[\\w]*": 9,
+                    "pomorski[\\w]*": 1,
+                    "warmi\u0144sko-mazurski[\\w]*": 2,
+                    "zachodniopomorski[\\w]*": 1,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 7
+                },
+                "text": "podlaskiego (9), lubuskiego (7), \u015bwi\u0119tokrzyskiego (7), kujawsko-pomorskiego (3), warmi\u0144sko-mazurskiego (2) i zachodniopomorskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 9 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 69-M Zielona G\u00f3ra, 90-M Grajewo, 89-K Bia\u0142ystok,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1286945974569639936"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 142,
+                    "PL22": 188,
+                    "PL41": 34,
+                    "PL51": 21,
+                    "PL52": 20,
+                    "PL63": 23,
+                    "PL71": 32,
+                    "PL81": 12,
+                    "PL82": 21,
+                    "PL92": 62
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 188,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 20,
+                    "dolno\u015bl\u0105ski[\\w]*": 21,
+                    "lubelski[\\w]*": 12,
+                    "mazowiecki[\\w]*": 62,
+                    "ma\u0142opolski[\\w]*": 142,
+                    "podkarpacki[\\w]*": 21,
+                    "pomorski[\\w]*": 23,
+                    "wielkopolski[\\w]*": 34,
+                    "\u0142\u00f3dzki[\\w]*": 32
+                },
+                "text": "Mamy 584 nowe i potwierdzone przypadki zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (188), ma\u0142opolskiego (142), mazowieckiego (62), wielkopolskiego (34), \u0142\u00f3dzkiego (32), pomorskiego (23), dolno\u015bl\u0105skiego (21), podkarpackiego (21), opolskiego (20), lubelskiego (12),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1286945973491716096"
+            },
+            {
+                "parsed": false,
+                "regions": {
+                    "PL21": null,
+                    "PL22": null
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": null,
+                    "ma\u0142opolski[\\w]*": null
+                },
+                "text": " Informujemy o ogniskach zaka\u017ce\u0144: \u015bl\u0105skie: KWK Bielszowice, Chwa\u0142owice i PG Silesia; ma\u0142opolskie: zak\u0142ady produkcyjne, zak\u0142ad mi\u0119sny, dom opieki, podmiot handlowy.",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1286946293873598464"
+            }
+        ]
+    },
+    "2020-07-26": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 7,
+                    "PL43": 5,
+                    "PL61": 10,
+                    "PL62": 4,
+                    "PL63": 7,
+                    "PL72": 3,
+                    "PL84": 2
+                },
+                "regions_regex": {
+                    "kujawsko-pomorski[\\w]*": 10,
+                    "lubuski[\\w]*": 5,
+                    "podlaski[\\w]*": 2,
+                    "pomorski[\\w]*": 7,
+                    "warmi\u0144sko-mazurski[\\w]*": 4,
+                    "zachodniopomorski[\\w]*": 7,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 3
+                },
+                "text": "kujawsko-pomorskiego (10), zachodniopomorskiego (7), lubuskiego (5), warmi\u0144sko-mazurskiego (4), \u015bwi\u0119tokrzyskiego (3) i podlaskiego (2). Z przykro\u015bci\u0105 informujemy o \u015bmierci 7 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 86-M \u0141a\u0144cut, 76-K Grobla, 84-M Krak\u00f3w,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1287304291770863617"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 109,
+                    "PL22": 133,
+                    "PL41": 24,
+                    "PL51": 10,
+                    "PL52": 16,
+                    "PL63": 19,
+                    "PL71": 22,
+                    "PL81": 13,
+                    "PL82": 12,
+                    "PL92": 54
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 133,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 16,
+                    "dolno\u015bl\u0105ski[\\w]*": 10,
+                    "lubelski[\\w]*": 13,
+                    "mazowiecki[\\w]*": 54,
+                    "ma\u0142opolski[\\w]*": 109,
+                    "podkarpacki[\\w]*": 12,
+                    "pomorski[\\w]*": 19,
+                    "wielkopolski[\\w]*": 24,
+                    "\u0142\u00f3dzki[\\w]*": 22
+                },
+                "text": "Mamy 443 nowe i potwierdzone przypadki zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (133), ma\u0142opolskiego (109), mazowieckiego (54), wielkopolskiego (24), \u0142\u00f3dzkiego (22), pomorskiego (19), opolskiego (16), lubelskiego (13), podkarpackiego (12), dolno\u015bl\u0105skiego (10),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1287304290718158849"
+            }
+        ]
+    },
+    "2020-07-27": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 2,
+                    "PL52": 1,
+                    "PL61": 1,
+                    "PL63": 1,
+                    "PL72": 2
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 1,
+                    "kujawsko-pomorski[\\w]*": 1,
+                    "pomorski[\\w]*": 1,
+                    "zachodniopomorski[\\w]*": 2,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 2
+                },
+                "text": "pomorskiego (3), \u015bwi\u0119tokrzyskiego (2), zachodniopomorskiego (2), kujawsko-pomorskiego (1) i opolskiego (1). Z przykro\u015bci\u0105 informujemy o \u015bmierci 5 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 77-K Konin, 86-M Pozna\u0144, 90-M Krak\u00f3w,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1287666776755642368"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 61,
+                    "PL22": 150,
+                    "PL41": 12,
+                    "PL43": 4,
+                    "PL51": 9,
+                    "PL71": 18,
+                    "PL81": 3,
+                    "PL82": 6,
+                    "PL84": 7,
+                    "PL92": 58
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 150,
+                    "dolno\u015bl\u0105ski[\\w]*": 9,
+                    "lubelski[\\w]*": 3,
+                    "lubuski[\\w]*": 4,
+                    "mazowiecki[\\w]*": 58,
+                    "ma\u0142opolski[\\w]*": 61,
+                    "podkarpacki[\\w]*": 6,
+                    "podlaski[\\w]*": 7,
+                    "wielkopolski[\\w]*": 12,
+                    "\u0142\u00f3dzki[\\w]*": 18
+                },
+                "text": "Mamy 337 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (150), ma\u0142opolskiego (61), mazowieckiego (58), \u0142\u00f3dzkiego (18), wielkopolskiego (12), dolno\u015bl\u0105skiego (9), podlaskiego (7), podkarpackiego (6), lubuskiego (4), lubelskiego (3),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1287666775119802369"
+            },
+            {
+                "parsed": false,
+                "regions": {
+                    "PL41": null
+                },
+                "regions_regex": {
+                    "wielkopolski[\\w]*": null
+                },
+                "text": "57-M \u0141a\u0144cut, 90-M Gorz\u00f3w Wielkopolski. Wszystkie osoby mia\u0142y choroby wsp\u00f3\u0142istniej\u0105ce. Liczba zaka\u017conych koronawirusem: 43 402/1 676 (wszystkie pozytywne przypadki/w tym osoby zmar\u0142e).",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1287666778429063168"
+            }
+        ]
+    },
+    "2020-07-28": {
+        "regions": [
+            {
+                "parsed": false,
+                "regions": {
+                    "PL71": null
+                },
+                "regions_regex": {
+                    "\u0142\u00f3dzki[\\w]*": null
+                },
+                "text": "66-M Grajewo, 67-M Pozna\u0144 (mieszkaniec woj. \u0142\u00f3dzkiego). Wi\u0119kszo\u015b\u0107 os\u00f3b mia\u0142a choroby wsp\u00f3\u0142istniej\u0105ce. Liczba zaka\u017conych koronawirusem: 43 904/1 682 (wszystkie pozytywne przypadki/w tym osoby zmar\u0142e).",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1288029017992568832"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 6,
+                    "PL43": 4,
+                    "PL61": 4,
+                    "PL62": 5,
+                    "PL63": 4,
+                    "PL72": 6
+                },
+                "regions_regex": {
+                    "kujawsko-pomorski[\\w]*": 4,
+                    "lubuski[\\w]*": 4,
+                    "pomorski[\\w]*": 4,
+                    "warmi\u0144sko-mazurski[\\w]*": 5,
+                    "zachodniopomorski[\\w]*": 6,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 6
+                },
+                "text": "\u015bwi\u0119tokrzyskiego (6), zachodniopomorskiego (6), warmi\u0144sko-mazurskiego (5), kujawsko-pomorskiego (4) i lubuskiego (4). Z przykro\u015bci\u0105 informujemy o \u015bmierci 6 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 83-M Krak\u00f3w, 38-K, 85-M Racib\u00f3rz, 80-K Knur\u00f3w,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1288029016893554689"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 91,
+                    "PL22": 161,
+                    "PL41": 45,
+                    "PL51": 31,
+                    "PL52": 16,
+                    "PL63": 15,
+                    "PL71": 29,
+                    "PL82": 19,
+                    "PL84": 8,
+                    "PL92": 62
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 161,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 16,
+                    "dolno\u015bl\u0105ski[\\w]*": 31,
+                    "mazowiecki[\\w]*": 62,
+                    "ma\u0142opolski[\\w]*": 91,
+                    "podkarpacki[\\w]*": 19,
+                    "podlaski[\\w]*": 8,
+                    "pomorski[\\w]*": 15,
+                    "wielkopolski[\\w]*": 45,
+                    "\u0142\u00f3dzki[\\w]*": 29
+                },
+                "text": "Mamy 502 nowe i potwierdzone przypadki zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (161), ma\u0142opolskiego (91), mazowieckiego (62), wielkopolskiego (45), dolno\u015bl\u0105skiego (31), \u0142\u00f3dzkiego (29), podkarpackiego (19), opolskiego (16), pomorskiego (15), podlaskiego (8),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1288029015798951937"
+            }
+        ]
+    },
+    "2020-07-29": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 12,
+                    "PL43": 10,
+                    "PL52": 5,
+                    "PL61": 10,
+                    "PL62": 5,
+                    "PL63": 10,
+                    "PL72": 5,
+                    "PL84": 7
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 5,
+                    "kujawsko-pomorski[\\w]*": 10,
+                    "lubuski[\\w]*": 10,
+                    "podlaski[\\w]*": 7,
+                    "pomorski[\\w]*": 10,
+                    "warmi\u0144sko-mazurski[\\w]*": 5,
+                    "zachodniopomorski[\\w]*": 12,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 5
+                },
+                "text": "zachodniopomorskiego (12), kujawsko-pomorskiego (10), lubuskiego (10), podlaskiego (7), opolskiego (5), \u015bwi\u0119tokrzyskiego (5) i warmi\u0144sko-mazurskiego (5). Z przykro\u015bci\u0105 informujemy o \u015bmierci 12 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 73-M, 56-M Pozna\u0144,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1288391421490352128"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 102,
+                    "PL22": 183,
+                    "PL41": 14,
+                    "PL51": 17,
+                    "PL63": 28,
+                    "PL71": 30,
+                    "PL81": 18,
+                    "PL82": 23,
+                    "PL92": 43
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 183,
+                    "dolno\u015bl\u0105ski[\\w]*": 17,
+                    "lubelski[\\w]*": 18,
+                    "mazowiecki[\\w]*": 43,
+                    "ma\u0142opolski[\\w]*": 102,
+                    "podkarpacki[\\w]*": 23,
+                    "pomorski[\\w]*": 28,
+                    "wielkopolski[\\w]*": 14,
+                    "\u0142\u00f3dzki[\\w]*": 30
+                },
+                "text": "Mamy 512 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (183), ma\u0142opolskiego (102), mazowieckiego (43), \u0142\u00f3dzkiego (30), pomorskiego (28), podkarpackiego (23), lubelskiego (18), dolno\u015bl\u0105skiego (17), wielkopolskiego (14),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1288391420382937088"
+            }
+        ]
+    },
+    "2020-07-30": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 7,
+                    "PL51": 5,
+                    "PL61": 9,
+                    "PL62": 5,
+                    "PL63": 7,
+                    "PL72": 5,
+                    "PL84": 7
+                },
+                "regions_regex": {
+                    "dolno\u015bl\u0105ski[\\w]*": 5,
+                    "kujawsko-pomorski[\\w]*": 9,
+                    "podlaski[\\w]*": 7,
+                    "pomorski[\\w]*": 7,
+                    "warmi\u0144sko-mazurski[\\w]*": 5,
+                    "zachodniopomorski[\\w]*": 7,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 5
+                },
+                "text": "kujawsko-pomorskiego (9), podlaskiego (7), zachodniopomorskiego (7), dolno\u015bl\u0105skiego (5), \u015bwi\u0119tokrzyskiego (5) i warmi\u0144sko-mazurskiego (5). Z przykro\u015bci\u0105 informujemy o \u015bmierci 15 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 80-K, 91-M, 68-M, 88-M, 62-M, 87-M Krak\u00f3w,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1288753818965082112"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 133,
+                    "PL22": 160,
+                    "PL41": 27,
+                    "PL43": 10,
+                    "PL52": 17,
+                    "PL63": 12,
+                    "PL71": 67,
+                    "PL81": 11,
+                    "PL82": 45,
+                    "PL92": 95
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 160,
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 17,
+                    "lubelski[\\w]*": 11,
+                    "lubuski[\\w]*": 10,
+                    "mazowiecki[\\w]*": 95,
+                    "ma\u0142opolski[\\w]*": 133,
+                    "podkarpacki[\\w]*": 45,
+                    "pomorski[\\w]*": 12,
+                    "wielkopolski[\\w]*": 27,
+                    "\u0142\u00f3dzki[\\w]*": 67
+                },
+                "text": "Mamy 615 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (160), ma\u0142opolskiego (133), mazowieckiego (95), \u0142\u00f3dzkiego (67), podkarpackiego (45), wielkopolskiego (27), opolskiego (17), pomorskiego (12), lubelskiego (11), lubuskiego (10),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1288753817840910337"
+            }
+        ]
+    },
+    "2020-07-31": {
+        "regions": [
+            {
+                "parsed": true,
+                "regions": {
+                    "PL42": 4,
+                    "PL43": 11,
+                    "PL52": 13,
+                    "PL62": 9,
+                    "PL63": 4,
+                    "PL72": 2,
+                    "PL84": 6
+                },
+                "regions_regex": {
+                    "(?<!ma\u0142)(?<!wielk)opolski[\\w]*": 13,
+                    "lubuski[\\w]*": 11,
+                    "podlaski[\\w]*": 6,
+                    "pomorski[\\w]*": 4,
+                    "warmi\u0144sko-mazurski[\\w]*": 9,
+                    "zachodniopomorski[\\w]*": 4,
+                    "\u015bwi\u0119tokrzyski[\\w]*": 2
+                },
+                "text": "pomorskiego (15), opolskiego (13), lubuskiego (11), warmi\u0144sko-mazurskiego (9), podlaskiego (6), zachodniopomorskiego (4) i \u015bwi\u0119tokrzyskiego (2). Z przykro\u015bci\u0105 informujemy o \u015bmierci 7 os\u00f3b zaka\u017conych koronawirusem (wiek-p\u0142e\u0107, miejsce zgonu): 83-K, 70-M Radom, 91-K Wschowa,",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1289116252833808384"
+            },
+            {
+                "parsed": true,
+                "regions": {
+                    "PL21": 77,
+                    "PL22": 227,
+                    "PL41": 59,
+                    "PL51": 35,
+                    "PL61": 17,
+                    "PL63": 17,
+                    "PL71": 30,
+                    "PL81": 20,
+                    "PL82": 28,
+                    "PL92": 104
+                },
+                "regions_regex": {
+                    "(?<!dolno)\u015bl\u0105ski[\\w]*": 227,
+                    "dolno\u015bl\u0105ski[\\w]*": 35,
+                    "kujawsko-pomorski[\\w]*": 17,
+                    "lubelski[\\w]*": 20,
+                    "mazowiecki[\\w]*": 104,
+                    "ma\u0142opolski[\\w]*": 77,
+                    "podkarpacki[\\w]*": 28,
+                    "pomorski[\\w]*": 17,
+                    "wielkopolski[\\w]*": 59,
+                    "\u0142\u00f3dzki[\\w]*": 30
+                },
+                "text": "Mamy 657 nowych i potwierdzonych przypadk\u00f3w zaka\u017cenia #koronawirus z wojew\u00f3dztw: \u015bl\u0105skiego (227), mazowieckiego (104), ma\u0142opolskiego (77), wielkopolskiego (59), dolno\u015bl\u0105skiego (35), \u0142\u00f3dzkiego (30), podkarpackiego (28), lubelskiego (20), kujawsko-pomorskiego (17),",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1289116251751686144"
+            },
+            {
+                "parsed": false,
+                "regions": {
+                    "PL81": null
+                },
+                "regions_regex": {
+                    "lubelski[\\w]*": null
+                },
+                "text": "59-M, 79-K, 59-M Krak\u00f3w, 80-M Siedlce (mieszkaniec woj. lubelskiego). Wi\u0119kszo\u015b\u0107 os\u00f3b mia\u0142a choroby wsp\u00f3\u0142istniej\u0105ce. Liczba zaka\u017conych koronawirusem: 45 688/1 716 (wszystkie pozytywne przypadki/w tym osoby zmar\u0142e).",
+                "url": "https://twitter.com/MZ_GOV_PL/status/1289116253957824512"
+            }
+        ]
+    }
+}

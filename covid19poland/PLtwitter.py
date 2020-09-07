@@ -423,11 +423,11 @@ if __name__ == "__main__":
     
     for i in range(3,9):
         data,filtered,checklist = PolishTwitter.get(
-            datetime(2020,i,1),datetime(2020,i+1,1)-timedelta(days=1), keys=["deaths","tests"])
+            datetime(2020,i,1),datetime(2020,i+1,1)-timedelta(days=1), keys=["regions","regions"])
 
-        with open(f"data/deaths/{i}_in.json", "w") as fd:
+        with open(f"data/confirmed/{i}_in.json", "w") as fd:
             json.dump(data, fd, sort_keys=True, indent = 4, separators = (',',": "))
-        with open(f"data/deaths/{i}_out.json", "w") as fd:
+        with open(f"data/confirmed/{i}_out.json", "w") as fd:
             json.dump(filtered, fd, sort_keys=True, indent = 4, separators = (',',": "))
         print(checklist)
 

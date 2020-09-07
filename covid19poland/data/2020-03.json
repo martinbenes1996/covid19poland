@@ -1,4 +1,102 @@
 {
+    "2020-03-03": {
+        "tests": {
+            "cumulative": 559,
+            "url": "https://twitter.com/MZ_GOV_PL/status/1234835829559889921"
+        }
+    },
+    "2020-03-05": {
+        "confirmed": {
+            "confirmed": 1,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1235499713199136769"
+            ]
+        },
+        "tests": {
+            "cumulative": 676,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1235499713199136769"
+            ]
+        }
+    },
+    "2020-03-08": {
+        "confirmed": {
+            "confirmed": 2,
+            "regions": {
+                "PL22": 2,
+                "PL92": 2,
+                "PL51": 1
+            },
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1236628432676675585",
+                "https://twitter.com/MZ_GOV_PL/status/1236731347571478531"
+            ],
+            "cumulative": 11
+        }
+    },
+    "2020-03-09": {
+        "confirmed": {
+            "confirmed": 1,
+            "regions": {
+                "PL41": 1
+            },
+            "cumulative": 17,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1237037259674845184",
+                "https://twitter.com/MZ_GOV_PL/status/1236972289247326214"
+            ]
+        }
+    },
+    "2020-03-10": {
+        "confirmed": {
+            "confirmed": 5,
+            "regions": {
+                "PL91": 1,
+                "PL22": 2,
+                "PL51": 1,
+                "PL81": 1
+            },
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1237290794668773377",
+                "https://twitter.com/MZ_GOV_PL/status/1237323034371010560",
+                "https://twitter.com/MZ_GOV_PL/status/1237366146589954049",
+                "https://twitter.com/MZ_GOV_PL/status/1237418482079326211",
+                "https://twitter.com/MZ_GOV_PL/status/1237418484927250433",
+                "https://twitter.com/MZ_GOV_PL/status/1237449974293639168"
+            ],
+            "cumulative": 22
+        },
+        "tests": {
+            "cumulative": 1630,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1237290794668773377"
+            ]
+        }
+    },
+    "2020-03-11": {
+        "confirmed": {
+            "confirmed": 9,
+            "regions": {
+                "PL81": 1,
+                "PL82": 1,
+                "PL9": 1,
+                "PL22": 1,
+                "PL71": 1,
+                "PL41": 1,
+                "PL52": 1,
+                "PL62": 2
+            },
+            "cumulative": 31,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1237636589112655872",
+                "https://twitter.com/MZ_GOV_PL/status/1237636590677221376",
+                "https://twitter.com/MZ_GOV_PL/status/1237734191300857856",
+                "https://twitter.com/MZ_GOV_PL/status/1237734192492040192",
+                "https://twitter.com/MZ_GOV_PL/status/1237790884726480898",
+                "https://twitter.com/MZ_GOV_PL/status/1237790886030987265"
+            ]
+        }
+    },
     "2020-03-12": {
         "deaths": {
             "deaths": 1,
@@ -11,6 +109,25 @@
                 }
             ],
             "url": "https://twitter.com/MZ_GOV_PL/status/1238117815934214145"
+        },
+        "confirmed": {
+            "confirmed": 20,
+            "regions": {
+                "PL22": 3,
+                "PL51": 3,
+                "PL71": 1,
+                "PL81": 4,
+                "PL92": 2,
+                "PL82": 2,
+                "PL41": 3
+            },
+            "cumulative": 51,
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1237988881070514177",
+                "https://twitter.com/MZ_GOV_PL/status/1237989194724712448",
+                "https://twitter.com/MZ_GOV_PL/status/1237989004496318464",
+                "https://twitter.com/MZ_GOV_PL/status/1238019669023481856"
+            ]
         }
     },
     "2020-03-13": {
