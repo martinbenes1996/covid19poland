@@ -1,94 +1,4 @@
 {
-    "2020-08-07": {
-        "deaths": {
-            "deaths": 13,
-            "parsed": true,
-            "people": [
-                {
-                    "age": 56,
-                    "gender": "M",
-                    "place": "Zdu\u0144ska",
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 71,
-                    "gender": "F",
-                    "place": "\u0141\u00f3d\u017a",
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 86,
-                    "gender": "F",
-                    "place": "Warszawa",
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 85,
-                    "gender": "M",
-                    "place": "Wroc\u0142aw",
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 84,
-                    "gender": "M",
-                    "place": null,
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 92,
-                    "gender": "M",
-                    "place": null,
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 90,
-                    "gender": "F",
-                    "place": "Krak\u00f3w",
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 78,
-                    "gender": "F",
-                    "place": "Bia\u0142ystok",
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 64,
-                    "gender": "F",
-                    "place": "\u0141a\u0144cut",
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 73,
-                    "gender": "M",
-                    "place": "K\u0119dzierzyn",
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 78,
-                    "gender": "M",
-                    "place": "Pozna\u0144",
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 80,
-                    "gender": "M",
-                    "place": "Tychy",
-                    "time": "2020-08-07 10:30:15"
-                },
-                {
-                    "age": 77,
-                    "gender": "M",
-                    "place": "Gliwice",
-                    "time": "2020-08-07 10:30:15"
-                }
-            ],
-            "url": [
-                "https://twitter.com/MZ_GOV_PL/status/1291652865593872391",
-                "https://twitter.com/MZ_GOV_PL/status/1291652864490852355"
-            ]
-        }
-    },
     "2020-08-08": {
         "deaths": {
             "deaths": 13,
@@ -2413,6 +2323,39 @@
                 }
             ],
             "url": "https://twitter.com/MZ_GOV_PL/status/1302524537628745728"
+        }
+    },
+    "2020-09-07": {
+        "deaths": {
+            "deaths": 4,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 87,
+                    "gender": "M",
+                    "place": "Paj\u0119czno",
+                    "time": "2020-09-07 10:30:48"
+                },
+                {
+                    "age": 41,
+                    "gender": "M",
+                    "place": "Pu\u0142awy",
+                    "time": "2020-09-07 10:30:48"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": "\u0141a\u0144cut",
+                    "time": "2020-09-07 10:30:48"
+                },
+                {
+                    "age": 62,
+                    "gender": "M",
+                    "place": "Gorz\u00f3w",
+                    "time": "2020-09-07 10:30:48"
+                }
+            ],
+            "url": "https://twitter.com/MZ_GOV_PL/status/1302887028615450625"
         }
     }
 }
