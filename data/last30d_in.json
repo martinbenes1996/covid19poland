@@ -1,58 +1,4 @@
 {
-    "2020-08-09": {
-        "deaths": {
-            "deaths": 7,
-            "parsed": true,
-            "people": [
-                {
-                    "age": 94,
-                    "gender": "F",
-                    "place": null,
-                    "time": "2020-08-09 10:30:17"
-                },
-                {
-                    "age": 81,
-                    "gender": "F",
-                    "place": "Krak\u00f3w",
-                    "time": "2020-08-09 10:30:17"
-                },
-                {
-                    "age": 83,
-                    "gender": "M",
-                    "place": "Radom",
-                    "time": "2020-08-09 10:30:17"
-                },
-                {
-                    "age": 84,
-                    "gender": "M",
-                    "place": "Tychy",
-                    "time": "2020-08-09 10:30:17"
-                },
-                {
-                    "age": 51,
-                    "gender": "M",
-                    "place": "Pozna\u0144",
-                    "time": "2020-08-09 10:30:18"
-                },
-                {
-                    "age": 79,
-                    "gender": "F",
-                    "place": "\u0141a\u0144cut",
-                    "time": "2020-08-09 10:30:18"
-                },
-                {
-                    "age": 85,
-                    "gender": "F",
-                    "place": "Starachowice",
-                    "time": "2020-08-09 10:30:18"
-                }
-            ],
-            "url": [
-                "https://twitter.com/MZ_GOV_PL/status/1292377650988814339",
-                "https://twitter.com/MZ_GOV_PL/status/1292377652091904002"
-            ]
-        }
-    },
     "2020-08-10": {
         "deaths": {
             "deaths": 2,
@@ -2347,6 +2293,84 @@
                 }
             ],
             "url": "https://twitter.com/MZ_GOV_PL/status/1303251403192897538"
+        }
+    },
+    "2020-09-09": {
+        "deaths": {
+            "deaths": 11,
+            "parsed": true,
+            "people": [
+                {
+                    "age": 78,
+                    "gender": "M",
+                    "place": "Starachowice",
+                    "time": "2020-09-09 10:30:19"
+                },
+                {
+                    "age": 79,
+                    "gender": "M",
+                    "place": "Krak\u00f3w",
+                    "time": "2020-09-09 10:30:19"
+                },
+                {
+                    "age": 66,
+                    "gender": "F",
+                    "place": "\u0141a\u0144cut",
+                    "time": "2020-09-09 10:30:19"
+                },
+                {
+                    "age": 82,
+                    "gender": "M",
+                    "place": "Gliwice",
+                    "time": "2020-09-09 10:30:19"
+                },
+                {
+                    "age": 58,
+                    "gender": "F",
+                    "place": null,
+                    "time": "2020-09-09 10:30:19"
+                },
+                {
+                    "age": 86,
+                    "gender": "F",
+                    "place": "Tychy",
+                    "time": "2020-09-09 10:30:19"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Gorz\u00f3w",
+                    "time": "2020-09-09 10:30:19"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Siedlce",
+                    "time": "2020-09-09 10:30:20"
+                },
+                {
+                    "age": 70,
+                    "gender": "F",
+                    "place": "Pozna\u0144",
+                    "time": "2020-09-09 10:30:20"
+                },
+                {
+                    "age": 84,
+                    "gender": "M",
+                    "place": "Warszawa",
+                    "time": "2020-09-09 10:30:20"
+                },
+                {
+                    "age": 73,
+                    "gender": "M",
+                    "place": "Gda\u0144sk",
+                    "time": "2020-09-09 10:30:20"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1303611682405658624",
+                "https://twitter.com/MZ_GOV_PL/status/1303611684406337537"
+            ]
         }
     }
 }
