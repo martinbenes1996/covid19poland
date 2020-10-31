@@ -40,7 +40,6 @@ class TestStat(unittest.TestCase):
         self.assertIsInstance(x, pd.DataFrame)
         self.assertIn("week", x.columns)
         self.assertIn("sex", x.columns)
-        self.assertIn("region", x.columns)
         self.assertIn("age_group", x.columns)
         self.assertIn("deaths", x.columns)
         
@@ -58,14 +57,17 @@ class TestStat(unittest.TestCase):
     
     def test_covid_deaths3_offline(self):
         x = self.get_covid_deaths(level = 3, offline = True)
+        self.assertIn("NUTS2", x.columns)
+        self.assertIn("NUTS3", x.columns)
     #def test_covid_deaths3_online(self):
     #    x = self.get_covid_deaths(level = 3, offline = False)
     def test_covid_deaths2_offline(self):
         x = self.get_covid_deaths(level = 2, offline = True)
+        self.assertIn("NUTS2", x.columns)
     #def test_covid_deaths2_online(self):
     #    x = self.get_covid_deaths(level = 2, offline = False)
     def test_covid_deaths0_offline(self):
-        x = self.get_covid_deaths(level = 0, offline = True)
+        x = self.get_covid_deaths(level = 1, offline = True)
     #def test_covid_deaths0_online(self):
     #    x = self.get_covid_deaths(level = 0, offline = False)
         
