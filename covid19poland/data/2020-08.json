@@ -24,7 +24,7 @@
                 {
                     "age": 71,
                     "gender": "F",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-01 10:32:06"
                 },
                 {
@@ -52,21 +52,21 @@
                 {
                     "age": 84,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "comorbid": true,
                     "time": "2020-08-02 10:30:19"
                 },
                 {
                     "age": 82,
                     "gender": "F",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "comorbid": true,
                     "time": "2020-08-02 10:30:19"
                 },
                 {
                     "age": 95,
                     "gender": "F",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "comorbid": true,
                     "time": "2020-08-02 10:30:19"
                 },
@@ -80,7 +80,7 @@
                 {
                     "age": 76,
                     "gender": "F",
-                    "place": null,
+                    "place": "Grobla",
                     "comorbid": true,
                     "time": "2020-08-02 10:30:19"
                 },
@@ -216,7 +216,7 @@
                 {
                     "age": 76,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-05 10:31:29"
                 },
                 {
@@ -234,7 +234,7 @@
                 {
                     "age": 79,
                     "gender": "M",
-                    "place": null,
+                    "place": "Zgierz",
                     "time": "2020-08-05 10:31:29"
                 },
                 {
@@ -246,25 +246,25 @@
                 {
                     "age": 93,
                     "gender": "F",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-08-05 10:31:29"
                 },
                 {
                     "age": 87,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-08-05 10:31:29"
                 },
                 {
                     "age": 68,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-08-05 10:31:29"
                 },
                 {
                     "age": 72,
                     "gender": "F",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-08-05 10:31:29"
                 },
                 {
@@ -335,7 +335,7 @@
                 {
                     "age": 75,
                     "gender": "M",
-                    "place": null,
+                    "place": "Zgierz",
                     "time": "2020-08-06 10:31:24"
                 },
                 {
@@ -365,7 +365,7 @@
                 {
                     "age": 64,
                     "gender": "F",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-08-06 10:31:24"
                 },
                 {
@@ -401,13 +401,13 @@
                 {
                     "age": 84,
                     "gender": "F",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-06 10:31:24"
                 },
                 {
                     "age": 68,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-06 10:31:24"
                 },
                 {
@@ -502,13 +502,13 @@
                 {
                     "age": 84,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-07 10:30:15"
                 },
                 {
                     "age": 92,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-07 10:30:15"
                 },
                 {
@@ -578,13 +578,13 @@
                 {
                     "age": 88,
                     "gender": "M",
-                    "place": null,
+                    "place": "Tychy",
                     "time": "2020-08-08 10:30:16"
                 },
                 {
                     "age": 64,
                     "gender": "M",
-                    "place": null,
+                    "place": "Tychy",
                     "time": "2020-08-08 10:30:16"
                 },
                 {
@@ -596,19 +596,19 @@
                 {
                     "age": 67,
                     "gender": "F",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-08 10:30:16"
                 },
                 {
                     "age": 71,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-08 10:30:16"
                 },
                 {
                     "age": 83,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-08 10:30:16"
                 },
                 {
@@ -648,7 +648,7 @@
                 {
                     "age": 94,
                     "gender": "F",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-09 10:30:17"
                 },
                 {
@@ -791,7 +791,7 @@
                 {
                     "age": 62,
                     "gender": "M",
-                    "place": null,
+                    "place": "Pozna\u0144",
                     "time": "2020-08-11 10:31:35"
                 },
                 {
@@ -849,7 +849,7 @@
                 {
                     "age": 76,
                     "gender": "M",
-                    "place": null,
+                    "place": "Pozna\u0144",
                     "time": "2020-08-12 10:30:26"
                 },
                 {
@@ -861,7 +861,7 @@
                 {
                     "age": 61,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-12 10:30:26"
                 },
                 {
@@ -901,43 +901,43 @@
                 {
                     "age": 89,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-13 10:35:34"
                 },
                 {
                     "age": 77,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-13 10:35:34"
                 },
                 {
                     "age": 85,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-13 10:35:34"
                 },
                 {
                     "age": 90,
                     "gender": "F",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-13 10:35:34"
                 },
                 {
                     "age": 55,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-13 10:35:34"
                 },
                 {
                     "age": 75,
                     "gender": "F",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-13 10:35:34"
                 },
                 {
                     "age": 72,
                     "gender": "F",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-13 10:35:34"
                 },
                 {
@@ -955,7 +955,7 @@
                 {
                     "age": 64,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-13 10:35:34"
                 },
                 {
@@ -990,7 +990,7 @@
                 {
                     "age": 74,
                     "gender": "M",
-                    "place": null,
+                    "place": "Pozna\u0144",
                     "time": "2020-08-14 10:30:28"
                 },
                 {
@@ -1020,7 +1020,7 @@
                 {
                     "age": 67,
                     "gender": "F",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-14 10:30:28"
                 },
                 {
@@ -1032,7 +1032,7 @@
                 {
                     "age": 69,
                     "gender": "F",
-                    "place": null,
+                    "place": "\u0141\u00f3d\u017a",
                     "time": "2020-08-14 10:30:28"
                 },
                 {
@@ -1044,13 +1044,13 @@
                 {
                     "age": 82,
                     "gender": "M",
-                    "place": null,
+                    "place": "Zgierz",
                     "time": "2020-08-14 10:30:28"
                 },
                 {
                     "age": 77,
                     "gender": "M",
-                    "place": null,
+                    "place": "Zgierz",
                     "time": "2020-08-14 10:30:28"
                 },
                 {
@@ -1124,7 +1124,7 @@
                 {
                     "age": 67,
                     "gender": "F",
-                    "place": null,
+                    "place": "Tychy",
                     "comorbid": true,
                     "time": "2020-08-15 10:33:33"
                 },
@@ -1138,7 +1138,7 @@
                 {
                     "age": 75,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "comorbid": true,
                     "time": "2020-08-15 10:33:33"
                 },
@@ -1159,7 +1159,7 @@
                 {
                     "age": 97,
                     "gender": "F",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "comorbid": true,
                     "time": "2020-08-15 10:33:33"
                 },
@@ -1189,31 +1189,31 @@
                 {
                     "age": 71,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-16 10:30:52"
                 },
                 {
                     "age": 63,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-16 10:30:52"
                 },
                 {
                     "age": 83,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-16 10:30:52"
                 },
                 {
                     "age": 70,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-16 10:30:52"
                 },
                 {
                     "age": 56,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-16 10:30:52"
                 },
                 {
@@ -1250,21 +1250,21 @@
                 {
                     "age": 66,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "comorbid": true,
                     "time": "2020-08-17 10:30:18"
                 },
                 {
                     "age": 64,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "comorbid": true,
                     "time": "2020-08-17 10:30:18"
                 },
                 {
                     "age": 86,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "comorbid": true,
                     "time": "2020-08-17 10:30:18"
                 },
@@ -1340,25 +1340,25 @@
                 {
                     "age": 80,
                     "gender": "F",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-18 10:30:15"
                 },
                 {
                     "age": 65,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-18 10:30:15"
                 },
                 {
                     "age": 67,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-18 10:30:15"
                 },
                 {
                     "age": 87,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-18 10:30:15"
                 },
                 {
@@ -1422,7 +1422,7 @@
                 {
                     "age": 81,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-19 10:30:18"
                 },
                 {
@@ -1458,7 +1458,7 @@
                 {
                     "age": 67,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-19 10:30:18"
                 },
                 {
@@ -1610,7 +1610,7 @@
                 {
                     "age": 89,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-21 10:30:31"
                 },
                 {
@@ -1658,7 +1658,7 @@
                 {
                     "age": 70,
                     "gender": "M",
-                    "place": null,
+                    "place": "Tychy",
                     "time": "2020-08-21 10:30:31"
                 },
                 {
@@ -1670,7 +1670,7 @@
                 {
                     "age": 89,
                     "gender": "M",
-                    "place": null,
+                    "place": "Pozna\u0144",
                     "time": "2020-08-21 10:30:31"
                 },
                 {
@@ -1758,7 +1758,7 @@
                 {
                     "age": 79,
                     "gender": "F",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-22 10:37:45"
                 },
                 {
@@ -1812,7 +1812,7 @@
                 {
                     "age": 93,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "comorbid": true,
                     "time": "2020-08-23 10:30:11"
                 },
@@ -1918,7 +1918,7 @@
                 {
                     "age": 82,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-25 10:32:07"
                 },
                 {
@@ -1930,7 +1930,7 @@
                 {
                     "age": 57,
                     "gender": "F",
-                    "place": null,
+                    "place": "Ostr\u00f3da",
                     "time": "2020-08-25 10:32:07"
                 },
                 {
@@ -1966,7 +1966,7 @@
                 {
                     "age": 96,
                     "gender": "F",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-25 10:32:07"
                 },
                 {
@@ -2018,7 +2018,7 @@
                 {
                     "age": 50,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-26 10:32:17"
                 },
                 {
@@ -2036,7 +2036,7 @@
                 {
                     "age": 68,
                     "gender": "F",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-08-26 10:32:17"
                 },
                 {
@@ -2048,7 +2048,7 @@
                 {
                     "age": 74,
                     "gender": "M",
-                    "place": null,
+                    "place": "Zgierz",
                     "time": "2020-08-26 10:32:17"
                 },
                 {
@@ -2066,19 +2066,19 @@
                 {
                     "age": 90,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-26 10:32:17"
                 },
                 {
                     "age": 91,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-26 10:32:17"
                 },
                 {
                     "age": 82,
                     "gender": "F",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-26 10:32:17"
                 },
                 {
@@ -2262,13 +2262,13 @@
                 {
                     "age": 86,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-28 10:31:11"
                 },
                 {
                     "age": 73,
                     "gender": "M",
-                    "place": null,
+                    "place": "Krak\u00f3w",
                     "time": "2020-08-28 10:31:11"
                 },
                 {
@@ -2314,19 +2314,19 @@
                 {
                     "age": 76,
                     "gender": "M",
-                    "place": null,
+                    "place": "Pozna\u0144",
                     "time": "2020-08-29 10:31:07"
                 },
                 {
                     "age": 87,
                     "gender": "F",
-                    "place": null,
+                    "place": "Pozna\u0144",
                     "time": "2020-08-29 10:31:07"
                 },
                 {
                     "age": 72,
                     "gender": "M",
-                    "place": null,
+                    "place": "Pozna\u0144",
                     "time": "2020-08-29 10:31:07"
                 },
                 {
@@ -2338,7 +2338,7 @@
                 {
                     "age": 80,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racib\u00f3rz",
                     "time": "2020-08-29 10:31:07"
                 },
                 {
@@ -2443,14 +2443,14 @@
                 {
                     "age": 72,
                     "gender": "M",
-                    "place": null,
+                    "place": "Gda\u0144sk",
                     "comorbid": true,
                     "time": "2020-08-31 10:30:12"
                 },
                 {
                     "age": 87,
                     "gender": "M",
-                    "place": null,
+                    "place": "Gda\u0144sk",
                     "comorbid": true,
                     "time": "2020-08-31 10:30:12"
                 },

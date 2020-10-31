@@ -13,7 +13,7 @@
                 {
                     "age": 63,
                     "gender": "M",
-                    "place": null,
+                    "place": "Łódź",
                     "comorbid": true,
                     "time": "2020-05-01 13:17:00"
                 },
@@ -98,13 +98,13 @@
                 {
                     "age": 74,
                     "gender": "M",
-                    "place": null,
+                    "place": "Poznań",
                     "time": "2020-05-02 13:03:00"
                 },
                 {
                     "age": 69,
                     "gender": "M",
-                    "place": null,
+                    "place": "Poznań",
                     "time": "2020-05-02 13:03:00"
                 },
                 {
@@ -163,13 +163,13 @@
                 {
                     "age": 82,
                     "gender": "F",
-                    "place": null,
+                    "place": "Tychy",
                     "time": "2020-05-03 13:04:00"
                 },
                 {
                     "age": 65,
                     "gender": "F",
-                    "place": null,
+                    "place": "Tychy",
                     "time": "2020-05-03 13:04:00"
                 },
                 {
@@ -193,7 +193,7 @@
                 {
                     "age": 65,
                     "gender": "F",
-                    "place": null,
+                    "place": "Bolesławiec",
                     "time": "2020-05-03 13:04:00"
                 },
                 {
@@ -211,13 +211,13 @@
                 {
                     "age": 49,
                     "gender": "M",
-                    "place": null,
+                    "place": "Poznań",
                     "time": "2020-05-03 13:04:00"
                 },
                 {
                     "age": 88,
                     "gender": "F",
-                    "place": null,
+                    "place": "Poznań",
                     "time": "2020-05-03 13:04:00"
                 },
                 {
@@ -264,7 +264,7 @@
     },
     "2020-05-04": {
         "deaths": {
-            "deaths": 19,
+            "deaths": 20,
             "people": [
                 {
                     "age": 85,
@@ -273,9 +273,15 @@
                     "time": "2020-05-04 10:01:00"
                 },
                 {
+                    "age": 64,
+                    "gender": "F",
+                    "place": "Białe Błota",
+                    "time": "2020-05-04 10:01:00"
+                },
+                {
                     "age": 91,
                     "gender": "F",
-                    "place": null,
+                    "place": "Gdańsk",
                     "time": "2020-05-04 10:01:00"
                 },
                 {
@@ -311,7 +317,7 @@
                 {
                     "age": 86,
                     "gender": "M",
-                    "place": null,
+                    "place": "Koszalin",
                     "time": "2020-05-04 17:40:00"
                 },
                 {
@@ -323,7 +329,7 @@
                 {
                     "age": 76,
                     "gender": "F",
-                    "place": null,
+                    "place": "Szczecin",
                     "time": "2020-05-04 17:40:00"
                 },
                 {
@@ -347,13 +353,13 @@
                 {
                     "age": 59,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-04 17:40:00"
                 },
                 {
                     "age": 88,
                     "gender": "F",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-04 17:40:00"
                 },
                 {
@@ -430,7 +436,7 @@
                 {
                     "age": 84,
                     "gender": "M",
-                    "place": null,
+                    "place": "Poznań",
                     "time": "2020-05-05 17:33:00"
                 },
                 {
@@ -442,13 +448,13 @@
                 {
                     "age": 69,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wrocław",
                     "time": "2020-05-05 17:33:00"
                 },
                 {
                     "age": 89,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wrocław",
                     "time": "2020-05-05 17:33:00"
                 },
                 {
@@ -496,7 +502,7 @@
                 {
                     "age": 80,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-05 17:33:00"
                 },
                 {
@@ -546,21 +552,21 @@
                 {
                     "age": 74,
                     "gender": "F",
-                    "place": null,
+                    "place": "Poznań",
                     "comorbid": true,
                     "time": "2020-05-06 10:00:00"
                 },
                 {
                     "age": 66,
                     "gender": "M",
-                    "place": null,
+                    "place": "Poznań",
                     "comorbid": true,
                     "time": "2020-05-06 10:00:00"
                 },
                 {
                     "age": 90,
                     "gender": "F",
-                    "place": null,
+                    "place": "Poznań",
                     "comorbid": true,
                     "time": "2020-05-06 10:00:00"
                 },
@@ -593,7 +599,7 @@
                 {
                     "age": 83,
                     "gender": "F",
-                    "place": null,
+                    "place": "Tychy",
                     "time": "2020-05-06 17:36:00"
                 },
                 {
@@ -691,13 +697,13 @@
                 {
                     "age": 71,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racibórz",
                     "time": "2020-05-07 17:31:00"
                 },
                 {
                     "age": 71,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racibórz",
                     "time": "2020-05-07 17:31:00"
                 },
                 {
@@ -715,13 +721,13 @@
                 {
                     "age": 78,
                     "gender": "M",
-                    "place": null,
+                    "place": "Zgierz",
                     "time": "2020-05-07 17:31:00"
                 },
                 {
                     "age": 86,
                     "gender": "F",
-                    "place": null,
+                    "place": "Zgierz",
                     "time": "2020-05-07 17:31:00"
                 },
                 {
@@ -733,7 +739,7 @@
                 {
                     "age": 66,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wrocław",
                     "time": "2020-05-07 17:31:00"
                 },
                 {
@@ -824,7 +830,7 @@
                 {
                     "age": 84,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wolica",
                     "time": "2020-05-08 17:30:00"
                 },
                 {
@@ -848,7 +854,7 @@
                 {
                     "age": 90,
                     "gender": "M",
-                    "place": null,
+                    "place": "Bytom",
                     "time": "2020-05-08 17:30:00"
                 },
                 {
@@ -890,31 +896,31 @@
                 {
                     "age": 74,
                     "gender": "M",
-                    "place": null,
+                    "place": "Wrocław",
                     "time": "2020-05-08 17:30:00"
                 },
                 {
                     "age": 79,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wrocław",
                     "time": "2020-05-08 17:30:00"
                 },
                 {
                     "age": 78,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wrocław",
                     "time": "2020-05-08 17:30:00"
                 },
                 {
                     "age": 85,
                     "gender": "M",
-                    "place": null,
+                    "place": "Wrocław",
                     "time": "2020-05-08 17:30:00"
                 },
                 {
                     "age": 71,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wrocław",
                     "time": "2020-05-08 17:30:00"
                 },
                 {
@@ -987,7 +993,7 @@
                 {
                     "age": 75,
                     "gender": "M",
-                    "place": null,
+                    "place": "Radom",
                     "time": "2020-05-09 17:36:00"
                 },
                 {
@@ -1075,7 +1081,7 @@
                 {
                     "age": 93,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wolica",
                     "comorbid": true,
                     "time": "2020-05-10 17:30:00"
                 },
@@ -1089,7 +1095,7 @@
                 {
                     "age": 92,
                     "gender": "F",
-                    "place": null,
+                    "place": "Gdańsk",
                     "comorbid": true,
                     "time": "2020-05-10 17:30:00"
                 },
@@ -1103,7 +1109,7 @@
                 {
                     "age": 93,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racibórz",
                     "comorbid": true,
                     "time": "2020-05-10 17:30:00"
                 },
@@ -1124,7 +1130,7 @@
                 {
                     "age": 56,
                     "gender": "M",
-                    "place": null,
+                    "place": "Poznań",
                     "comorbid": true,
                     "time": "2020-05-10 17:30:00"
                 },
@@ -1211,14 +1217,14 @@
                 {
                     "age": 72,
                     "gender": "M",
-                    "place": null,
+                    "place": "Nowogrodziec",
                     "comorbid": true,
                     "time": "2020-05-11 17:31:00"
                 },
                 {
                     "age": 87,
                     "gender": "F",
-                    "place": null,
+                    "place": "Nowogrodziec",
                     "comorbid": true,
                     "time": "2020-05-11 17:31:00"
                 },
@@ -1250,7 +1256,7 @@
                 {
                     "age": 92,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wolica",
                     "comorbid": true,
                     "time": "2020-05-12 10:00:00"
                 },
@@ -1264,14 +1270,14 @@
                 {
                     "age": 96,
                     "gender": "F",
-                    "place": null,
+                    "place": "Poznań",
                     "comorbid": true,
                     "time": "2020-05-12 10:00:00"
                 },
                 {
                     "age": 90,
                     "gender": "F",
-                    "place": null,
+                    "place": "Poznań",
                     "comorbid": true,
                     "time": "2020-05-12 10:00:00"
                 },
@@ -1292,7 +1298,7 @@
                 {
                     "age": 67,
                     "gender": "F",
-                    "place": null,
+                    "place": "Tarnowskie Góry",
                     "comorbid": true,
                     "time": "2020-05-12 10:00:00"
                 },
@@ -1313,7 +1319,7 @@
                 {
                     "age": 71,
                     "gender": "M",
-                    "place": null,
+                    "place": "Tychy",
                     "comorbid": true,
                     "time": "2020-05-12 10:00:00"
                 },
@@ -1327,7 +1333,7 @@
                 {
                     "age": 51,
                     "gender": "F",
-                    "place": null,
+                    "place": "Grudziądz",
                     "comorbid": true,
                     "time": "2020-05-12 10:00:00"
                 },
@@ -1341,14 +1347,14 @@
                 {
                     "age": 93,
                     "gender": "F",
-                    "place": null,
+                    "place": "Zgierz",
                     "comorbid": true,
                     "time": "2020-05-12 10:00:00"
                 },
                 {
                     "age": 87,
                     "gender": "F",
-                    "place": null,
+                    "place": "Zgierz",
                     "comorbid": true,
                     "time": "2020-05-12 10:00:00"
                 },
@@ -1362,7 +1368,7 @@
                 {
                     "age": 53,
                     "gender": "F",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-12 17:30:00"
                 },
                 {
@@ -1398,19 +1404,19 @@
                 {
                     "age": 80,
                     "gender": "M",
-                    "place": null,
+                    "place": "Wrocław",
                     "time": "2020-05-12 17:30:00"
                 },
                 {
                     "age": 61,
                     "gender": "M",
-                    "place": null,
+                    "place": "Wrocław",
                     "time": "2020-05-12 17:30:00"
                 },
                 {
                     "age": 63,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wrocław",
                     "time": "2020-05-12 17:30:00"
                 },
                 {
@@ -1508,19 +1514,19 @@
                 {
                     "age": 75,
                     "gender": "F",
-                    "place": null,
+                    "place": "Poznań",
                     "time": "2020-05-13 17:32:00"
                 },
                 {
                     "age": 93,
                     "gender": "F",
-                    "place": null,
+                    "place": "Poznań",
                     "time": "2020-05-13 17:32:00"
                 },
                 {
                     "age": 77,
                     "gender": "M",
-                    "place": null,
+                    "place": "Poznań",
                     "time": "2020-05-13 17:32:00"
                 },
                 {
@@ -1538,7 +1544,7 @@
                 {
                     "age": 82,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-13 17:32:00"
                 },
                 {
@@ -1574,19 +1580,19 @@
                 {
                     "age": 94,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wolica",
                     "time": "2020-05-13 17:32:00"
                 },
                 {
                     "age": 84,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wolica",
                     "time": "2020-05-13 17:32:00"
                 },
                 {
                     "age": 90,
                     "gender": "M",
-                    "place": null,
+                    "place": "Wolica",
                     "time": "2020-05-13 17:32:00"
                 },
                 {
@@ -1628,21 +1634,21 @@
                 {
                     "age": 78,
                     "gender": "M",
-                    "place": null,
+                    "place": "Tychy",
                     "comorbid": true,
                     "time": "2020-05-14 10:02:00"
                 },
                 {
                     "age": 93,
                     "gender": "M",
-                    "place": null,
+                    "place": "Tychy",
                     "comorbid": true,
                     "time": "2020-05-14 10:02:00"
                 },
                 {
                     "age": 75,
                     "gender": "F",
-                    "place": null,
+                    "place": "Tychy",
                     "comorbid": true,
                     "time": "2020-05-14 10:02:00"
                 },
@@ -1677,7 +1683,7 @@
                 {
                     "age": 89,
                     "gender": "F",
-                    "place": null,
+                    "place": "Poznań",
                     "comorbid": true,
                     "time": "2020-05-14 17:30:00"
                 },
@@ -1797,19 +1803,19 @@
                 {
                     "age": 82,
                     "gender": "M",
-                    "place": null,
+                    "place": "Tychy",
                     "time": "2020-05-15 10:02:00"
                 },
                 {
                     "age": 74,
                     "gender": "M",
-                    "place": null,
+                    "place": "Tychy",
                     "time": "2020-05-15 10:02:00"
                 },
                 {
                     "age": 74,
                     "gender": "F",
-                    "place": null,
+                    "place": "Tychy",
                     "time": "2020-05-15 10:02:00"
                 },
                 {
@@ -1827,7 +1833,7 @@
                 {
                     "age": 69,
                     "gender": "F",
-                    "place": null,
+                    "place": "Starachowice",
                     "time": "2020-05-15 10:02:00"
                 },
                 {
@@ -1851,19 +1857,19 @@
                 {
                     "age": 80,
                     "gender": "F",
-                    "place": null,
+                    "place": "Legnica",
                     "time": "2020-05-15 17:36:00"
                 },
                 {
                     "age": 88,
                     "gender": "F",
-                    "place": null,
+                    "place": "Legnica",
                     "time": "2020-05-15 17:36:00"
                 },
                 {
                     "age": 88,
                     "gender": "M",
-                    "place": null,
+                    "place": "Legnica",
                     "time": "2020-05-15 17:36:00"
                 },
                 {
@@ -1875,7 +1881,7 @@
                 {
                     "age": 87,
                     "gender": "M",
-                    "place": null,
+                    "place": "Bolesławiec",
                     "time": "2020-05-15 17:36:00"
                 },
                 {
@@ -1946,7 +1952,7 @@
                 {
                     "age": 67,
                     "gender": "M",
-                    "place": null,
+                    "place": "Kraków",
                     "time": "2020-05-16 10:05:00"
                 },
                 {
@@ -1976,7 +1982,7 @@
                 {
                     "age": 79,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wolica",
                     "comorbid": true,
                     "time": "2020-05-16 17:30:00"
                 },
@@ -2107,7 +2113,7 @@
                 {
                     "age": 91,
                     "gender": "F",
-                    "place": null,
+                    "place": "Łańcut",
                     "comorbid": true,
                     "time": "2020-05-18 10:07:00"
                 },
@@ -2128,7 +2134,7 @@
                 {
                     "age": 86,
                     "gender": "M",
-                    "place": null,
+                    "place": "Wrocław",
                     "comorbid": true,
                     "time": "2020-05-18 17:39:00"
                 },
@@ -2239,7 +2245,7 @@
                 {
                     "age": 88,
                     "gender": "F",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-19 17:30:00"
                 },
                 {
@@ -2251,7 +2257,7 @@
                 {
                     "age": 83,
                     "gender": "F",
-                    "place": null,
+                    "place": "Bolesławiec",
                     "time": "2020-05-19 17:30:00"
                 },
                 {
@@ -2285,7 +2291,7 @@
                 {
                     "age": 89,
                     "gender": "F",
-                    "place": null,
+                    "place": "Zgierz",
                     "time": "2020-05-20 10:01:00"
                 },
                 {
@@ -2309,7 +2315,7 @@
                 {
                     "age": 75,
                     "gender": "M",
-                    "place": null,
+                    "place": "Kędzierzyn-Koźle",
                     "time": "2020-05-20 17:37:00"
                 },
                 {
@@ -2321,19 +2327,19 @@
                 {
                     "age": 72,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-20 17:37:00"
                 },
                 {
                     "age": 75,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-20 17:37:00"
                 },
                 {
                     "age": 87,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-20 17:37:00"
                 },
                 {
@@ -2406,7 +2412,7 @@
                 {
                     "age": 76,
                     "gender": "M",
-                    "place": null,
+                    "place": "Radom",
                     "time": "2020-05-20 17:30:00"
                 },
                 {
@@ -2494,7 +2500,7 @@
                 {
                     "age": 57,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-22 17:33:00"
                 },
                 {
@@ -2506,7 +2512,7 @@
                 {
                     "age": 92,
                     "gender": "F",
-                    "place": null,
+                    "place": "Wolica",
                     "time": "2020-05-22 17:33:00"
                 },
                 {
@@ -2541,21 +2547,21 @@
                 {
                     "age": 64,
                     "gender": "M",
-                    "place": null,
+                    "place": "Zgierz",
                     "comorbid": true,
                     "time": "2020-05-23 10:00:00"
                 },
                 {
                     "age": 82,
                     "gender": "F",
-                    "place": null,
+                    "place": "Zgierz",
                     "comorbid": true,
                     "time": "2020-05-23 10:00:00"
                 },
                 {
                     "age": 78,
                     "gender": "F",
-                    "place": null,
+                    "place": "Zgierz",
                     "comorbid": true,
                     "time": "2020-05-23 10:00:00"
                 },
@@ -2576,7 +2582,7 @@
                 {
                     "age": 74,
                     "gender": "M",
-                    "place": null,
+                    "place": "Bełchatów",
                     "comorbid": true,
                     "time": "2020-05-23 10:00:00"
                 },
@@ -2597,7 +2603,7 @@
                 {
                     "age": 55,
                     "gender": "F",
-                    "place": null,
+                    "place": "Racibórz",
                     "comorbid": true,
                     "time": "2020-05-23 17:33:00"
                 },
@@ -2671,7 +2677,7 @@
                 {
                     "age": 85,
                     "gender": "M",
-                    "place": null,
+                    "place": "Bolesławiec",
                     "time": "2020-05-25 17:33"
                 },
                 {
@@ -2683,25 +2689,25 @@
                 {
                     "age": 91,
                     "gender": "F",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-25 17:33"
                 },
                 {
                     "age": 85,
                     "gender": "F",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-25 17:33"
                 },
                 {
                     "age": 61,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-25 17:33"
                 },
                 {
                     "age": 99,
                     "gender": "F",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-25 17:33"
                 },
                 {
@@ -2750,13 +2756,13 @@
                 {
                     "age": 72,
                     "gender": "F",
-                    "place": null,
+                    "place": "Zgierz",
                     "time": "2020-05-26 10:00:00"
                 },
                 {
                     "age": 72,
                     "gender": "M",
-                    "place": null,
+                    "place": "Zgierz",
                     "time": "2020-05-26 10:00:00"
                 },
                 {
@@ -2768,7 +2774,7 @@
                 {
                     "age": 81,
                     "gender": "F",
-                    "place": null,
+                    "place": "Gdańsk",
                     "time": "2020-05-26 10:00:00"
                 },
                 {
@@ -3004,7 +3010,7 @@
                 {
                     "age": 51,
                     "gender": "F",
-                    "place": null,
+                    "place": "Racibórz",
                     "comorbid": true,
                     "time": "2020-05-29 10:02:00"
                 },
@@ -3042,13 +3048,13 @@
                 {
                     "age": 83,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-29 17:30:00"
                 },
                 {
                     "age": 71,
                     "gender": "M",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-29 17:30:00"
                 },
                 {
@@ -3089,7 +3095,7 @@
                 {
                     "age": 67,
                     "gender": "M",
-                    "place": null,
+                    "place": "Racibórz",
                     "time": "2020-05-30 17:31:00"
                 },
                 {
@@ -3101,7 +3107,7 @@
                 {
                     "age": 68,
                     "gender": "F",
-                    "place": null,
+                    "place": "Warszawa",
                     "time": "2020-05-30 17:31:00"
                 },
                 {

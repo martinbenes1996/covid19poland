@@ -66,10 +66,10 @@ def covid_deaths(level = 3, offline = True):
     x = covid_death_cases(offline = offline)
     
     # rename attributes
-    if level == 0: x['region'] = "PL"
-    elif level == 2: x['region'] = x['NUTS2']
-    elif level == 3: x['region'] = x['NUTS3']
-    else: raise Exception("level must be one of 0,2,3")
+    if level == 1: regiongroup = []
+    elif level == 2: regiongroup = ["NUTS2"]
+    elif level == 3: regiongroup = ["NUTS2","NUTS3"]
+    else: raise Exception("level must be one of 1,2,3")
     x['week'] = x.date.apply( lambda dt: dt.isocalendar()[1] )
     
     # age group
@@ -82,7 +82,7 @@ def covid_deaths(level = 3, offline = True):
     
     # group
     xx = x\
-        .groupby(['week','age_group','sex','region'])\
+        .groupby(['week','age_group','sex',*regiongroup])\
         .size()\
         .reset_index(name='deaths')
     return xx

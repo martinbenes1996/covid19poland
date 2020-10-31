@@ -337,13 +337,19 @@
     },
     "2020-03-25": {
         "deaths": {
-            "deaths": 3,
+            "deaths": 4,
             "people": [
                 {
                     "age": 41,
                     "gender": "M",
                     "place": "Wrocław",
                     "comorbid": true,
+                    "time": "2020-03-25 08:57:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "M",
+                    "place": "Wrocław",
                     "time": "2020-03-25 08:57:00"
                 },
                 {
@@ -371,15 +377,8 @@
     },
     "2020-03-26": {
         "deaths": {
-            "deaths": 3,
+            "deaths": 2,
             "people": [
-                {
-                    "age": 67,
-                    "gender": "M",
-                    "place": "Koszalin",
-                    "comorbid": true,
-                    "time": "2020-03-26 09:19:00"
-                },
                 {
                     "age": 78,
                     "gender": "M",
@@ -397,6 +396,7 @@
             ],
             "url": [
                 "https://twitter.com/MZ_GOV_PL/status/1243090111836946434",
+                "https://twitter.com/MZ_GOV_PL/status/1243128107797827584",
                 "https://twitter.com/MZ_GOV_PL/status/1243259370495934471"
             ]
         },
