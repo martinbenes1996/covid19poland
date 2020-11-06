@@ -82,7 +82,7 @@ def covid_deaths(level = 3, offline = True):
     
     # group
     xx = x\
-        .groupby(['week','age_group','sex',*regiongroup])\
+        .groupby(['date','week','age_group','sex',*regiongroup])\
         .size()\
         .reset_index(name='deaths')
     return xx
