@@ -57,14 +57,12 @@ class TestStat(unittest.TestCase):
     
     def test_covid_deaths3_offline(self):
         x = self.get_covid_deaths(level = 3, offline = True)
-        print("test_covid_deaths3_offline", x.columns)
         self.assertIn("NUTS2", x.columns)
         self.assertIn("NUTS3", x.columns)
     #def test_covid_deaths3_online(self):
     #    x = self.get_covid_deaths(level = 3, offline = False)
     def test_covid_deaths2_offline(self):
         x = self.get_covid_deaths(level = 2, offline = True)
-        print("test_covid_deaths2_offline", x.columns)
         self.assertIn("NUTS2", x.columns)
     #def test_covid_deaths2_online(self):
     #    x = self.get_covid_deaths(level = 2, offline = False)
