@@ -963,7 +963,7 @@
                 {
                     "age": 87,
                     "gender": "F",
-                    "place": "Kędzierzyn Koźle",
+                    "place": "Kędzierzyn-Koźle",
                     "time": "2020-07-14 10:31:00"
                 },
                 {
@@ -1365,7 +1365,7 @@
                 {
                     "age": 85,
                     "gender": "F",
-                    "place": "Spytajny",
+                    "place": "Bartoszyce",
                     "comorbid": true,
                     "time": "2020-07-20 10:31:00"
                 }
@@ -1716,7 +1716,7 @@
                 {
                     "age": 76,
                     "gender": "F",
-                    "place": "Grobla",
+                    "place": "Rytwiany",
                     "comorbid": true,
                     "time": "2020-07-26 10:30:00"
                 },
@@ -2002,7 +2002,7 @@
                 {
                     "age": 82,
                     "gender": "F",
-                    "place": "Kędzierzyn Koźle",
+                    "place": "Kędzierzyn-Koźle",
                     "time": "2020-07-30 10:30:00"
                 },
                 {

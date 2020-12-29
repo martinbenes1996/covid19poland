@@ -7,6 +7,7 @@ import pytz
 import re
 import warnings
 
+# replace with snscrape
 import GetOldTweets3 as got3
 
 class FlaggedTweet:

@@ -573,7 +573,7 @@
                 {
                     "age": 68,
                     "gender": "M",
-                    "place": "Niedabyl",
+                    "place": "Stromiec",
                     "comorbid": true,
                     "time": "2020-04-06 17:38:00"
                 },
@@ -1786,7 +1786,7 @@
                 {
                     "age": 78,
                     "gender": "F",
-                    "place": "Goczałkowice",
+                    "place": "Goczałkowice-Zdrój",
                     "time": "2020-04-15 17:40:00"
                 },
                 {
@@ -3289,13 +3289,13 @@
                 {
                     "age": 79,
                     "gender": "F",
-                    "place": "Kozinice",
+                    "place": "Kozienice",
                     "time": "2020-04-24 17:47:00"
                 },
                 {
                     "age": 87,
                     "gender": "F",
-                    "place": "Kozinice",
+                    "place": "Kozienice",
                     "time": "2020-04-24 17:47:00"
                 },
                 {
@@ -3681,13 +3681,13 @@
                 {
                     "age": 81,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-04-27 17:30:00"
                 },
                 {
                     "age": 84,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-04-27 17:30:00"
                 },
                 {
@@ -3747,7 +3747,7 @@
                 {
                     "age": 89,
                     "gender": "M",
-                    "place": "Bystra",
+                    "place": "Wilkowice",
                     "time": "2020-04-27 17:30:00"
                 },
                 {
@@ -4010,7 +4010,7 @@
                 {
                     "age": 95,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-04-28 17:30:00"
                 },
                 {
@@ -4329,7 +4329,7 @@
                 {
                     "age": 93,
                     "gender": "M",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-04-30 17:34:00"
                 },
                 {

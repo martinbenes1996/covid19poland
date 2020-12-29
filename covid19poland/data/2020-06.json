@@ -635,7 +635,7 @@
                 {
                     "age": 77,
                     "gender": "M",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "comorbid": true,
                     "time": "2020-06-06 17:37:00"
                 },
@@ -1524,7 +1524,7 @@
                 {
                     "age": 65,
                     "gender": "M",
-                    "place": "Domaszków",
+                    "place": "Międzylesie",
                     "time": "2020-06-16 10:34:00"
                 },
                 {
@@ -2050,7 +2050,7 @@
                 {
                     "age": 90,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-06-20 10:33:00"
                 },
                 {

@@ -830,13 +830,13 @@
                 {
                     "age": 84,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-08 17:30:00"
                 },
                 {
                     "age": 81,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-08 17:30:00"
                 },
                 {
@@ -1011,7 +1011,7 @@
                 {
                     "age": 92,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-09 17:36:00"
                 },
                 {
@@ -1081,14 +1081,14 @@
                 {
                     "age": 93,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "comorbid": true,
                     "time": "2020-05-10 17:30:00"
                 },
                 {
                     "age": 76,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "comorbid": true,
                     "time": "2020-05-10 17:30:00"
                 },
@@ -1256,14 +1256,14 @@
                 {
                     "age": 92,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "comorbid": true,
                     "time": "2020-05-12 10:00:00"
                 },
                 {
                     "age": 90,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "comorbid": true,
                     "time": "2020-05-12 10:00:00"
                 },
@@ -1580,25 +1580,25 @@
                 {
                     "age": 94,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-13 17:32:00"
                 },
                 {
                     "age": 84,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-13 17:32:00"
                 },
                 {
                     "age": 90,
                     "gender": "M",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-13 17:32:00"
                 },
                 {
                     "age": 90,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-13 17:32:00"
                 }
             ],
@@ -1899,7 +1899,7 @@
                 {
                     "age": 94,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-15 17:36:00"
                 },
                 {
@@ -1982,14 +1982,14 @@
                 {
                     "age": 79,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "comorbid": true,
                     "time": "2020-05-16 17:30:00"
                 },
                 {
                     "age": 85,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "comorbid": true,
                     "time": "2020-05-16 17:30:00"
                 },
@@ -2155,7 +2155,7 @@
                 {
                     "age": 94,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "comorbid": true,
                     "time": "2020-05-18 17:39:00"
                 },
@@ -2512,13 +2512,13 @@
                 {
                     "age": 92,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-22 17:33:00"
                 },
                 {
                     "age": 89,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-22 17:33:00"
                 }
             ],
@@ -2949,7 +2949,7 @@
                 {
                     "age": 87,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-28 17:32:00"
                 },
                 {
@@ -3089,7 +3089,7 @@
                 {
                     "age": 77,
                     "gender": "F",
-                    "place": "Wolica",
+                    "place": "Bukowsko",
                     "time": "2020-05-30 17:31:00"
                 },
                 {
