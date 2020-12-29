@@ -1,0 +1,224 @@
+{
+    "2020-10-01": {
+        "deaths": {
+            "deaths": 30,
+            "people": [
+                {
+                    "age": 92,
+                    "gender": "F",
+                    "place": "Łódź",
+                    "comorbid": false,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 49,
+                    "gender": "M",
+                    "place": "Mława",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 89,
+                    "gender": "M",
+                    "place": "Elbląg",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "F",
+                    "place": "Miechów",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Kraków",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 85,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 92,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 80,
+                    "gender": "F",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 70,
+                    "gender": "M",
+                    "place": "Mielec",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "M",
+                    "place": "Mielec",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 82,
+                    "gender": "F",
+                    "place": "Przemyśl",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 72,
+                    "gender": "M",
+                    "place": "Jarosław",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 58,
+                    "gender": "M",
+                    "place": "Wrocław",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 67,
+                    "gender": "M",
+                    "place": "Bielsko-Biała",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 43,
+                    "gender": "M",
+                    "place": "Katowice",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 69,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 75,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 71,
+                    "gender": "F",
+                    "place": "Racibórz",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 77,
+                    "gender": "M",
+                    "place": "Żary",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Hrubieszów",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 68,
+                    "gender": "M",
+                    "place": "Lublin",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 90,
+                    "gender": "F",
+                    "place": "Hajnówka",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 83,
+                    "gender": "F",
+                    "place": "Końskie",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 74,
+                    "gender": "M",
+                    "place": "Poznań",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 92,
+                    "gender": "F",
+                    "place": "Szczecin",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                },
+                {
+                    "age": 81,
+                    "gender": "M",
+                    "place": "Szczecin",
+                    "comorbid": true,
+                    "time": "2020-10-01 10:31:00"
+                }
+            ],
+            "url": [
+                "https://twitter.com/MZ_GOV_PL/status/1311584428251066368",
+                "https://twitter.com/MZ_GOV_PL/status/1311584429404557314",
+                "https://twitter.com/MZ_GOV_PL/status/1311584430524424193"
+            ]
+        }
+    }
+}

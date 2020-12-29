@@ -43,7 +43,7 @@ def _parse_place(place):
     except:
         return None,None
     
-_offline_sources = ["2020-03","2020-04","2020-05","2020-06","2020-07","2020-08","2020-09"]
+_offline_sources = ["2020-03","2020-04","2020-05","2020-06","2020-07","2020-08","2020-09","2020-10"]
 
 def covid_death_cases(source = None):
     if source is None:
