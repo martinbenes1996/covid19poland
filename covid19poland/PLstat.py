@@ -11,6 +11,7 @@ import requests
 from waybackmachine import WaybackMachine
 
 from . import offline as offline_module
+from . import PLgov
 
 def _parse_death_table(df, r = 7):
     df = df.iloc[r,2:].reset_index(drop = True)
@@ -58,9 +59,19 @@ def deaths(offline = True):
     return _parse_deaths()
 
 def covid_death_cases(offline = True):
-    if offline is False:
+    if offline is False:    
         raise Exception("online twitter parsing is not reliable, use offline data (manually checked)")
-    return offline_module.covid_death_cases()
+    
+    # archive
+    a = PLgov.archive_deaths()
+    # offline
+    o = offline_module.covid_death_cases()
+    
+    # merge sources
+    df = pd.concat([a,o], ignore_index = True)\
+        .sort_values(by = ['date','NUTS2'])\
+        .reset_index(drop = True)
+    return df
 
 def covid_deaths(level = 3, offline = True):
     x = covid_death_cases(offline = offline)
