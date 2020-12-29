@@ -235,14 +235,14 @@
                 {
                     "age": 73,
                     "gender": "M",
-                    "place": "Stare Kozłowice",
+                    "place": "Wiskitki",
                     "comorbid": true,
                     "time": "2020-10-02 10:30:00"
                 },
                 {
                     "age": 69,
                     "gender": "M",
-                    "place": "Nowe Miszewo",
+                    "place": "Bodzanów",
                     "comorbid": true,
                     "time": "2020-10-02 10:30:00"
                 },
