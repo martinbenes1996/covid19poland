@@ -2,10 +2,18 @@
 from bs4 import BeautifulSoup
 from datetime import datetime
 import logging
+import numpy as np
 import pandas as pd
 import re
 import requests
 
+def _filename3(file_name):
+    try:
+        fname = file_name[0].strip()
+        dt = datetime(int(fname[:4]), int(fname[4:6]), int(fname[6:8]))
+        return dt
+    except:
+        return None
 
 def _filename2(file_name):
     try:
@@ -13,7 +21,7 @@ def _filename2(file_name):
         dt = datetime(int('20' + fname[2]), int(fname[1]), int(fname[0]))
         return dt
     except:
-        return None
+        return _filename3(file_name)
 
 def _filename(file_name):
     try:
@@ -104,7 +112,10 @@ def read_archive():
         x.columns = ['region','confirmed','confirmed_10K','deaths',
                      'deaths_without_comorbid','deaths_comorbid','teryt_id']
         x = x[1:]
-        x_ = x[['confirmed','deaths','deaths_comorbid']].astype(int)
+        #print(x)
+        x_ = x[['confirmed','deaths','deaths_comorbid']]\
+            .replace({np.nan: 0})\
+            .astype(int)
         # append region
         x = x_.assign(teryt_id = x.teryt_id, date = k)
         x['NUTS2'] = x.teryt_id.apply(lambda t: PL_nuts[t])
