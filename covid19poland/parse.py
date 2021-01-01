@@ -60,15 +60,16 @@ def covid_death_cases(offline = True, from_github = False):
     result = PLstat.covid_death_cases(offline = offline)
     return result
 
-def covid_deaths(level = 3, offline = True):
+def covid_deaths(level = 3, offline = True, from_github = False):
     """Returns deaths counts by age group, sex and week in Poland.
     
     Args:
         offline (bool, optional): Use saved csv, defaultly true.
+        from_github(bool, optional): Use file from github, defaultly false.
     Returns:
         (pandas.DataFrame): death counts
     """
-    result = PLstat.covid_deaths(level = level, offline = offline)
+    result = PLstat.covid_deaths(level = level, offline = offline, from_github = False)
     return result
 
 def covid_tests(level = 1, offline = True):
