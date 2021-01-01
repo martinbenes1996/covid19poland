@@ -92,10 +92,10 @@ def covid_deaths(level = 3, offline = True):
     # age group
     def to_age_group(a):
         try:
-            a = int(a)
+            a = int((a//5) * 5)
             return str(a).zfill(2) + "_" + str(a + 4).zfill(2)
         except: return None
-    x['age_group'] = x['age'].apply( lambda a: to_age_group((a//5) * 5) )
+    x['age_group'] = x['age'].apply( lambda a: to_age_group(a) )
     
     # group
     xx = x\
