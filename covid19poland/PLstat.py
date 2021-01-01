@@ -79,8 +79,8 @@ def covid_death_cases(offline = True, from_github = False):
         .reset_index(drop = True)
     return df
 
-def covid_deaths(level = 3, offline = True):
-    x = covid_death_cases(offline = offline)
+def covid_deaths(level = 3, offline = True, from_github = False):
+    x = covid_death_cases(offline = offline, from_github = from_github)
     
     # rename attributes
     if level == 1: regiongroup = []
