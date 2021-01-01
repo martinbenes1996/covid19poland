@@ -58,7 +58,13 @@ def deaths(offline = True):
         except: pass
     return _parse_deaths()
 
-def covid_death_cases(offline = True):
+def covid_death_cases(offline = True, from_github = False):
+    # read from github
+    if from_github:
+        url = 'https://raw.githubusercontent.com/martinbenes1996/covid19poland/master/data/data.csv'
+        x = pd.read_csv(url)
+        return x
+    
     if offline is False:    
         raise Exception("online twitter parsing is not reliable, use offline data (manually checked)")
     

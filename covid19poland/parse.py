@@ -48,11 +48,12 @@ def deaths(offline = True):
     result = PLstat.deaths(offline = offline)
     return result
 
-def covid_death_cases(offline = True):
+def covid_death_cases(offline = True, from_github = False):
     """Returns covid-19 deaths cases by sex and date in Poland.
     
     Args:
         offline (bool, optional): Use saved csv, defaultly true.
+        from_github(bool, optional): Use file from github, defaultly false.
     Returns:
         (pandas.DataFrame): death cases
     """
