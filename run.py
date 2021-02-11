@@ -4,4 +4,5 @@ sys.path.append('.')
 
 import covid19poland as PL
 
-PL.export_last_30d()
+x = PL.covid_deaths()
+print(x)
