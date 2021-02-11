@@ -107,7 +107,7 @@ def read_archive():
         logging.info('fetching data from %s' % (k))
         
         # fetch data
-        x = pd.read_csv(v, encoding = 'ANSI', sep = ';')
+        x = pd.read_csv(v, encoding = 'mbcs', sep = ';')
         # parse data
         x.columns = ['region','confirmed','confirmed_10K','deaths',
                      'deaths_without_comorbid','deaths_comorbid','teryt_id']
