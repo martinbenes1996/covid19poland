@@ -1,10 +1,12 @@
 
 import datetime
 import io
+import math
 import warnings
 
 from bs4 import BeautifulSoup
 import pandas as pd
+import requests
 
 from . import export
 from . import PLwiki
@@ -72,7 +74,7 @@ def covid_deaths(level = 3, offline = True, from_github = False):
     result = PLstat.covid_deaths(level = level, offline = offline, from_github = False)
     return result
 
-def covid_tests(level = 1, offline = True):
+def covid_tests(level = 1, offline = True, from_github = False):
     # invalid level
     if level not in {1,2}:
         warnings.warn("level must be from {1,2}")
@@ -85,6 +87,70 @@ def covid_tests(level = 1, offline = True):
         else:
             raise NotImplementedError("not implemented yet")
             #return offline_module.covid_tests2()
+    # from github
+    elif from_github:
+        # read csv from github
+        tests_url = 'https://raw.githubusercontent.com/martinbenes1996/covid19poland/master/data/tests.csv'
+        tests_response = requests.get(tests_url)
+        # csv to pandas
+        x = pd.read_csv( io.StringIO(tests_response.text) )
+        x['date'] = x.date.apply(lambda dt: datetime.datetime.strptime(dt, '%Y-%m-%d'))
+        x_country,x_region = x[x.region.isna()],x[~x.region.isna() & (x.region != 'PL72')]
+        # solve PL72
+        x_PL72 = x[(x.region == 'PL72')]
+        x_PL72['dtests'] = 0
+        x_PL72['dtests'] = x_PL72[x_PL72.date <= datetime.datetime(2020,8,6)]['tests'].diff()\
+            .append(x_PL72[x_PL72.date > datetime.datetime(2020,8,6)]['tests'].diff())
+        x_PL72['tests'] = x_PL72.apply(lambda r: r.dtests if not math.isnan(r.dtests) else r.tests, axis = 1)\
+            .cumsum()
+        x_region = x_region\
+            .append(x_PL72, ignore_index = True)\
+            .sort_values(['date','region'])
+        # tests to daily
+        x_country.loc[:,'tests'] = x_country['tests'].diff().fillna(0)
+        x_region.loc[:,'tests'] = x_region.groupby('region').tests.diff().fillna(0)
+        # only weekly
+        x_region = x_region[x_region.tests != 0]
+        # per country
+        if level == 1:
+            # aggregate regions
+            x = x_region\
+                .groupby('date')\
+                .aggregate({'tests': 'sum'})\
+                .reset_index()
+            # merge with country
+            duplicated = x[x.date.duplicated()].date
+            x['reg'] = True
+            x_country['reg'] = False
+            x = x\
+                .append(x_country[['date','tests','reg']], ignore_index=True)\
+                .sort_values('date')
+            # deduplicate (prefer country)
+            x['dup'] = x.date.isin(x[x.date.duplicated()].date)
+            x = x[~x.dup | x.dup & ~x.reg]
+            x = x[['date','tests']]
+            # fill gaps
+            x_add = {'date': []}
+            for dt in pd.date_range(x.date.min(), x.date.max()):
+                if x[x.date == dt].empty:
+                    x_add['date'].append(dt)
+        # regional      
+        else:    
+            x = x_region
+            # fill gaps
+            x_add = {'date': [], 'region': []}
+            for dt in pd.date_range(x.date.min(), x.date.max()):
+                for reg in x.region.unique():
+                    if x[(x.date == dt) & (x.region == reg)].empty:
+                        x_add['date'].append(dt)
+                        x_add['region'].append(reg)
+        x_add = pd.DataFrame({**x_add, 'tests': 0})
+        x = x.append(x_add, ignore_index=True)\
+            .sort_values('date')\
+            .reset_index(drop = True)   
+        x['week'] = x.date.apply( lambda dt: dt.isocalendar()[1] )
+        return x
+    
     # online data
     else:
         if level == 1:
