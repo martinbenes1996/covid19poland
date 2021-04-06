@@ -13,7 +13,7 @@ with open("README.md", "r", encoding="UTF-8") as fh:
 
 setuptools.setup(
   name = 'covid19poland',
-  version = '0.8.7',
+  version = '0.9.0',
   author = 'Martin Beneš',
   author_email = 'martinbenes1996@gmail.com',
   description = 'Web Scraper for Poland COVID19 data.',
@@ -22,7 +22,7 @@ setuptools.setup(
   packages=setuptools.find_packages(),
   license='MIT',
   url = 'https://github.com/martinbenes1996/covid19poland',
-  download_url = 'https://github.com/martinbenes1996/covid19poland/archive/0.8.7.tar.gz',
+  download_url = 'https://github.com/martinbenes1996/covid19poland/archive/0.9.0.tar.gz',
   keywords = ['2019-nCov', 'poland', 'coronavirus', 'covid-19', 'covid-data', 'covid19-data'],
   install_requires=reqs,
   package_dir={'': '.'},
